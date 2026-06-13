@@ -1,5 +1,8 @@
 {
-  "last_updated": "",
-  "total": 0,
+  "meta": {
+    "last_updated": null,
+    "total": 0,
+    "new_today": 0
+  },
   "opportunities": []
 }
