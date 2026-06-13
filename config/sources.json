@@ -13,13 +13,6 @@
     { "id": "ga_11", "name": "Google Alert 11", "url": "https://www.google.com/alerts/feeds/06655276829336438619/3743711105166414055" },
     { "id": "ad_comps", "name": "ArchDaily", "url": "https://www.archdaily.com/tag/competitions/feed/" },
     { "id": "designboom", "name": "Designboom", "url": "https://www.designboom.com/feed/" },
-    { "id": "dezeen", "name": "Dezeen", "url": "https://www.dezeen.com/tag/competitions/feed/" },
-    { "id": "bustler", "name": "Bustler", "url": "https://bustler.net/rss/rss.asp?category=competitions" },
-    { "id": "prof_arch", "name": "Professione Architetto", "url": "https://www.professionearchitetto.it/rss/concorsi.xml" },
-    { "id": "arch_biznes", "name": "Architektura & Biznes", "url": "https://www.architekturaibiznes.pl/rss" },
-    { "id": "eflux", "name": "e-flux", "url": "https://www.e-flux.com/rss" },
-    { "id": "aj_comps", "name": "Architects' Journal", "url": "https://www.architectsjournal.co.uk/competitions/feed" },
-    { "id": "archinect", "name": "Archinect", "url": "https://archinect.com/competitions/rss" },
     { "id": "colossal", "name": "Colossal", "url": "https://www.thisiscolossal.com/category/opportunities/feed/" },
     { "id": "comps_archi", "name": "Competitions.archi", "url": "https://competitions.archi/feed/" }
   ],
