@@ -1,28 +1,3 @@
-const { analyzeOpportunity } = require('./gemini');
-// ... other imports ...
-
-// Define your daily safety limit (e.g., 15 to stay under 20)
-const MAX_BATCH_SIZE = 15; 
-
-async function runCollector() {
-  const allItems = await getAllNewItems(); 
-  
-  // 1. FILTER: Ignore items already in your JSON to save quota
-  const itemsToProcess = allItems.filter(item => !alreadyInDatabase(item));
-  
-  // 2. BATCH: Only process 15 per run
-  const batch = itemsToProcess.slice(0, MAX_BATCH_SIZE);
-  
-  console.log(`Found ${itemsToProcess.length} total, processing batch of ${batch.length}`);
-  
-  // 3. LOOP
-  for (const item of batch) {
-    console.log(`Processing: ${item.title}`);
-    await analyzeOpportunity(item.title, item.description, item.url); 
-  }
-  
-  console.log(`Batch finished. Waiting for next schedule.`);
-}
 const fs = require('fs');
 const path = require('path');
 const { fetchRSS } = require('./rss');
@@ -34,6 +9,9 @@ const { loadExistingData, isDuplicate, saveData } = require('./dedupe');
 const sourcesPath = path.join(__dirname, '../config/sources.json');
 const sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
 
+// Define your daily safety limit (15 is safe for a 20 RPD limit)
+const MAX_BATCH_SIZE = 15; 
+
 async function runPipeline() {
   console.log('🚀 Starting Opportunity Radar Pipeline...\n');
   
@@ -41,30 +19,32 @@ async function runPipeline() {
   let newOpportunities = [];
   let allScrapedItems = [];
 
-  // Step 1: Gather all raw items from RSS and Searches
+  // Step 1: Gather all raw items
   for (const feed of sources.rssFeeds) {
     console.log(`📡 Fetching feed: ${feed.name}`);
     const items = await fetchRSS(feed.url, feed.name);
     allScrapedItems = allScrapedItems.concat(items);
   }
 
-  console.log(`\n🔍 Running Search Queries...`);
   const searchItems = await fetchSearchQueries(sources.searchQueries);
   allScrapedItems = allScrapedItems.concat(searchItems);
 
-  // Step 2: Process items through AI
-  console.log(`\n🧠 Processing ${allScrapedItems.length} total items through Gemini AI...`);
-  
-  for (const item of allScrapedItems) {
-    if (isDuplicate(item, existingData) || isDuplicate(item, newOpportunities)) {
-      continue; 
-    }
+  // Filter out duplicates BEFORE starting the AI process to save quota
+  const itemsToProcess = allScrapedItems.filter(item => 
+    !isDuplicate(item, existingData) && !isDuplicate(item, newOpportunities)
+  );
 
-    console.log(`\n   Analyzing: ${item.title.substring(0, 50)}...`);
+  // Step 2: Process only a BATCH of items through AI
+  const batch = itemsToProcess.slice(0, MAX_BATCH_SIZE);
+  
+  console.log(`\n🧠 Found ${itemsToProcess.length} new items. Processing a batch of ${batch.length} through Gemini AI...`);
+  
+  for (const item of batch) {
+    console.log(`\n    Analyzing: ${item.title.substring(0, 50)}...`);
     const aiData = await analyzeOpportunity(item.title, item.description, item.link);
 
     if (aiData && aiData.relevant) {
-      console.log(`   ✅ Kept: ${aiData.type}`);
+      console.log(`    ✅ Kept: ${aiData.type}`);
       newOpportunities.push({
         id: Date.now().toString(36) + Math.random().toString(36).substring(2, 7),
         title: aiData.title || item.title,
@@ -78,25 +58,22 @@ async function runPipeline() {
         dateAdded: new Date().toISOString()
       });
     } else {
-      console.log(`   ❌ Discarded (Irrelevant/News)`);
-      // Save a "ghost" record so we don't waste API calls re-analyzing this exact junk link tomorrow
+      console.log(`    ❌ Discarded (Irrelevant/News)`);
       existingData.push({ url: item.link, title: item.title, isJunk: true });
     }
 
-    // Mandatory 3.5-second delay to avoid Gemini rate limits
+    // Mandatory delay
     await new Promise(r => setTimeout(r, 3500));
   }
 
   // Step 3: Merge and Save
-  const validNew = newOpportunities.filter(o => !o.isJunk);
-  const cleanExisting = existingData.filter(o => !o.isJunk); 
-  
-  // Combine them (Newest first). Keep ghosts in existingData for deduping later.
+  const validNew = newOpportunities;
   const finalDatabase = [...validNew, ...existingData];
   
   saveData(finalDatabase);
 
-  console.log(`\n🎉 Pipeline Complete! Added ${validNew.length} new actionable opportunities.`);
+  console.log(`\n🎉 Pipeline Complete! Processed ${batch.length} items.`);
+  console.log(`Added ${validNew.length} new actionable opportunities.`);
 }
 
 runPipeline();
