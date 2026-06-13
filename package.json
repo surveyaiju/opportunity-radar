@@ -1,13 +1,11 @@
 {
   "name": "opportunity-radar",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "collect": "node collector/main.js"
-  },
+  "type": "commonjs",
   "dependencies": {
-    "node-fetch": "^3.3.2",
-    "rss-parser": "^3.13.0",
-    "cheerio": "^1.0.0-rc.12"
+    "rss-parser": "^3.13.0"
+  },
+  "scripts": {
+    "rss": "node collector/rss.js"
   }
 }
