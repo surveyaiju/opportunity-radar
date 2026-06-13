@@ -1,13 +1,13 @@
 {
   "name": "opportunity-radar",
   "version": "1.0.0",
-  "type": "commonjs",
-  "dependencies": {
-    "rss-parser": "^3.13.0"
+  "description": "Daily architecture opportunity discovery engine",
+  "type": "module",
+  "scripts": {
+    "collect": "node run.js"
   },
- "scripts": {
-  "rss": "node collector/rss.js",
-  "dedupe": "node collector/dedupe.js",
-  "enrich": "node collector/enrichment.js",
-  "build": "node collector/rss.js && node collector/dedupe.js && node collector/enrichment.js"
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6",
+    "cheerio": "^1.0.0"
+  }
 }
