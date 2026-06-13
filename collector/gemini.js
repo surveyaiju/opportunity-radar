@@ -4,7 +4,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function analyzeOpportunity(title, description, url) {
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
   const prompt = `
   You are an expert filter for an architecture and design studio. Analyze the following text and determine if it is an ACTIONABLE opportunity.
