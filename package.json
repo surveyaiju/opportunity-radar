@@ -8,5 +8,6 @@
  "scripts": {
   "rss": "node collector/rss.js",
   "dedupe": "node collector/dedupe.js",
-  "build": "node collector/rss.js && node collector/dedupe.js"
+  "enrich": "node collector/enrichment.js",
+  "build": "node collector/rss.js && node collector/dedupe.js && node collector/enrichment.js"
 }
