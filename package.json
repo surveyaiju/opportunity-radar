@@ -1,4 +1,11 @@
-"scripts": {
+{
+  "name": "opportunity-radar",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+ "scripts": {
   "rss": "node collector/rss.js",
   "dedupe": "node collector/dedupe.js",
   "build": "node collector/rss.js && node collector/dedupe.js"
