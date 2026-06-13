@@ -1,128 +1,53 @@
-const fs = require("fs");
+// collector/dedupe.js
+// Deduplication in two stages:
+// 1. Cross-source dedup of raw items (before Gemini)
+// 2. Against existing database (after Gemini)
 
-function normalizeTitle(title) {
-  return title
-    .toLowerCase()
-    .replace(/[^\w\s]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
+function makeId(item) {
+  // Hash URL as primary key — same URL = same opportunity
+  const url = (item.url || '').toLowerCase().replace(/\/$/, '').replace(/\?.*$/, '');
+  let h = 5381;
+  for (let i = 0; i < url.length; i++) h = ((h << 5) + h) ^ url.charCodeAt(i);
+  return (h >>> 0).toString(36);
 }
 
-function similarity(a, b) {
-  const aa = normalizeTitle(a);
-  const bb = normalizeTitle(b);
-
-  if (aa === bb) return 1;
-
-  const wordsA = new Set(aa.split(" "));
-  const wordsB = new Set(bb.split(" "));
-
-  const intersection = [...wordsA].filter(x =>
-    wordsB.has(x)
-  ).length;
-
-  const union = new Set([
-    ...wordsA,
-    ...wordsB
-  ]).size;
-
-  return intersection / union;
+function normaliseTitle(t) {
+  return (t || '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60);
 }
 
-function mergeOpportunity(existing, incoming) {
-
-  const merged = { ...existing };
-
-  if (
-    (!merged.deadline || merged.deadline === "") &&
-    incoming.deadline
-  ) {
-    merged.deadline = incoming.deadline;
-  }
-
-  if (
-    (!merged.fee || merged.fee === "") &&
-    incoming.fee
-  ) {
-    merged.fee = incoming.fee;
-  }
-
-  if (
-    incoming.description &&
-    incoming.description.length >
-      (merged.description || "").length
-  ) {
-    merged.description = incoming.description;
-  }
-
-  merged.sources = merged.sources || [
-    existing.source
-  ];
-
-  if (
-    incoming.source &&
-    !merged.sources.includes(incoming.source)
-  ) {
-    merged.sources.push(incoming.source);
-  }
-
-  return merged;
-}
-
-function dedupe(items) {
-
-  const unique = [];
-
+// Deduplicate a batch of raw items against each other
+export function dedupeSelf(items) {
+  const seenUrls = new Set();
+  const seenTitles = new Set();
+  const out = [];
   for (const item of items) {
-
-    let matched = false;
-
-    for (let i = 0; i < unique.length; i++) {
-
-      const score = similarity(
-        item.title,
-        unique[i].title
-      );
-
-      if (score > 0.75) {
-
-        unique[i] = mergeOpportunity(
-          unique[i],
-          item
-        );
-
-        matched = true;
-
-        break;
-      }
-    }
-
-    if (!matched) {
-
-      unique.push({
-        ...item,
-        sources: [item.source]
-      });
-    }
+    const url = (item.url || '').replace(/\/$/, '');
+    const title = normaliseTitle(item.title);
+    if (!url || seenUrls.has(url)) continue;
+    if (title && seenTitles.has(title)) continue;
+    seenUrls.add(url);
+    if (title) seenTitles.add(title);
+    out.push({ ...item, id: makeId(item) });
   }
-
-  return unique;
+  return out;
 }
 
-const rssData = JSON.parse(
-  fs.readFileSync(
-    "./opportunities-rss.json",
-    "utf8"
-  )
-);
+// Remove items that already exist in the database
+export function dedupeAgainstExisting(newItems, existing) {
+  const existingIds = new Set(existing.map(e => e.id));
+  const existingUrls = new Set(
+    existing.map(e => (e.url || '').toLowerCase().replace(/\/$/, '').replace(/\?.*$/, ''))
+  );
+  const existingTitles = new Set(existing.map(e => normaliseTitle(e.title)));
 
-const cleaned = dedupe(rssData);
+  return newItems.filter(item => {
+    if (existingIds.has(item.id)) return false;
+    const url = (item.url || '').toLowerCase().replace(/\/$/, '').replace(/\?.*$/, '');
+    if (existingUrls.has(url)) return false;
+    const title = normaliseTitle(item.title);
+    if (title && existingTitles.has(title)) return false;
+    return true;
+  });
+}
 
-fs.writeFileSync(
-  "./opportunities-clean.json",
-  JSON.stringify(cleaned, null, 2)
-);
-
-console.log(
-  `Deduped ${rssData.length} → ${cleaned.length}`
-);
+export { makeId };

@@ -1,291 +1,125 @@
-const fs = require("fs");
-const Parser = require("rss-parser");
+// collector/rss.js
+// Fetches RSS 2.0 feeds and Atom feeds (Google Alerts use Atom)
+// Returns raw items before deduplication or AI classification
 
-const parser = new Parser({
-  timeout: 30000
+import { XMLParser } from 'fast-xml-parser';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __dir = dirname(fileURLToPath(import.meta.url));
+const sources = JSON.parse(readFileSync(join(__dir, '../config/sources.json'), 'utf8'));
+
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: '@_',
+  textNodeName: '#text',
+  allowBooleanAttributes: true,
 });
 
-const sources = require("../config/sources.json");
+function stripHtml(s) {
+  return (s || '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
-async function fetchFeed(feed) {
+async function fetchText(url) {
   try {
-    const data = await parser.parseURL(feed.url);
+    const r = await fetch(url, {
+      headers: {
+        'User-Agent': 'OpportunityRadar/1.0 (architecture opportunity aggregator)',
+        'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!r.ok) return null;
+    return await r.text();
+  } catch {
+    return null;
+  }
+}
 
-    return (data.items || []).map(item => ({
-      id: item.guid || item.link || item.title,
-      title: item.title || "",
-      url: item.link || "",
-      description:
-        item.contentSnippet ||
-        item.content ||
-        item.summary ||
-        "",
-      source: feed.name,
-      sourceType: feed.type,
-      published:
-        item.pubDate ||
-        item.isoDate ||
-        new Date().toISOString(),
-      discovered: new Date().toISOString()
-    }));
+function parseAtom(feed, sourceName) {
+  // Google Alerts and some others use Atom
+  const today = new Date().toISOString().split('T')[0];
+  const raw = feed.entry || [];
+  const entries = Array.isArray(raw) ? raw : [raw];
+  return entries.map(e => {
+    const link = e.link?.['@_href'] || (Array.isArray(e.link) ? e.link[0]?.['@_href'] : '') || '';
+    const title = e.title?.['#text'] || e.title || '';
+    const text = stripHtml(e.content?.['#text'] || e.content || e.summary?.['#text'] || e.summary || '');
+    return {
+      title: String(title).slice(0, 200),
+      url: String(link),
+      text: text.slice(0, 600),
+      date: e.updated || e.published || today,
+      source: sourceName,
+      source_type: 'rss',
+    };
+  }).filter(e => e.title && e.url);
+}
 
-  } catch (err) {
-    console.log(`RSS failed: ${feed.name}`);
+function parseRss(channel, sourceName) {
+  const today = new Date().toISOString().split('T')[0];
+  const raw = channel.item || [];
+  const items = Array.isArray(raw) ? raw : [raw];
+  return items.map(it => {
+    const text = stripHtml(it['content:encoded'] || it.description || '');
+    const guid = it.guid?.['#text'] || it.guid || '';
+    return {
+      title: String(it.title || '').slice(0, 200),
+      url: String(it.link || guid),
+      text: text.slice(0, 600),
+      date: it.pubDate || today,
+      source: sourceName,
+      source_type: 'rss',
+    };
+  }).filter(e => e.title && e.url);
+}
+
+function parseXml(xmlText, sourceName) {
+  try {
+    const parsed = parser.parse(xmlText);
+    if (parsed.feed) return parseAtom(parsed.feed, sourceName);
+    if (parsed.rss?.channel) return parseRss(parsed.rss.channel, sourceName);
+    if (parsed['rdf:RDF']?.item) return parseRss(parsed['rdf:RDF'], sourceName);
+    return [];
+  } catch {
     return [];
   }
 }
 
-function scoreOpportunity(item) {
-
-  const text = (
-    item.title +
-    " " +
-    item.description
-  ).toLowerCase();
-
-  let score = 0;
-
-  sources.positive_keywords.forEach(word => {
-    if (text.includes(word.toLowerCase())) {
-      score += 1;
-    }
-  });
-
-  sources.negative_keywords.forEach(word => {
-    if (text.includes(word.toLowerCase())) {
-      score -= 5;
-    }
-  });
-
-  return score;
-}
-
-function categorize(item) {
-
-  const text = (
-    item.title +
-    " " +
-    item.description
-  ).toLowerCase();
-
-  if (
-    text.includes("call for papers") ||
-    text.includes("journal")
-  ) {
-    return "Journal";
-  }
-
-  if (
-    text.includes("conference")
-  ) {
-    return "Conference";
-  }
-
-  if (
-    text.includes("grant")
-  ) {
-    return "Grant";
-  }
-
-  if (
-    text.includes("fellowship")
-  ) {
-    return "Fellowship";
-  }
-
-  if (
-    text.includes("residency")
-  ) {
-    return "Residency";
-  }
-
-  if (
-    text.includes("award")
-  ) {
-    return "Award";
-  }
-
-  if (
-    text.includes("public art") ||
-    text.includes("rfq") ||
-    text.includes("rfp")
-  ) {
-    return "Public Art / RFQ";
-  }
-
-  if (
-    text.includes("landscape")
-  ) {
-    return "Landscape";
-  }
-
-  if (
-    text.includes("urban")
-  ) {
-    return "Urban Design";
-  }
-
-  return "Competition";
-}
-
-function extractDeadline(text) {
-
-  const patterns = [
-
-    /\b\d{1,2}\s(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s\d{4}\b/i,
-
-    /\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s\d{1,2},?\s\d{4}\b/i,
-
-    /\b\d{4}-\d{2}-\d{2}\b/
+export async function collectRss() {
+  const allFeeds = [
+    ...sources.rss_feeds.filter(f => f.active),
+    ...sources.google_alerts.filter(f => f.active),
   ];
 
-  for (const pattern of patterns) {
+  console.log(`\n📡 RSS — checking ${allFeeds.length} feeds`);
+  const results = [];
 
-    const match = text.match(pattern);
-
-    if (match) {
-      return match[0];
+  for (const feed of allFeeds) {
+    const xml = await fetchText(feed.url);
+    if (!xml) {
+      console.log(`  ✗ ${feed.name} — failed`);
+      continue;
     }
-  }
-
-  return "";
-}
-
-function extractFee(text) {
-
-  const t = text.toLowerCase();
-
-  if (
-    t.includes("free entry") ||
-    t.includes("no fee") ||
-    t.includes("free of charge")
-  ) {
-    return "Free";
-  }
-
-  if (
-    /\$\d+/.test(text) ||
-    /€\d+/.test(text)
-  ) {
-    return "Has Fee";
-  }
-
-  return "";
-}
-
-async function run() {
-
-  let results = [];
-
-  for (const feed of sources.rss_sources) {
-
-    console.log(`Fetching ${feed.name}`);
-
-    const entries = await fetchFeed(feed);
-
-    results.push(...entries);
-  }
-
-  results = results
-    .map(item => {
-
-      const fullText =
-        item.title +
-        " " +
-        item.description;
-
-      return {
-
-        ...item,
-
-        score: scoreOpportunity(item),
-
-        category: categorize(item),
-
-        deadline: extractDeadline(fullText),
-
-        fee: extractFee(fullText),
-
-        status: "New"
-      };
-    })
-    .filter(item => item.score >= 1);
-
-  fs.writeFileSync(
-    "./opportunities-rss.json",
-    JSON.stringify(results, null, 2)
-  );
-
-  console.log(
-    `${results.length} opportunities saved`
-  );
-}
-
-run();  for (const kw of sources.reject_keywords) {
-    if (text.includes(kw.toLowerCase())) return false;
-  }
-
-  // Must have at least one opportunity keyword
-  const hasOpportunity = sources.opportunity_keywords.some(kw => text.includes(kw.toLowerCase()));
-  if (!hasOpportunity) return false;
-
-  // Must have at least one architecture keyword
-  const hasArchitecture = sources.architecture_keywords.some(kw => text.includes(kw.toLowerCase()));
-  if (!hasArchitecture) return false;
-
-  return true;
-}
-
-export async function fetchAllFeeds() {
-  const enabled = sources.rss_feeds.filter(f => f.enabled);
-  const items = [];
-  const today = new Date().toISOString().slice(0, 10);
-
-  console.log(`[RSS] Fetching ${enabled.length} feeds…`);
-
-  for (const feed of enabled) {
-    try {
-      const result = await parser.parseURL(feed.url);
-      let added = 0;
-
-      for (const item of (result.items || []).slice(0, 50)) {
-        const title = stripHtml(item.title || '').slice(0, 200);
-        const url   = (item.link || item.guid || '').trim();
-        if (!title || !url) continue;
-
-        const snippet = extractSnippet(item);
-
-        if (!quickFilter(title, snippet, sources)) continue;
-
-        items.push({
-          id:         makeId(url || title),
-          title,
-          url,
-          snippet,
-          source:     feed.name,
-          found_date: today,
-          pub_date:   item.pubDate || item.isoDate || '',
-          // will be filled by Gemini
-          organization: '',
-          category:     '',
-          description:  '',
-          deadline:     '',
-          fee:          'Unknown',
-          prize:        '',
-          is_new:       true
-        });
-        added++;
-      }
-
-      console.log(`[RSS] ${feed.name}: ${added} relevant items`);
-    } catch (err) {
-      console.warn(`[RSS] FAILED ${feed.name}: ${err.message}`);
+    const items = parseXml(xml, feed.name);
+    if (!items.length) {
+      console.log(`  ○ ${feed.name} — empty`);
+      continue;
     }
-
-    // Small delay between feeds to be polite
-    await new Promise(r => setTimeout(r, 500));
+    console.log(`  ✓ ${feed.name} — ${items.length} items`);
+    results.push(...items);
   }
 
-  console.log(`[RSS] Total from feeds: ${items.length} items`);
-  return items;
+  console.log(`  Total from RSS: ${results.length} raw items`);
+  return results;
 }
