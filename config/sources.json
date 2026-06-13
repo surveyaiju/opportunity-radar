@@ -1,9 +1,13 @@
 {
   "rss": [],
+  "google_alerts": [],
   "competition_sites": [],
-  "journals": [],
-  "grants": [],
-  "public_art": [],
-  "government": [],
-  "research": []
+  "journal_sites": [],
+  "grant_sites": [],
+  "fellowship_sites": [],
+  "public_art_sources": [],
+  "government_sources": [],
+  "research_sources": [],
+  "award_sources": [],
+  "search_discovery": []
 }
