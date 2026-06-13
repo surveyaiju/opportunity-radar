@@ -1,60 +1,128 @@
-import { createHash } from 'crypto';
-
-function normalizeUrl(url) {
-  return (url || '').replace(/^https?:\/\//, '').replace(/\/$/, '').toLowerCase().trim();
-}
+const fs = require("fs");
 
 function normalizeTitle(title) {
-  return (title || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+  return title
+    .toLowerCase()
+    .replace(/[^\w\s]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function similarity(a, b) {
-  // Simple word overlap similarity
-  const wordsA = new Set(a.split(' ').filter(w => w.length > 3));
-  const wordsB = new Set(b.split(' ').filter(w => w.length > 3));
-  if (!wordsA.size || !wordsB.size) return 0;
-  let overlap = 0;
-  for (const w of wordsA) if (wordsB.has(w)) overlap++;
-  return overlap / Math.max(wordsA.size, wordsB.size);
+  const aa = normalizeTitle(a);
+  const bb = normalizeTitle(b);
+
+  if (aa === bb) return 1;
+
+  const wordsA = new Set(aa.split(" "));
+  const wordsB = new Set(bb.split(" "));
+
+  const intersection = [...wordsA].filter(x =>
+    wordsB.has(x)
+  ).length;
+
+  const union = new Set([
+    ...wordsA,
+    ...wordsB
+  ]).size;
+
+  return intersection / union;
 }
 
-export function dedupeAgainstExisting(newItems, existingOpportunities) {
-  const existingUrls   = new Set(existingOpportunities.map(o => normalizeUrl(o.url)));
-  const existingTitles = existingOpportunities.map(o => normalizeTitle(o.title));
+function mergeOpportunity(existing, incoming) {
 
-  const deduped = [];
-  const seenUrls   = new Set(existingUrls);
-  const seenTitles = [];
+  const merged = { ...existing };
 
-  for (const item of newItems) {
-    const normUrl   = normalizeUrl(item.url);
-    const normTitle = normalizeTitle(item.title);
-
-    // Skip if URL already exists
-    if (seenUrls.has(normUrl)) continue;
-
-    // Skip if title is very similar to an existing one (>75% word overlap)
-    const isDuplicate = seenTitles.some(t => similarity(normTitle, t) > 0.75)
-                     || existingTitles.some(t => similarity(normTitle, t) > 0.75);
-    if (isDuplicate) continue;
-
-    seenUrls.add(normUrl);
-    seenTitles.push(normTitle);
-    deduped.push(item);
+  if (
+    (!merged.deadline || merged.deadline === "") &&
+    incoming.deadline
+  ) {
+    merged.deadline = incoming.deadline;
   }
 
-  return deduped;
+  if (
+    (!merged.fee || merged.fee === "") &&
+    incoming.fee
+  ) {
+    merged.fee = incoming.fee;
+  }
+
+  if (
+    incoming.description &&
+    incoming.description.length >
+      (merged.description || "").length
+  ) {
+    merged.description = incoming.description;
+  }
+
+  merged.sources = merged.sources || [
+    existing.source
+  ];
+
+  if (
+    incoming.source &&
+    !merged.sources.includes(incoming.source)
+  ) {
+    merged.sources.push(incoming.source);
+  }
+
+  return merged;
 }
 
-export function dedupeWithinBatch(items) {
-  const seen = new Set();
-  const result = [];
+function dedupe(items) {
+
+  const unique = [];
+
   for (const item of items) {
-    const key = normalizeUrl(item.url) || item.id;
-    if (!seen.has(key)) {
-      seen.add(key);
-      result.push(item);
+
+    let matched = false;
+
+    for (let i = 0; i < unique.length; i++) {
+
+      const score = similarity(
+        item.title,
+        unique[i].title
+      );
+
+      if (score > 0.75) {
+
+        unique[i] = mergeOpportunity(
+          unique[i],
+          item
+        );
+
+        matched = true;
+
+        break;
+      }
+    }
+
+    if (!matched) {
+
+      unique.push({
+        ...item,
+        sources: [item.source]
+      });
     }
   }
-  return result;
+
+  return unique;
 }
+
+const rssData = JSON.parse(
+  fs.readFileSync(
+    "./opportunities-rss.json",
+    "utf8"
+  )
+);
+
+const cleaned = dedupe(rssData);
+
+fs.writeFileSync(
+  "./opportunities-clean.json",
+  JSON.stringify(cleaned, null, 2)
+);
+
+console.log(
+  `Deduped ${rssData.length} → ${cleaned.length}`
+);
