@@ -1,10 +1,14 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-// This pulls your API key safely from GitHub Secrets (we will set this up later)
+// This pulls your API key safely from GitHub Secrets
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
+// Utility to pause to avoid Rate Limiting (429 errors)
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
 async function analyzeOpportunity(title, description, url) {
-  const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+  // Use a stable, widely available model ID
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `
   You are an expert filter for an architecture and design studio. Analyze the following text and determine if it is an ACTIONABLE opportunity.
@@ -33,6 +37,9 @@ async function analyzeOpportunity(title, description, url) {
   `;
 
   try {
+    // Wait 3 seconds before making the API call to respect rate limits
+    await sleep(3000);
+
     const result = await model.generateContent(prompt);
     const responseText = result.response.text().replace(/```json|```/g, '').trim();
     return JSON.parse(responseText);
