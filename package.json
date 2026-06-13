@@ -1,0 +1,13 @@
+{
+  "name": "opportunity-radar",
+  "version": "2.0.0",
+  "description": "Automated architecture opportunity scraper",
+  "main": "collector/index.js",
+  "scripts": {
+    "start": "node collector/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "rss-parser": "^3.13.0"
+  }
+}
