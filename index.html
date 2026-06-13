@@ -1,120 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Opportunity Radar</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opportunity Radar</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="display:flex;flex-direction:column;height:100vh">
 
-<!-- ── Header ── -->
+<!-- HEADER -->
 <div id="hdr">
   <span id="hdr-title">Opportunity Radar</span>
-  <span id="hdr-meta"></span>
-  <div class="spacer"></div>
-  <span id="count-lbl" style="font-size:11px;color:var(--text3);margin-right:4px"></span>
-
-  <!-- Export CSV -->
-  <button class="icon-btn" title="Export visible rows as CSV" onclick="exportCSV()">
+  <span id="hdr-status"></span>
+  <button class="ibtn" onclick="loadData()" title="Reload">
+    <svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+    Reload
+  </button>
+  <button class="ibtn" onclick="exportCSV()" title="Export to CSV">
     <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-  </button>
-
-  <!-- Settings -->
-  <button class="icon-btn" title="Settings" onclick="toggleSettings()">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+    CSV
   </button>
 </div>
 
-<!-- ── Stats ── -->
-<div id="stats">
-  <div class="stat"><span class="stat-n blue"  id="stat-new">—</span><span class="stat-l">New today</span></div>
-  <div class="stat"><span class="stat-n green" id="stat-free">—</span><span class="stat-l">Free entry</span></div>
-  <div class="stat"><span class="stat-n red"   id="stat-urgent">—</span><span class="stat-l">Close in 7d</span></div>
-  <div class="stat"><span class="stat-n amber" id="stat-closing">—</span><span class="stat-l">Close in 30d</span></div>
+<!-- CONTROLS -->
+<div id="controls">
+  <div id="search-row">
+    <input id="si" type="search" placeholder="Search title, description, source…"
+      oninput="render()" autocomplete="off" spellcheck="false">
+    <span id="count">—</span>
+  </div>
+  <div id="pills">
+    <button class="pill on" onclick="setFilter('all',this)">All</button>
+    <button class="pill"    onclick="setFilter('new',this)">🆕 New</button>
+    <button class="pill"    onclick="setFilter('free',this)">🆓 Free</button>
+    <button class="pill"    onclick="setFilter('Competition',this)">Competition</button>
+    <button class="pill"    onclick="setFilter('Grant',this)">Grant</button>
+    <button class="pill"    onclick="setFilter('Fellowship',this)">Fellowship</button>
+    <button class="pill"    onclick="setFilter('Residency',this)">Residency</button>
+    <button class="pill"    onclick="setFilter('Journal/CFP',this)">Journal / CFP</button>
+    <button class="pill"    onclick="setFilter('Award',this)">Award</button>
+    <button class="pill"    onclick="setFilter('Exhibition/Biennale',this)">Exhibition</button>
+    <button class="pill"    onclick="setFilter('Public Art/RFQ',this)">Public Art</button>
+    <button class="pill"    onclick="setFilter('Conference',this)">Conference</button>
+  </div>
 </div>
 
-<!-- ── Filters ── -->
-<div id="filterbar">
-  <input id="search-box" type="search" placeholder="Search…" autocomplete="off" spellcheck="false">
-  <div class="sep"></div>
-  <button class="pill on"  onclick="setFilter('All',this)">All</button>
-  <button class="pill"     onclick="setFilter('New',this)">🆕 New</button>
-  <button class="pill"     onclick="setFilter('Free',this)">🆓 Free</button>
-  <button class="pill"     onclick="setFilter('Closing',this)">🔥 Closing</button>
-  <div class="sep"></div>
-  <button class="pill"     onclick="setFilter('Competition',this)">Competition</button>
-  <button class="pill"     onclick="setFilter('Grant',this)">Grant</button>
-  <button class="pill"     onclick="setFilter('Fellowship',this)">Fellowship</button>
-  <button class="pill"     onclick="setFilter('Residency',this)">Residency</button>
-  <button class="pill"     onclick="setFilter('Journal/CFP',this)">Journal / CFP</button>
-  <button class="pill"     onclick="setFilter('Award',this)">Award</button>
-  <button class="pill"     onclick="setFilter('Exhibition/Biennale',this)">Exhibition</button>
-  <button class="pill"     onclick="setFilter('Public Art/RFQ',this)">Public Art</button>
-  <button class="pill"     onclick="setFilter('Conference',this)">Conference</button>
-</div>
-
-<!-- ── Table ── -->
-<div id="tbl-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th class="cn">Status</th>
-        <th class="cdate"  data-col="date">Found</th>
-        <th class="ctitle" data-col="title">Title</th>
-        <th class="corg"   data-col="org">Organization</th>
-        <th class="csrc"   data-col="src">Source</th>
-        <th class="cdesc"  data-col="desc">Description</th>
-        <th class="ccat"   data-col="cat">Category</th>
-        <th class="cdead"  data-col="dead">Deadline</th>
-        <th class="cfee"   data-col="fee">Fee</th>
-        <th class="cprize" data-col="prize">Prize / Value</th>
-        <th class="cdel">Del</th>
-      </tr>
-    </thead>
+<!-- TABLE -->
+<div id="tw">
+  <table id="tbl">
+    <thead><tr>
+      <th class="cn">Status</th>
+      <th class="cdate" data-col="date">Found</th>
+      <th class="ctit"  data-col="title">Title</th>
+      <th class="csrc"  data-col="src">Source</th>
+      <th class="cdesc" data-col="desc">Description</th>
+      <th class="ccat"  data-col="cat">Category</th>
+      <th class="cdead" data-col="dead">Deadline</th>
+      <th class="cfee"  data-col="fee">Fee</th>
+      <th class="cpriz" data-col="prize">Prize / Value</th>
+      <th class="cdel">✕</th>
+    </tr></thead>
     <tbody id="tbody">
-      <tr><td colspan="11"><div id="empty">Loading…</div></td></tr>
+      <tr><td colspan="10"><div id="empty">Loading…</div></td></tr>
     </tbody>
   </table>
-</div>
-
-<!-- ── Settings panel ── -->
-<div id="settings">
-  <div class="sp">
-
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-      <strong style="font-size:14px">Settings</strong>
-      <button class="icon-btn" onclick="toggleSettings()">
-        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-      </button>
-    </div>
-
-    <h3>How it works</h3>
-    <div class="notice">
-      The <strong>GitHub Action</strong> runs daily at 6 AM UTC.<br>
-      It collects from RSS feeds + DuckDuckGo search, runs Gemini AI classification, deduplicates, and commits <code>data/opportunities.json</code>.<br><br>
-      This dashboard just reads that JSON file — no server needed.
-    </div>
-
-    <h3>Google Alerts → RSS</h3>
-    <div class="notice">
-      Google Alerts must deliver as <strong>RSS feeds</strong>, not email, to be ingested by the collector.<br><br>
-      To convert: <strong>alerts.google.com</strong> → Edit alert (pencil) → <em>Deliver to: RSS feed</em> → Save → copy the URL → add it to <code>config/sources.json</code> under <code>rss_feeds</code>.
-    </div>
-
-    <h3>Extra feeds (dashboard only)</h3>
-    <p style="font-size:11px;color:var(--text3);margin-bottom:8px">These feeds display here but are not collected by the daily job. To add to the daily job, edit <code>config/sources.json</code>.</p>
-    <div id="feed-list"></div>
-    <div style="margin-top:10px;background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:12px">
-      <input class="sinput" id="nf-name" placeholder="Feed name">
-      <input class="sinput" id="nf-url"  placeholder="RSS URL">
-      <button class="sbtn sbtn-p" style="margin-top:8px;width:100%" onclick="addFeed()">Add feed</button>
-    </div>
-
-    <h3>Hidden items</h3>
-    <button class="sbtn sbtn-d" onclick="clearHidden()">Restore all hidden items</button>
-
-  </div>
 </div>
 
 <script src="app.js"></script>
