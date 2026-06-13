@@ -1,3 +1,19 @@
+// Add this at the top of your collector/index.js (the file that loops through items)
+const MAX_BATCH_SIZE = 5; 
+
+async function runCollector() {
+  const itemsToProcess = await getItemsThatNeedProcessing(); // Your existing logic
+  
+  // Only process a small slice
+  const batch = itemsToProcess.slice(0, MAX_BATCH_SIZE);
+  
+  for (const item of batch) {
+    console.log(`Processing: ${item.title}`);
+    await analyzeOpportunity(item); // Your existing AI call
+  }
+  
+  console.log(`Batch finished. Waiting for next hourly run.`);
+}
 const fs = require('fs');
 const path = require('path');
 const { fetchRSS } = require('./rss');
