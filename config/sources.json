@@ -1,0 +1,102 @@
+{
+  "rss_feeds": [
+    { "id": "ad_oc",      "name": "ArchDaily — Open Calls",       "url": "https://www.archdaily.com/tag/open-call/feed/",                     "enabled": true  },
+    { "id": "ad_comp",    "name": "ArchDaily — Competitions",     "url": "https://www.archdaily.com/tag/competitions/feed/",                  "enabled": true  },
+    { "id": "ad_grant",   "name": "ArchDaily — Grants",           "url": "https://www.archdaily.com/tag/grant/feed/",                         "enabled": true  },
+    { "id": "ad_fellow",  "name": "ArchDaily — Fellowships",      "url": "https://www.archdaily.com/tag/fellowship/feed/",                    "enabled": true  },
+    { "id": "ad_resid",   "name": "ArchDaily — Residencies",      "url": "https://www.archdaily.com/tag/residency/feed/",                     "enabled": true  },
+    { "id": "bustler",    "name": "Bustler — Competitions",       "url": "https://bustler.net/rss/rss.asp?category=competitions",             "enabled": true  },
+    { "id": "dezeen_c",   "name": "Dezeen — Competitions",        "url": "https://www.dezeen.com/tag/competitions/feed/",                     "enabled": true  },
+    { "id": "comparch",   "name": "Competitions.archi",           "url": "https://competitions.archi/feed/",                                  "enabled": true  },
+    { "id": "archinect",  "name": "Archinect — Competitions",     "url": "https://archinect.com/competitions/rss",                           "enabled": true  },
+    { "id": "dboom",      "name": "Designboom — Architecture",    "url": "https://www.designboom.com/architecture/feed/",                     "enabled": true  },
+    { "id": "eahn",       "name": "EAHN",                         "url": "https://eahn.org/feed",                                            "enabled": true  },
+    { "id": "koozarch",   "name": "Koozarch",                     "url": "https://koozarch.com/feed",                                        "enabled": true  },
+    { "id": "eflux",      "name": "e-flux — Announcements",       "url": "https://www.e-flux.com/rss/announcements.xml",                     "enabled": true  },
+    { "id": "storefront", "name": "Storefront for Art & Arch",    "url": "https://storefrontnews.org/feed",                                   "enabled": true  },
+    { "id": "dezeen_a",   "name": "Dezeen — Architecture",        "url": "https://www.dezeen.com/category/architecture/feed/",               "enabled": false },
+    { "id": "landezine",  "name": "Landezine — Landscape",        "url": "https://landezine.com/feed/",                                      "enabled": true  },
+    { "id": "europac",    "name": "Europaconcorsi",               "url": "https://europaconcorsi.com/competitions.atom",                     "enabled": true  },
+    { "id": "domus",      "name": "Domus — Competitions",         "url": "https://www.domusweb.it/en/competitions.rss.xml",                  "enabled": true  },
+    { "id": "archpaper",  "name": "The Architect's Newspaper",    "url": "https://www.archpaper.com/feed/",                                  "enabled": false },
+    { "id": "acsa",       "name": "ACSA News",                    "url": "https://www.acsa-arch.org/feed/",                                  "enabled": true  }
+  ],
+
+  "search_phrases": [
+    "architecture competition 2026 free entry open call",
+    "architectural competition free professionals deadline 2026",
+    "design competition open call free entry 2026",
+    "urban design competition free open 2026",
+    "landscape architecture competition open call",
+    "pavilion design competition free entry 2026",
+    "housing design competition open call 2026",
+    "sustainable architecture competition free 2026",
+    "adaptive reuse competition open call",
+    "public space design competition free entry",
+    "architecture fellowship open call apply 2026",
+    "architecture grant open application 2026 free",
+    "design fellowship 2026 open call",
+    "architecture residency open call 2026",
+    "artist residency architecture apply 2026",
+    "creative residency architecture free 2026",
+    "research fellowship architecture 2026",
+    "architecture research grant 2026",
+    "call for papers architecture journal 2026",
+    "call for abstracts architecture 2026",
+    "architecture journal special issue submissions 2026",
+    "built environment journal call for papers",
+    "architecture theory journal open call",
+    "biennale architecture open call 2026",
+    "architecture biennale open call proposals",
+    "pavilion proposals architecture open call",
+    "architecture exhibition open call 2026",
+    "museum open call architecture design",
+    "gallery open call architecture 2026",
+    "public art RFQ commission 2026",
+    "public art open call architects 2026",
+    "architecture award nominations open 2026",
+    "design award free nominations 2026",
+    "architecture prize open nominations",
+    "call for entries architecture design",
+    "open call architecture submissions 2026",
+    "call for projects architecture free",
+    "architecture writing prize 2026",
+    "architectural photography competition free",
+    "architecture conference call for speakers 2026",
+    "architecture symposium call for papers 2026"
+  ],
+
+  "categories": [
+    "Competition",
+    "Grant",
+    "Fellowship",
+    "Residency",
+    "Journal/CFP",
+    "Award",
+    "Exhibition/Biennale",
+    "Public Art/RFQ",
+    "Conference",
+    "Other"
+  ],
+
+  "opportunity_keywords": [
+    "competition", "open call", "call for", "grant", "fellowship",
+    "residency", "award", "prize", "rfq", "rfp", "commission",
+    "apply", "submission", "deadline", "entries", "nominations",
+    "exhibition", "biennale", "scholarship", "funding", "stipend"
+  ],
+
+  "architecture_keywords": [
+    "architect", "architecture", "architectural", "design", "urban",
+    "landscape", "building", "spatial", "interior", "facade", "structure",
+    "planning", "heritage", "built environment", "public space", "civic",
+    "environmental", "infrastructure", "housing", "pavilion", "installation"
+  ],
+
+  "reject_keywords": [
+    "archery", "rowing", "cycling", "marathon", "swimming", "triathlon",
+    "football", "soccer", "basketball", "tennis", "golf", "cricket",
+    "project showcase", "best projects", "inside the", "our favourite",
+    "roundup", "review of the year", "what we learned"
+  ]
+}
