@@ -1,18 +1,27 @@
-// Add this at the top of your collector/index.js (the file that loops through items)
-const MAX_BATCH_SIZE = 5; 
+const { analyzeOpportunity } = require('./gemini');
+// ... other imports ...
+
+// Define your daily safety limit (e.g., 15 to stay under 20)
+const MAX_BATCH_SIZE = 15; 
 
 async function runCollector() {
-  const itemsToProcess = await getItemsThatNeedProcessing(); // Your existing logic
+  const allItems = await getAllNewItems(); 
   
-  // Only process a small slice
+  // 1. FILTER: Ignore items already in your JSON to save quota
+  const itemsToProcess = allItems.filter(item => !alreadyInDatabase(item));
+  
+  // 2. BATCH: Only process 15 per run
   const batch = itemsToProcess.slice(0, MAX_BATCH_SIZE);
   
+  console.log(`Found ${itemsToProcess.length} total, processing batch of ${batch.length}`);
+  
+  // 3. LOOP
   for (const item of batch) {
     console.log(`Processing: ${item.title}`);
-    await analyzeOpportunity(item); // Your existing AI call
+    await analyzeOpportunity(item.title, item.description, item.url); 
   }
   
-  console.log(`Batch finished. Waiting for next hourly run.`);
+  console.log(`Batch finished. Waiting for next schedule.`);
 }
 const fs = require('fs');
 const path = require('path');
