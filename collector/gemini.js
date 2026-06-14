@@ -15,11 +15,13 @@
 
 import {
   extractDeadline, extractFee, extractPrize,
-  isExpired, isHomepageUrl, looksLikeNews,
+  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear,
 } from './extract.js';
 
-const MODEL       = 'gemini-1.5-flash';
-const GEMINI_URL  = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
+// Tried in order. gemini-1.5-flash was retired (404). If the first model
+// in this list is ever retired too, the next one is used automatically.
+const MODEL_CANDIDATES = ['gemini-2.0-flash', 'gemini-flash-latest', 'gemini-2.5-flash'];
+const geminiUrl = model => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const BATCH_SIZE  = 20;
 const BATCH_DELAY = 10000;
 const MAX_PER_RUN = 80;
@@ -35,10 +37,11 @@ const BLOCK = /\b(archery|bow and arrow|sports? competition|football|basketball|
 
 function preFilter(item) {
   const text = `${item.title} ${item.text}`;
-  if (BLOCK.test(text))        return false;
-  if (looksLikeNews(text))     return false; // winners, results, shortlists, completed projects
-  if (isHomepageUrl(item.url)) return false; // links to a site's main listing page, not a specific opportunity
-  if (!REQUIRE.test(text))     return false;
+  if (BLOCK.test(text))             return false;
+  if (looksLikeNews(text))          return false; // winners, results, shortlists, completed projects
+  if (isHomepageUrl(item.url))      return false; // links to a site's main listing page, not a specific opportunity
+  if (isLikelyOutdatedYear(item.title)) return false; // title's newest year is before this year, no other deadline found
+  if (!REQUIRE.test(text))          return false;
   return true;
 }
 
@@ -118,44 +121,62 @@ keep=true:  {"id":"...","keep":true,"category":"...","description":"...","deadli
 keep=false: {"id":"...","keep":false}`;
 }
 
-// ── Single Gemini API call with retry ─────────────────────────────────────
+// ── Single Gemini API call with model fallback + retry ────────────────────
+// - 404 (model not found/retired) → try the next model in MODEL_CANDIDATES
+// - 429 (rate limited) → the model exists; wait and retry the SAME model
 async function geminiCall(prompt, apiKey) {
-  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
-    try {
-      const r = await fetch(`${GEMINI_URL}?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.05, maxOutputTokens: 4096, responseMimeType: 'application/json' },
-        }),
-        signal: AbortSignal.timeout(45000),
-      });
+  let lastError;
 
-      if (r.status === 429) {
-        console.log(`  ⏳ Rate limit (429). Waiting 45s… (attempt ${attempt + 1}/${MAX_RETRIES})`);
-        await sleep(45000);
-        continue;
-      }
-      if (!r.ok) {
-        const err = await r.text().catch(() => String(r.status));
-        throw new Error(`Gemini ${r.status}: ${err.slice(0, 120)}`);
-      }
+  for (const model of MODEL_CANDIDATES) {
+    for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+      try {
+        const r = await fetch(`${geminiUrl(model)}?key=${apiKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: { temperature: 0.05, maxOutputTokens: 4096, responseMimeType: 'application/json' },
+          }),
+          signal: AbortSignal.timeout(45000),
+        });
 
-      const data = await r.json();
-      const raw  = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-      try { return JSON.parse(raw); } catch {
-        const m = raw.match(/\[[\s\S]*\]/);
-        if (m) return JSON.parse(m[0]);
-        throw new Error('Response was not valid JSON');
+        if (r.status === 404) {
+          console.log(`  ⚠ Model "${model}" not available (404). Trying next model…`);
+          lastError = new Error(`${model}: 404 not found`);
+          break; // stop retrying this model, move to next in MODEL_CANDIDATES
+        }
+
+        if (r.status === 429) {
+          console.log(`  ⏳ "${model}" rate limited (429). Waiting 45s… (attempt ${attempt + 1}/${MAX_RETRIES})`);
+          await sleep(45000);
+          lastError = new Error(`${model}: 429 rate limited`);
+          continue;
+        }
+
+        if (!r.ok) {
+          const err = await r.text().catch(() => String(r.status));
+          throw new Error(`${model} ${r.status}: ${err.slice(0, 120)}`);
+        }
+
+        const data = await r.json();
+        const raw  = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        try { return JSON.parse(raw); } catch {
+          const m = raw.match(/\[[\s\S]*\]/);
+          if (m) return JSON.parse(m[0]);
+          throw new Error('Response was not valid JSON');
+        }
+
+      } catch (e) {
+        lastError = e;
+        if (attempt === MAX_RETRIES - 1) break; // give up on this model, try next
+        const wait = (attempt + 1) * 15000;
+        console.log(`  ✗ Error with "${model}": ${e.message}. Waiting ${wait / 1000}s…`);
+        await sleep(wait);
       }
-    } catch (e) {
-      if (attempt === MAX_RETRIES - 1) throw e;
-      const wait = (attempt + 1) * 15000;
-      console.log(`  ✗ Error: ${e.message}. Waiting ${wait / 1000}s…`);
-      await sleep(wait);
     }
   }
+
+  throw lastError || new Error('All models failed');
 }
 
 // ── Main export ────────────────────────────────────────────────────────────

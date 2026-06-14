@@ -127,3 +127,17 @@ export const NEWS_PATTERN = /\b(winners?\s+(?:of|are|have been|announced|reveale
 export function looksLikeNews(text) {
   return NEWS_PATTERN.test(text || '');
 }
+
+// ── Stale year in title ────────────────────────────────────────────────
+// "2023 Architecture Award — Call for Entries" with no extractable deadline
+// would otherwise pass through forever. If the newest year mentioned in the
+// TITLE is before the current year, treat it as a stale listing.
+// Only checks the title (not body text) to avoid false positives from
+// historical context like "since 2015" or "founded in 2010".
+export function isLikelyOutdatedYear(title) {
+  if (!title) return false;
+  const years = [...title.matchAll(/\b(20[12]\d)\b/g)].map(m => parseInt(m[1], 10));
+  if (!years.length) return false;
+  const currentYear = new Date().getFullYear();
+  return Math.max(...years) < currentYear;
+}
