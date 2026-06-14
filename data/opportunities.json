@@ -1,10 +1,1578 @@
 {
   "meta": {
-    "last_updated": "2026-06-13T19:13:32.513Z",
-    "total": 375,
-    "new_today": 375
+    "last_updated": "2026-06-14T01:56:47.338Z",
+    "total": 445,
+    "new_today": 98
   },
   "opportunities": [
+    {
+      "id": "1o4idz6",
+      "title": "Sydney Harbour Bridge Cycleway Ramp / ASPECT Studios",
+      "url": "https://www.archdaily.com/1042420/sydney-harbour-bridge-cycleway-ramp-aspect-studios",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sat, 13 Jun 2026 21:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "cdcdsy",
+      "title": "KLE School, Sankeshwar  / Shreyas Patil Architects",
+      "url": "https://www.archdaily.com/1042416/kle-school-sankeshwar-shreyas-patil-architects",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sat, 13 Jun 2026 17:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1apcgrc",
+      "title": "Vicco Building / sauermartins",
+      "url": "https://www.archdaily.com/1042352/vicco-building-sauermartins",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sat, 13 Jun 2026 15:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "8ic2cz",
+      "title": "sculptural foldable roof shields white floating micro-home drifting across lake como",
+      "url": "https://www.designboom.com/architecture/sculptural-foldable-roof-white-floating-micro-home-lake-como-lucia-uau-studio/",
+      "source": "Designboom — Architecture",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sun, 14 Jun 2026 00:52:11 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1s1scyc",
+      "title": "Kathryn Firth: New town infrastructure should not pretend it’s invisible",
+      "url": "https://www.architectsjournal.co.uk/news/kathryn-firth-new-town-infrastructure-should-not-pretend-its-invisible",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 12:49:43 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1v322cg",
+      "title": "Duncan Baker-Brown: &#8216;We must grab the opportunity on protection of function&#8217;",
+      "url": "https://www.architectsjournal.co.uk/news/duncan-baker-brown-we-must-grab-the-opportunity-on-protection-of-function",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 09:50:45 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1xxtdg1",
+      "title": "All-new £500m proposals unveiled for St Pancras hospital site",
+      "url": "https://www.architectsjournal.co.uk/news/all-new-500m-proposals-unveiled-for-st-pancras-hospital-site",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 09:43:57 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1t82f96",
+      "title": "US team beats Grimshaw to bag revamp of New York’s Penn station",
+      "url": "https://www.architectsjournal.co.uk/news/us-team-beats-grimshaw-to-bag-revamp-of-new-yorks-penn-station",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 09:10:21 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "e8nz5f",
+      "title": "Architecture’s missing middle: why women are priced out of practice",
+      "url": "https://www.architectsjournal.co.uk/news/opinion/architectures-missing-middle-why-women-are-priced-out-of-practice",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 08:52:08 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "17ao00q",
+      "title": "RA Summer Exhibition: ‘an interesting but hopeless task’",
+      "url": "https://www.architectsjournal.co.uk/practice/culture/ra-summer-exhibition-an-interesting-but-hopeless-task",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Fri, 12 Jun 2026 06:43:37 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1q5n0yh",
+      "title": "Clapham bridge transformation contest: winner revealed",
+      "url": "https://www.architectsjournal.co.uk/news/clapham-bridge-transformation-contest-winner-revealed",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Thu, 11 Jun 2026 15:30:50 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "t8wc4h",
+      "title": "Peter Barber, Henley Halebrown and East reveal Winchester regeneration plans",
+      "url": "https://www.architectsjournal.co.uk/news/peter-barber-henley-halebrown-and-east-reveal-winchester-regeneration-plans",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Thu, 11 Jun 2026 09:24:17 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "sjjqs",
+      "title": "Into Work: take the AJ survey and help us understand the challenges of becoming an architect",
+      "url": "https://www.architectsjournal.co.uk/news/into-work-take-the-aj-survey-and-help-us-understand-the-challenges-of-becoming-an-architect",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Thu, 11 Jun 2026 08:29:30 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "jcb6y3",
+      "title": "Austin Williams: ‘Green political lobbyists are dominating the debate so one-sidedly’",
+      "url": "https://www.architectsjournal.co.uk/news/austin-williams-green-political-lobbyists-are-dominating-the-debate-so-one-sidedly",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Thu, 11 Jun 2026 08:05:28 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "uqn2zh",
+      "title": "superiordesignaward.com",
+      "url": "https://superiordesignaward.com/",
+      "source": "Bustler Latest",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1qnm454",
+      "title": "Architects' Network Plus",
+      "url": "https://an.pro",
+      "source": "Architecture Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "jigs6l",
+      "title": "The Architect’s Stair / Edition #3 competition winners revealed!",
+      "url": "https://architecturecompetitions.com/architectsstair3/",
+      "source": "Architecture Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ouuduz",
+      "title": "Here are the winners of the 2026 AIA Architecture Awards",
+      "url": "http://bustler.net/news/tags/competition/326/11008/here-are-the-winners-of-the-2026-aia-architecture-awards/competition-news",
+      "source": "Archinect Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wkpd7x",
+      "title": "the competition website",
+      "url": "https://1096.konkurs.sarp.pl/",
+      "source": "Architektura i Biznes (PL/EN)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "cvy0ow",
+      "title": "Benson pavilion, Oxfordshire",
+      "url": "https://www.architectsjournal.co.uk/competitions/benson-pavilion-oxfordshire",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1isji20",
+      "title": "Sovereign Network Group launches £20m architecture framework",
+      "url": "https://www.architectsjournal.co.uk/competitions/sovereign-network-group-launches-20m-architecture-framework",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "d1dtmu",
+      "title": "Architect sought for £60m Evelina Children’s Hospital expansion fit out",
+      "url": "https://www.architectsjournal.co.uk/competitions/architect-sought-for-evelina-childrens-hospital-expansion-fit-out",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1x1thuh",
+      "title": "UK architects longlisted for Amsterdam’s National Slavery Museum",
+      "url": "https://www.architectsjournal.co.uk/news/uk-architects-longlisted-for-amsterdams-national-slavery-museum",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "oo1p1h",
+      "title": "Alison Brooks Architects misses out in Canadian visitor centre contest",
+      "url": "https://www.architectsjournal.co.uk/news/alison-brooks-architects-misses-out-in-canadian-visitor-centre-contest",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "11j5nol",
+      "title": "Glasgow architects display regeneration concepts for fire-ravaged site",
+      "url": "https://www.architectsjournal.co.uk/news/glasgow-architects-display-regeneration-concepts-for-fire-ravaged-site",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1bp0lw9",
+      "title": "A plea to architecture practices: keep employing Part 1s",
+      "url": "https://www.architectsjournal.co.uk/news/opinion/a-plea-to-architecture-practices-keep-employing-part-1s",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "2w5jhp",
+      "title": "Into Work: the crisis in architecture early careers",
+      "url": "https://www.architectsjournal.co.uk/news/into-work-the-crisis-in-architecture-early-careers",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "twwzz6",
+      "title": "Architect sought for National Coal Mining Museum for England revamp study",
+      "url": "https://www.architectsjournal.co.uk/competitions/national-coal-mining-museum-for-england",
+      "source": "Architects Journal Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "k2q7x9",
+      "title": "CORNELL JOURNAL OF ARCHITECTURE",
+      "url": "https://cornelljournalofarchitecture.cornell.edu/",
+      "source": "Cornell Journal of Architecture",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "12yhied",
+      "title": "College of Architecture, Art, and Planning",
+      "url": "https://aap.cornell.edu/",
+      "source": "Cornell Journal of Architecture",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1vviz6z",
+      "title": "Architecture Competitions",
+      "url": "https://www.archdaily.com/search/competitions",
+      "source": "ArchDaily Search — Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1xuvcxs",
+      "title": "Architecture at Zero 2026",
+      "url": "https://www.architectureatzero.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "17nfhbh",
+      "title": "Competitions.archi",
+      "url": "https://competitions.archi/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "14szcrp",
+      "title": "The 2026 Edmund N. Bacon Urban Design Awards is soon opening ...",
+      "url": "https://www.instagram.com/p/DOvJgnDjQWy/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "hspin5",
+      "title": "International Art & Design Competition 2026 | Accademia Riaci",
+      "url": "https://www.accademiariaci.info/comp2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1166fod",
+      "title": "2026 Youth Competition is Open! IFLA Europe Youth ... - Instagram",
+      "url": "https://www.instagram.com/p/DXqkQTKiIo0/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1vzcnbb",
+      "title": "Architecture Competitions, Events & News - Bustler",
+      "url": "https://bustler.net/competitions",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "18i35l0",
+      "title": "Landscape Design Competition",
+      "url": "https://competition.adesignaward.com/competitions/landscape.html",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "a690ji",
+      "title": "\"For 2026, we're seeking projects that balance timeless principles ...",
+      "url": "https://www.instagram.com/p/DUneliGDY5d/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1gh4ym2",
+      "title": "2026 Design Challenge Cooper Hewitt, Smithsonian Design Museum",
+      "url": "https://www.cooperhewitt.org/design-competition-design-challenge/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1mcliob",
+      "title": "designboom competitions",
+      "url": "https://www.designboom.com/competitions/design/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1tr1hbl",
+      "title": "Rethinking The Future Awards: RTF Architecture Awards | Interior ...",
+      "url": "https://awards.re-thinkingthefuture.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "bqygxi",
+      "title": "Architecture Pavilion Competition - Architizer",
+      "url": "https://architizer.com/projects/architecture-pavilion-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "70hhyv",
+      "title": "Pavilion Architecture Competition Projects - Behance",
+      "url": "https://www.behance.net/search/projects/pavilion%20architecture%20competition?locale=en_US",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1jfz6bb",
+      "title": "Volume Zero Competitions | Architecture and Design Competitions",
+      "url": "https://volumezerocompetitions.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1adztby",
+      "title": "Dezeen Competitions",
+      "url": "https://www.dezeen.com/competitions/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1dr32gx",
+      "title": "IDOARCH | Free Architecture Competitions Worldwide",
+      "url": "https://idoarch.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1wwdks7",
+      "title": "️ Competition 2026 Submit a built project, list up to 5 sustainable ...",
+      "url": "https://www.instagram.com/p/DX9Pqh1MH-h/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ry2qfe",
+      "title": "Architecture Competitions on Instagram: \"Buildner ...",
+      "url": "https://www.instagram.com/p/DX4DCw5jEty/?img_index=7",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1irwlxg",
+      "title": "Adaptive Reuse Architecture Design Competition",
+      "url": "https://competitions.archi/competition/adaptive-reuse-architecture-design-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ymlo3o",
+      "title": "Inspireli Awards",
+      "url": "https://inspireli.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ll4yxz",
+      "title": "Stewardson Keefe LeBrun Travel Grant - AIA New York",
+      "url": "https://www.aiany.org/architecture/competitions-grants/stewardson-keefe-lebrun-travel-grant/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "6o92pl",
+      "title": "Future Forward Grant applications open now through April 17th. Join ...",
+      "url": "https://www.instagram.com/p/DVltKejjvwv/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1714hf",
+      "title": "2026 SPD Community Grant Cycle Now Closed",
+      "url": "https://communityhub.aia.org/events/event-description?CalendarEventKey=7603c6ed-8929-47dd-8b5d-018d143dd08e&CommunityKey=13da04d0-cbd4-4a79-bc68-c534536e03fb&Home=%2Fevents%2Fcalendar",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1748qo5",
+      "title": "Introduction to Architecture Online: Summer 2026 - Cooper Union",
+      "url": "https://cooper.edu/architecture/school-architecture-summer-programs",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "vc5j5q",
+      "title": "OPEN CALLS - dreamideamachine ART VIEW",
+      "url": "https://www.dreamideamachine.com/?cat=41",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "fwbbvi",
+      "title": "Applications are OPEN for Architecture in Action: Design Days 2026 ...",
+      "url": "https://www.instagram.com/p/DU4X0XUgE5C/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "123addi",
+      "title": "Apply for Graham Foundation Grant Program (United States)",
+      "url": "https://www2.fundsforngos.org/research/apply-for-graham-foundation-grant-program-united-states/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "10o693x",
+      "title": "Scholarships, bursaries, and grants",
+      "url": "https://www.riba.org/learn/bursaries-and-scholarships/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "iqp6cs",
+      "title": "CCA Islands offers CCA Travel Scholarship for emerging artists ...",
+      "url": "https://www.instagram.com/p/DVSAfDgknlJ/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "6i5wcw",
+      "title": "Applications for the 2025-26 Fellowship are now open - Facebook",
+      "url": "https://www.facebook.com/groups/134168625518/posts/10161441054120519/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1yzeg7x",
+      "title": "Applications are now open for our 2027 Creative Residency ...",
+      "url": "https://www.instagram.com/p/DXR4q49jcA9/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "jky91j",
+      "title": "Applications for the 2026 Independent Project Residency Program ...",
+      "url": "https://www.instagram.com/reel/DSIsXMtFf-B/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1embdmm",
+      "title": "INTBAU 5th International Conference on Traditional Building ...",
+      "url": "https://callsforpapers.ihbc.org.uk/?p=1054",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wicdsg",
+      "title": "TAD Journal - Technology | Architecture + Design",
+      "url": "https://tadjournal.org/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1krvfot",
+      "title": "Journal of Traditional Building, Architecture and Urbanism",
+      "url": "https://www.traditionalarchitecturejournal.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "4eywg0",
+      "title": "Architecture 2026 design submissions - Facebook",
+      "url": "https://www.facebook.com/groups/419913784165397/posts/731345926355513/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "gmw0n3",
+      "title": "Design Trust for Public Space",
+      "url": "https://www.designtrust.org/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pi7333",
+      "title": "SHARE ARCHITECTS - HOMEPAGE - SHARE Architects",
+      "url": "https://share-architects.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "lsps81",
+      "title": "Events – experimentalurbanism.org",
+      "url": "https://experimentalurbanism.org/events/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1683voj",
+      "title": "World Architecture Festival",
+      "url": "https://www.worldarchitecturefestival.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1olsnja",
+      "title": "2026 AIA|DC Board of Directors Candidate: Milton Shinberg, AIA",
+      "url": "https://www.instagram.com/reel/DPqw5fWEba2/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "175k7tl",
+      "title": "Call for nominations: Tamayouz Women in Architecture and ...",
+      "url": "https://competitions.archi/competition/call-for-nominations-tamayouz-women-in-architecture-and-construction-award-2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ik15h0",
+      "title": "Submit to the Record Awards",
+      "url": "https://www.architecturalrecord.com/articles/17470-submit-to-the-record-awards",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1rg2cwt",
+      "title": "2026 Unbuilt Washington Awards | DAC - District Architecture Center",
+      "url": "https://dcarchcenter.org/competition/2026-unbuilt-washington-awards",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "i9y3df",
+      "title": "The 2026 Young Architects Award is now open ... - Instagram",
+      "url": "https://www.instagram.com/p/DWg7YfRk3jE/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "xmm5fr",
+      "title": "AR Emerging Architecture Awards 2026",
+      "url": "https://emerging.architectural-review.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ldu71d",
+      "title": "2026 Young Architect Award + Next Gen Award Open House",
+      "url": "https://www.youtube.com/watch?v=Bsl682RvnJs",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "11x9sdz",
+      "title": "Submissions for the Young Architect Awards - Givebutter",
+      "url": "https://givebutter.com/submityaawards",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1qjetaa",
+      "title": "World Art & Design Spring Salon. May 15, 5pm-10pm, 250 South ...",
+      "url": "https://www.facebook.com/groups/1063441107171596/posts/3242630289252656/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1hzz86w",
+      "title": "Open Call for September 2026 Solo Exhibition - ARC Gallery",
+      "url": "https://www.arcgallery.org/calls-for-entry-archive/open-call-may-2026",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "oefflt",
+      "title": "Venice Biennale (Italy) - Biennial Foundation",
+      "url": "https://biennialfoundation.org/biennials/venice-biennale/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "9gtlhx",
+      "title": "Ceramic Art Competitions, Biennales, Festivals and Fairs in 2026",
+      "url": "https://www.ceramicsnow.org/calendar2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "bdwz4f",
+      "title": "#Repost @faerderbiennalen ・・・ The Open Call for Architecture ...",
+      "url": "https://www.instagram.com/p/DROCqT1ieQV/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "vndt9j",
+      "title": "Call for Entries: Art by Architects 2026 Showcase - AIA New York",
+      "url": "https://www.aiany.org/news/call-for-entries-art-by-architects-2026-showcase/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1lmg58i",
+      "title": "Call For Papers - The World's Largest Index/List of Call For Papers",
+      "url": "https://www.call4paper.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "15j3fm8",
+      "title": "Calls for Papers | Submit Your Research Papers for Publication",
+      "url": "https://www.computer.org/publications/author-resources/calls-for-papers",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "zd1q16",
+      "title": "ICUDCP 2026 - Urban Design and City Planning - Waset.org",
+      "url": "https://waset.org/urban-design-and-city-planning-conference-in-august-2026-in-warsaw",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "h3zzqr",
+      "title": "Calls for Papers | Page 8 | Aζ South Asia",
+      "url": "https://architexturez.net/snc/az-cf-193292?page=7",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "5iav6t",
+      "title": "Architecture Photo Awards - International Photo Competition",
+      "url": "https://architecturephotographyawards.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1gmk5o8",
+      "title": "The Art Of Building",
+      "url": "https://artofbuilding.org/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ynn3ny",
+      "title": "Best Architectural Photography Awards in 2026",
+      "url": "https://architectureprize.com/best-architectural-photography-awards/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wngjck",
+      "title": "The Architecture Drawing Prize (TADP) (@architecturedrawingprize)",
+      "url": "https://www.instagram.com/architecturedrawingprize/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ywdj14",
+      "title": "Drawing Prize - World Architecture Festival",
+      "url": "https://www.worldarchitecturefestival.com/WAF2026/en/page/the-architecture-drawing-prize",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "graut1",
+      "title": "The Architecture Drawing Prize Exhibition",
+      "url": "https://amazingarchitecture.com/events/the-architecture-drawing-prize-exhibition",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1cjoxbx",
+      "title": "RIAI Student Writing Prize 2026 | RIAI.ie (The Royal Institute of the ...",
+      "url": "https://www.riai.ie/careers-in-architecture/student-awards/riai-student-writing-prize",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1troowv",
+      "title": "Berkeley Prize Essay Competition",
+      "url": "https://berkeleyprize.org/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "cylj7z",
+      "title": "The Pritzker Architecture Prize",
+      "url": "https://www.pritzkerprize.com/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
     {
       "id": "3ujxdj",
       "title": "La Piada / pfeffermint AG",
@@ -18,7 +1586,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +1602,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +1618,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +1634,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +1650,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +1666,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +1682,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +1698,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +1714,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +1730,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +1746,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +1762,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +1778,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +1794,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +1810,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +1826,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +1842,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +1858,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +1874,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +1890,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +1906,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +1922,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +1938,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +1954,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +1970,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +1986,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +2002,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,7 +2018,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -466,7 +2034,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -482,7 +2050,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -498,7 +2066,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -514,7 +2082,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -530,7 +2098,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -546,7 +2114,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -562,7 +2130,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -578,7 +2146,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -594,7 +2162,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -610,7 +2178,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -626,7 +2194,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -642,7 +2210,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -658,7 +2226,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -674,7 +2242,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -690,7 +2258,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -706,7 +2274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -722,7 +2290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -738,7 +2306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -754,7 +2322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -770,7 +2338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -786,7 +2354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -802,7 +2370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -818,7 +2386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -834,7 +2402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -850,7 +2418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -866,7 +2434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -882,7 +2450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -898,7 +2466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -914,23 +2482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "uqn2zh",
-      "title": "superiordesignaward.com",
-      "url": "https://superiordesignaward.com/",
-      "source": "Bustler Latest",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Award",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -946,23 +2498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1qnm454",
-      "title": "Architects' Network Plus",
-      "url": "https://an.pro",
-      "source": "Architecture Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -978,7 +2514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -994,7 +2530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1010,7 +2546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1026,7 +2562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1042,7 +2578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1058,7 +2594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1074,7 +2610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1090,7 +2626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1106,7 +2642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1122,7 +2658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1138,7 +2674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1154,7 +2690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1170,7 +2706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1186,7 +2722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1202,7 +2738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1218,7 +2754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1234,7 +2770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1250,7 +2786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1266,7 +2802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1282,7 +2818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1298,7 +2834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1314,7 +2850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1330,7 +2866,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1346,23 +2882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "jigs6l",
-      "title": "The Architect’s Stair / Edition #3 competition winners revealed!",
-      "url": "https://architecturecompetitions.com/architectsstair3/",
-      "source": "Architecture Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1375,10 +2895,10 @@
       "pub_date": "2026-06-13",
       "description": "",
       "category": "Exhibition/Biennale",
-      "deadline": "",
+      "deadline": "Sep 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1391,10 +2911,10 @@
       "pub_date": "2026-06-13",
       "description": "",
       "category": "Competition",
-      "deadline": "",
+      "deadline": "Jun 18, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1410,23 +2930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1ouuduz",
-      "title": "Here are the winners of the 2026 AIA Architecture Awards",
-      "url": "http://bustler.net/news/tags/competition/326/11008/here-are-the-winners-of-the-2026-aia-architecture-awards/competition-news",
-      "source": "Archinect Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1442,7 +2946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1458,7 +2962,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1474,7 +2978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1490,7 +2994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1506,7 +3010,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1522,7 +3026,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1538,23 +3042,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "wkpd7x",
-      "title": "the competition website",
-      "url": "https://1096.konkurs.sarp.pl/",
-      "source": "Architektura i Biznes (PL/EN)",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1570,7 +3058,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1586,7 +3074,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1602,7 +3090,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1618,7 +3106,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1634,7 +3122,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1650,7 +3138,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1666,7 +3154,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1682,7 +3170,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1698,23 +3186,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "k2q7x9",
-      "title": "CORNELL JOURNAL OF ARCHITECTURE",
-      "url": "https://cornelljournalofarchitecture.cornell.edu/",
-      "source": "Cornell Journal of Architecture",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1730,39 +3202,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "12yhied",
-      "title": "College of Architecture, Art, and Planning",
-      "url": "https://aap.cornell.edu/",
-      "source": "Cornell Journal of Architecture",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1vviz6z",
-      "title": "Architecture Competitions",
-      "url": "https://www.archdaily.com/search/competitions",
-      "source": "ArchDaily Search — Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1778,7 +3218,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1794,7 +3234,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1810,7 +3250,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1826,7 +3266,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1842,7 +3282,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1858,7 +3298,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1874,7 +3314,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1890,7 +3330,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1906,7 +3346,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1922,7 +3362,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1938,7 +3378,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1954,7 +3394,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1970,7 +3410,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1986,7 +3426,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2002,7 +3442,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2018,7 +3458,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2034,7 +3474,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2050,7 +3490,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2066,7 +3506,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2082,7 +3522,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2098,7 +3538,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2114,7 +3554,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2130,7 +3570,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2146,7 +3586,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2162,7 +3602,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2178,7 +3618,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2194,7 +3634,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2210,23 +3650,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "17nfhbh",
-      "title": "Competitions.archi",
-      "url": "https://competitions.archi/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2242,7 +3666,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2258,7 +3682,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2274,23 +3698,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1xuvcxs",
-      "title": "Architecture at Zero 2026",
-      "url": "https://www.architectureatzero.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2306,7 +3714,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2322,7 +3730,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2338,7 +3746,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2354,7 +3762,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2370,7 +3778,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2386,7 +3794,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2402,7 +3810,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2418,7 +3826,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2434,7 +3842,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2450,23 +3858,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1vzcnbb",
-      "title": "Architecture Competitions, Events & News - Bustler",
-      "url": "https://bustler.net/competitions",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2482,7 +3874,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2498,7 +3890,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2514,7 +3906,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2530,7 +3922,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2546,23 +3938,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1adztby",
-      "title": "Dezeen Competitions",
-      "url": "https://www.dezeen.com/competitions/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2578,7 +3954,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2594,7 +3970,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2610,7 +3986,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2626,7 +4002,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2642,7 +4018,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2658,7 +4034,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2674,7 +4050,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2690,7 +4066,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2706,7 +4082,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2722,7 +4098,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2738,7 +4114,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2754,7 +4130,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2770,7 +4146,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2786,7 +4162,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2802,7 +4178,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2818,39 +4194,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "hbzp9",
-      "title": "Architecture Student Contest",
-      "url": "https://architecture-student-contest.saint-gobain.com/home",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1dr32gx",
-      "title": "IDOARCH | Free Architecture Competitions Worldwide",
-      "url": "https://idoarch.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2866,7 +4210,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2882,7 +4226,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2898,7 +4242,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2914,7 +4258,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2930,7 +4274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2946,7 +4290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2962,7 +4306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2978,7 +4322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -2994,7 +4338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3010,23 +4354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "ymlo3o",
-      "title": "Inspireli Awards",
-      "url": "https://inspireli.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3042,7 +4370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3058,7 +4386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3074,7 +4402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3090,7 +4418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3106,7 +4434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3122,7 +4450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3138,7 +4466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3154,7 +4482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3170,7 +4498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3186,23 +4514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "vc5j5q",
-      "title": "OPEN CALLS - dreamideamachine ART VIEW",
-      "url": "https://www.dreamideamachine.com/?cat=41",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3218,7 +4530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3234,7 +4546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3250,7 +4562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3266,7 +4578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3282,7 +4594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3298,7 +4610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3314,7 +4626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3330,7 +4642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3346,7 +4658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3362,7 +4674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3378,7 +4690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3394,7 +4706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3410,7 +4722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3426,7 +4738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3439,10 +4751,10 @@
       "pub_date": "2026-06-13",
       "description": "",
       "category": "Grant",
-      "deadline": "",
+      "deadline": "19 August 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3458,7 +4770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3474,7 +4786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3490,7 +4802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3504,9 +4816,9 @@
       "description": "",
       "category": "Other",
       "deadline": "",
-      "fee": "Unknown",
+      "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3522,7 +4834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3538,7 +4850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3554,7 +4866,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3570,7 +4882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3586,7 +4898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3602,7 +4914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3618,7 +4930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3634,7 +4946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3650,7 +4962,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3666,7 +4978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3682,7 +4994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3698,7 +5010,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3714,7 +5026,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3730,7 +5042,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3746,7 +5058,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3762,7 +5074,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3778,7 +5090,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3794,7 +5106,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3810,7 +5122,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3826,7 +5138,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3842,7 +5154,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3858,7 +5170,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3874,23 +5186,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1embdmm",
-      "title": "INTBAU 5th International Conference on Traditional Building ...",
-      "url": "https://callsforpapers.ihbc.org.uk/?p=1054",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3906,7 +5202,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3922,7 +5218,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3938,7 +5234,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3954,23 +5250,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1krvfot",
-      "title": "Journal of Traditional Building, Architecture and Urbanism",
-      "url": "https://www.traditionalarchitecturejournal.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -3986,7 +5266,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4002,7 +5282,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4018,7 +5298,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4034,7 +5314,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4050,7 +5330,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4066,7 +5346,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4082,7 +5362,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4098,7 +5378,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4114,7 +5394,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4130,7 +5410,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4146,7 +5426,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4162,7 +5442,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4178,7 +5458,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4194,7 +5474,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4210,7 +5490,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4226,7 +5506,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4242,39 +5522,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1pi7333",
-      "title": "SHARE ARCHITECTS - HOMEPAGE - SHARE Architects",
-      "url": "https://share-architects.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "gmw0n3",
-      "title": "Design Trust for Public Space",
-      "url": "https://www.designtrust.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4290,7 +5538,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4306,7 +5554,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4322,7 +5570,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4338,7 +5586,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4354,7 +5602,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4370,7 +5618,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4386,7 +5634,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4402,7 +5650,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4418,7 +5666,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4434,7 +5682,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4450,7 +5698,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4466,7 +5714,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4482,7 +5730,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4498,7 +5746,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4514,7 +5762,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4530,7 +5778,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4546,7 +5794,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4562,7 +5810,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4578,7 +5826,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4594,7 +5842,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4610,7 +5858,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4626,7 +5874,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4642,7 +5890,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4658,7 +5906,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4674,7 +5922,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4690,7 +5938,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4706,7 +5954,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4722,23 +5970,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1tr1hbl",
-      "title": "Rethinking The Future Awards: RTF Architecture Awards | Interior ...",
-      "url": "https://awards.re-thinkingthefuture.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4754,7 +5986,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4770,7 +6002,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4786,7 +6018,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4802,7 +6034,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4818,7 +6050,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4834,7 +6066,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4850,7 +6082,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4866,7 +6098,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4882,7 +6114,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4898,7 +6130,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4914,7 +6146,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4930,7 +6162,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4946,7 +6178,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4962,7 +6194,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -4978,23 +6210,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "xmm5fr",
-      "title": "AR Emerging Architecture Awards 2026",
-      "url": "https://emerging.architectural-review.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Grant",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5010,7 +6226,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5026,7 +6242,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5042,7 +6258,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5058,7 +6274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5074,7 +6290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5090,7 +6306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5106,7 +6322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5122,7 +6338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5138,23 +6354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "19iofeh",
-      "title": "NYFA Opportunities Board | Open Calls, Residencies & More",
-      "url": "https://www.nyfa.org/opportunities/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Exhibition/Biennale",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5170,7 +6370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5184,9 +6384,9 @@
       "description": "",
       "category": "Exhibition/Biennale",
       "deadline": "",
-      "fee": "Unknown",
+      "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5202,7 +6402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5218,7 +6418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5234,7 +6434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5250,7 +6450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5266,23 +6466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "10nclz5",
-      "title": "Biennial Foundation: MAGAZINE",
-      "url": "https://biennialfoundation.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5298,7 +6482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5314,7 +6498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5330,7 +6514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5346,7 +6530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5362,7 +6546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5378,7 +6562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5394,7 +6578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5410,7 +6594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5426,7 +6610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5442,7 +6626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5458,7 +6642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5474,7 +6658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5490,7 +6674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5506,7 +6690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5522,7 +6706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5538,7 +6722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5554,7 +6738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5570,7 +6754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5586,7 +6770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5602,7 +6786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5618,7 +6802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5634,7 +6818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5650,7 +6834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5666,7 +6850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5682,7 +6866,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5698,7 +6882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5714,23 +6898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "5iav6t",
-      "title": "Architecture Photo Awards - International Photo Competition",
-      "url": "https://architecturephotographyawards.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5746,7 +6914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5760,25 +6928,9 @@
       "description": "",
       "category": "Competition",
       "deadline": "",
-      "fee": "Unknown",
+      "fee": "Free",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1gmk5o8",
-      "title": "The Art Of Building",
-      "url": "https://artofbuilding.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5794,7 +6946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5810,7 +6962,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5826,7 +6978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5842,7 +6994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5858,7 +7010,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5874,7 +7026,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5890,7 +7042,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5906,7 +7058,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5922,7 +7074,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5938,7 +7090,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5954,7 +7106,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -5970,39 +7122,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1troowv",
-      "title": "Berkeley Prize Essay Competition",
-      "url": "https://berkeleyprize.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "cylj7z",
-      "title": "The Pritzker Architecture Prize",
-      "url": "https://www.pritzkerprize.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     }
   ]
