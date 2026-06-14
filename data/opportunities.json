@@ -1,10 +1,394 @@
 {
   "meta": {
-    "last_updated": "2026-06-14T02:00:40.532Z",
-    "total": 437,
-    "new_today": 22
+    "last_updated": "2026-06-14T13:22:39.903Z",
+    "total": 461,
+    "new_today": 24
   },
   "opportunities": [
+    {
+      "id": "o04v50",
+      "title": "Seeds in the City Barbican Competition - Arch Hive",
+      "url": "https://arch-hive.com/competitions/external/694833f3aed6044762f7d15b/Seeds-in-the-City-Barbican-Competition",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "17yqg0r",
+      "title": "Stewardson Keefe LeBrun Travel Grant - Bustler",
+      "url": "https://bustler.net/competitions/10515/stewardson-keefe-lebrun-travel-grant",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "103tnj1",
+      "title": "Fellowship - AIA's highest membership honor",
+      "url": "https://www.aia.org/design-excellence/awards/fellowship",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Conference",
+      "deadline": "October 1, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1sprbh3",
+      "title": "Researcher-in-Residence - MAK Center for Art and Architecture",
+      "url": "https://www.makcenter.org/researcher-in-residence",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Residency",
+      "deadline": "August 31, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "10ls9ih",
+      "title": "Call for papers on medieval art history - Facebook",
+      "url": "https://www.facebook.com/groups/940876255961743/posts/24246242544998452/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "kfngfg",
+      "title": "Call For Papers - Journal of Art and Architecture Studies",
+      "url": "https://jaas.science-line.com/index.php?option=com_content&view=article&id=4%3Acall-for-papers&catid=5%3Aguideline&Itemid=16",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "sfkwq7",
+      "title": "Our third and final longlist of the AZ Awards 2026 ... - Instagram",
+      "url": "https://www.instagram.com/reel/DW1UFDwAsTO/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1s84dxi",
+      "title": "2026 Calls for Artists - Largest Free Database (CaFE & 1070+ More)",
+      "url": "https://app.entrythingy.com/calls_list/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "blellv",
+      "title": "Open Call 2026. 2026 unfolds as a Venice Art Biennale ... - Instagram",
+      "url": "https://www.instagram.com/p/DVJtlc6DL3g/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "31 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1i6tfs1",
+      "title": "Open Call for Proposals: Singapore Pavilion at Venice Architecture ...",
+      "url": "https://www.ura.gov.sg/Corporate/Event/Open-Call-for-Proposals-VAB2027",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "18mk9fj",
+      "title": "Artist Opportunities - Art Rabbit",
+      "url": "https://www.artrabbit.com/artist-opportunities",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "iruvgo",
+      "title": "Call for Papers (Closed) - Society of Architectural Historians",
+      "url": "https://sah.org/conferences/mexico-2026/call-for-papers-mexico-city/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ax875v",
+      "title": "Become a New Architecture Writer in 2026 Applications ... - Instagram",
+      "url": "https://www.instagram.com/p/DTj8c6BAnRA/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "4r1m90",
+      "title": "Eligibility & Applications",
+      "url": "https://www.dallasadex.org/education/scholarships-fellowships/applications/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "x2hrc8",
+      "title": "Architecture and Design Foundation Scholarships ...",
+      "url": "https://www.aiadallas.org/architecture-and-design-foundation-scholarships-fellowships-and-grants-available-now/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "k2x2xn",
+      "title": "OPEN CALL: 2026 ARTIST RESIDENCIES The @fultonarts Public ...",
+      "url": "https://www.instagram.com/p/DTK6dRUjQkO/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "5jz7yj",
+      "title": "Call for Projects 2026 - Mitigation Action Facility",
+      "url": "https://mitigation-action.org/call-for-projects-2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ke7zhw",
+      "title": "˗ˏˋ OPENCALL 2026 RESULTS ˊˎ˗ The expert jury, consisting ...",
+      "url": "https://www.instagram.com/p/DXAL2RCDdFj/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "12k3x7y",
+      "title": "The Garden of Diplomacy | Sydney Review of Books",
+      "url": "https://sydneyreviewofbooks.com/essays/the-garden-of-diplomacy",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "16byrgh",
+      "title": "Open Call | National Gallery of Art",
+      "url": "https://www.nga.gov/open-call",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1td3lh3",
+      "title": "Contemplative Drama: How Gaudí Shaped Light and Color at Sagrada Família",
+      "url": "https://www.archdaily.com/1042229/contemplative-drama-how-gaudi-shaped-light-and-color-at-sagrada-familia",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sun, 14 Jun 2026 07:30:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "kr2ufz",
+      "title": "G-Beach Residence / B+D+M Architetti",
+      "url": "https://www.archdaily.com/1042315/g-beach-residence-b-plus-d-plus-m-architetti",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sun, 14 Jun 2026 06:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1g4wlfo",
+      "title": "House in a Former Factory, Renovation and Extension / Morsa Taller + Pablo Giterman",
+      "url": "https://www.archdaily.com/1042397/house-in-a-former-factory-renovation-and-extension-morsa-taller-plus-pablo-giterman",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sun, 14 Jun 2026 03:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "8la71u",
+      "title": "Mount Bazaar / People’s Architecture Office",
+      "url": "https://www.archdaily.com/1042317/mount-bazaar-peoples-architecture-office",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-14",
+      "pub_date": "Sun, 14 Jun 2026 02:00:00 +0000",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
     {
       "id": "1hcdnnj",
       "title": "Interior Design Award - BLT Built Design Awards 2026",
@@ -18,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
