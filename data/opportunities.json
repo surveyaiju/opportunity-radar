@@ -1,10 +1,362 @@
 {
   "meta": {
-    "last_updated": "2026-06-14T01:56:47.338Z",
-    "total": 445,
-    "new_today": 98
+    "last_updated": "2026-06-14T02:00:40.532Z",
+    "total": 437,
+    "new_today": 22
   },
   "opportunities": [
+    {
+      "id": "1hcdnnj",
+      "title": "Interior Design Award - BLT Built Design Awards 2026",
+      "url": "https://bltawards.com/interior-design-award/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "117a41a",
+      "title": "10 Architectural competitions for Sustainable architects - RTF",
+      "url": "https://www.re-thinkingthefuture.com/rtf-fresh-perspectives/a1869-10-architectural-competitions-for-sustainable-architects/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1o2353a",
+      "title": "Art Temporary Installation Competition by NAC.",
+      "url": "https://bustler.net/competitions/9142/art-temporary-installation-competition-by-nac",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1v6llh9",
+      "title": "International Student Competition",
+      "url": "https://uia2026bcn.org/international-student-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "cv7crh",
+      "title": "Call for Proposals: Independent Projects Grants!* The ... - Instagram",
+      "url": "https://www.instagram.com/p/DH9MZ7bRZYQ/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "gscq1q",
+      "title": "Call for Entries: Stewardson Keefe LeBrun Travel Grant | News",
+      "url": "https://aiaphiladelphia.org/news/advancing-architecture-and-design/149/149-Call-for-Entries-Stewardson-Keefe-LeBrun-Travel-Grant",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "11buv4p",
+      "title": "Experimental Fellowship at Bauhaus Earth 2026 – Regenerative ...",
+      "url": "https://artinfoland.com/opportunities/experimental-fellowship-at-bauhaus-earth/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1klzo5x",
+      "title": "Fellowship Application - Corgan",
+      "url": "https://www.corgan.com/fellowship-application",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "vqkdo1",
+      "title": "The Emerging Architect Prize chapter winners have ... - Instagram",
+      "url": "https://www.instagram.com/p/DXsns4KFEzO/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pxjlan",
+      "title": "21 Categories. One Mission: Celebrating Architectural Excellence ...",
+      "url": "https://www.instagram.com/reel/DVdjSlLj2Th/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1lge8re",
+      "title": "NYC Open Call for Artists 2026 - Van Der Plas Gallery",
+      "url": "https://www.vanderplasgallery.com/open-call?srsltid=AfmBOopWb40hKfoQXB8gz2cEM9SUn0tigzfOglwO1B9xbawMPC3wuIX1",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1wmdwoz",
+      "title": "Call For Papers New York - International JavaScript Conference",
+      "url": "https://javascript-conference.com/new-york/call-for-papers-ny/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1brwrbk",
+      "title": "Event | 10th Urbanization and Development Conference - World Bank",
+      "url": "https://www.worldbank.org/en/events/2026/03/30/10th-urbanization-and-development-conference",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "gjkt0m",
+      "title": "Special Prizes - World Architecture Festival",
+      "url": "https://www.worldarchitecturefestival.com/WAF2026/en/page/special-prizes",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "4dfjyo",
+      "title": "Architecture Drawing Prize | Tag - ArchDaily",
+      "url": "https://www.archdaily.com/tag/architecture-drawing-prize",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1h3yadb",
+      "title": "World Architecture Festival - Iris Ceramica - Facebook",
+      "url": "https://www.facebook.com/ArchitectureFestival/photos/%EF%B8%8F-first-established-in-2017-the-architecture-drawing-prize-celebrates-the-signif/1426893926149002/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "qiop3f",
+      "title": "Free Architecture & Design Competitions 31 - uni.xyz",
+      "url": "https://uni.xyz/competitions/section/free-architecture-design-competitions/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "vq7tlv",
+      "title": "capX 2026 - California Architectural Foundation",
+      "url": "https://calarchfoundation.org/capx-enroll/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wnhpg7",
+      "title": "SAH Fellowships & Grants - Society of Architectural Historians",
+      "url": "https://sah.org/jobs-opportunities/sah-fellowships-and-grants/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "jzrs46",
+      "title": "OPEN CALL: 2026 Artists-in-Residence Program - Harvestworks",
+      "url": "https://www.harvestworks.org/open-call-2026-artists-in-residence-program/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "j5phks",
+      "title": "The BSA Design Awards program honors projects that reflect the ...",
+      "url": "https://www.instagram.com/p/DM8eRhPttfN/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "clmupp",
+      "title": "Open Call - NEW INC - New Museum",
+      "url": "https://www.newmuseum.org/new-inc/open-call/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-14",
+      "pub_date": "2026-06-14",
+      "description": "",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
     {
       "id": "1o4idz6",
       "title": "Sydney Harbour Bridge Cycleway Ramp / ASPECT Studios",
@@ -18,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,23 +514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1q5n0yh",
-      "title": "Clapham bridge transformation contest: winner revealed",
-      "url": "https://www.architectsjournal.co.uk/news/clapham-bridge-transformation-contest-winner-revealed",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-14",
-      "pub_date": "Thu, 11 Jun 2026 15:30:50 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,87 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "uqn2zh",
-      "title": "superiordesignaward.com",
-      "url": "https://superiordesignaward.com/",
-      "source": "Bustler Latest",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Award",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1qnm454",
-      "title": "Architects' Network Plus",
-      "url": "https://an.pro",
-      "source": "Architecture Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "jigs6l",
-      "title": "The Architect’s Stair / Edition #3 competition winners revealed!",
-      "url": "https://architecturecompetitions.com/architectsstair3/",
-      "source": "Architecture Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1ouuduz",
-      "title": "Here are the winners of the 2026 AIA Architecture Awards",
-      "url": "http://bustler.net/news/tags/competition/326/11008/here-are-the-winners-of-the-2026-aia-architecture-awards/competition-news",
-      "source": "Archinect Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "wkpd7x",
-      "title": "the competition website",
-      "url": "https://1096.konkurs.sarp.pl/",
-      "source": "Architektura i Biznes (PL/EN)",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,87 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "k2q7x9",
-      "title": "CORNELL JOURNAL OF ARCHITECTURE",
-      "url": "https://cornelljournalofarchitecture.cornell.edu/",
-      "source": "Cornell Journal of Architecture",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "12yhied",
-      "title": "College of Architecture, Art, and Planning",
-      "url": "https://aap.cornell.edu/",
-      "source": "Cornell Journal of Architecture",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1vviz6z",
-      "title": "Architecture Competitions",
-      "url": "https://www.archdaily.com/search/competitions",
-      "source": "ArchDaily Search — Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1xuvcxs",
-      "title": "Architecture at Zero 2026",
-      "url": "https://www.architectureatzero.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "17nfhbh",
-      "title": "Competitions.archi",
-      "url": "https://competitions.archi/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -546,7 +722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -562,7 +738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -578,23 +754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1vzcnbb",
-      "title": "Architecture Competitions, Events & News - Bustler",
-      "url": "https://bustler.net/competitions",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -610,7 +770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -626,7 +786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -642,7 +802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -658,23 +818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1tr1hbl",
-      "title": "Rethinking The Future Awards: RTF Architecture Awards | Interior ...",
-      "url": "https://awards.re-thinkingthefuture.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -690,7 +834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -706,55 +850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1jfz6bb",
-      "title": "Volume Zero Competitions | Architecture and Design Competitions",
-      "url": "https://volumezerocompetitions.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1adztby",
-      "title": "Dezeen Competitions",
-      "url": "https://www.dezeen.com/competitions/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1dr32gx",
-      "title": "IDOARCH | Free Architecture Competitions Worldwide",
-      "url": "https://idoarch.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -770,7 +866,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -786,7 +882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -802,23 +898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "ymlo3o",
-      "title": "Inspireli Awards",
-      "url": "https://inspireli.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -834,7 +914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -850,7 +930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -866,7 +946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -882,23 +962,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "vc5j5q",
-      "title": "OPEN CALLS - dreamideamachine ART VIEW",
-      "url": "https://www.dreamideamachine.com/?cat=41",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -914,7 +978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -930,7 +994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -946,7 +1010,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -962,7 +1026,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -978,7 +1042,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -994,7 +1058,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1010,55 +1074,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1embdmm",
-      "title": "INTBAU 5th International Conference on Traditional Building ...",
-      "url": "https://callsforpapers.ihbc.org.uk/?p=1054",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "wicdsg",
-      "title": "TAD Journal - Technology | Architecture + Design",
-      "url": "https://tadjournal.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1krvfot",
-      "title": "Journal of Traditional Building, Architecture and Urbanism",
-      "url": "https://www.traditionalarchitecturejournal.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1074,39 +1090,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "gmw0n3",
-      "title": "Design Trust for Public Space",
-      "url": "https://www.designtrust.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1pi7333",
-      "title": "SHARE ARCHITECTS - HOMEPAGE - SHARE Architects",
-      "url": "https://share-architects.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1122,23 +1106,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1683voj",
-      "title": "World Architecture Festival",
-      "url": "https://www.worldarchitecturefestival.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1154,7 +1122,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1170,7 +1138,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1186,7 +1154,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1202,7 +1170,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1218,23 +1186,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "xmm5fr",
-      "title": "AR Emerging Architecture Awards 2026",
-      "url": "https://emerging.architectural-review.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Grant",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1250,7 +1202,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1266,7 +1218,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1282,7 +1234,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1298,7 +1250,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1314,7 +1266,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1330,7 +1282,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1346,7 +1298,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1362,23 +1314,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1lmg58i",
-      "title": "Call For Papers - The World's Largest Index/List of Call For Papers",
-      "url": "https://www.call4paper.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1394,7 +1330,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1410,7 +1346,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1426,39 +1362,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "5iav6t",
-      "title": "Architecture Photo Awards - International Photo Competition",
-      "url": "https://architecturephotographyawards.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1gmk5o8",
-      "title": "The Art Of Building",
-      "url": "https://artofbuilding.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1474,7 +1378,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1490,7 +1394,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1506,7 +1410,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1522,7 +1426,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -1538,39 +1442,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "1troowv",
-      "title": "Berkeley Prize Essay Competition",
-      "url": "https://berkeleyprize.org/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
-      "ai_verified": false
-    },
-    {
-      "id": "cylj7z",
-      "title": "The Pritzker Architecture Prize",
-      "url": "https://www.pritzkerprize.com/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-14",
-      "pub_date": "2026-06-14",
-      "description": "",
-      "category": "Competition",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
