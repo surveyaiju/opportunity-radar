@@ -10,6 +10,7 @@ import { collectScrape } from './collector/scrape.js';
 import { collectSearch } from './collector/search.js';
 import { classifyWithGemini } from './collector/gemini.js';
 import { dedupeSelf, dedupeAgainstExisting, makeId } from './collector/dedupe.js';
+import { cleanupExisting } from './collector/cleanup.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(__dir, 'data/opportunities.json');
@@ -48,11 +49,14 @@ async function main() {
   console.log('═══════════════════════════════════════');
 
   // Load existing database
-  const { opportunities: existing } = loadDatabase();
-  console.log(`\nDatabase: ${existing.length} existing opportunities`);
+  const { opportunities: existingRaw } = loadDatabase();
+  console.log(`\nDatabase: ${existingRaw.length} existing opportunities`);
 
   // Mark all existing as not-new before this run
-  existing.forEach(o => { o.is_new = false; });
+  existingRaw.forEach(o => { o.is_new = false; });
+
+  // Re-apply latest filters to existing items (self-correcting database)
+  const existing = cleanupExisting(existingRaw);
 
   // ── COLLECT ──────────────────────────────────────────────
   const rssItems    = await collectRss();
