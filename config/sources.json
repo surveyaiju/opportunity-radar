@@ -16,7 +16,7 @@
     { "id": "dezeen",    "name": "Dezeen — Competitions",         "url": "https://www.dezeen.com/tag/competitions/feed/",                              "active": true  },
     { "id": "dboom",     "name": "Designboom — Architecture",     "url": "https://www.designboom.com/architecture/feed/",                              "active": true  },
     { "id": "comparch",  "name": "Competitions.archi",            "url": "https://competitions.archi/feed/",                                           "active": true  },
-    { "id": "archinect", "name": "Archinect — Feed",              "url": "https://archinect.com/feed/1.0/",                                            "active": true  },
+    { "id": "archinect", "name": "Archinect — Feed",              "url": "https://archinect.com/feed/1/news",                                            "active": true  },
     { "id": "archcomp",  "name": "Architecture Competitions",     "url": "https://architecturecompetitions.com/feed/",                                 "active": true  },
     { "id": "colossal",  "name": "This is Colossal — Opps",       "url": "https://www.thisiscolossal.com/category/opportunities/feed/",                "active": true  },
     { "id": "eahn",      "name": "EAHN — Academic Calls",         "url": "https://eahn.org/feed",                                                      "active": true  },
