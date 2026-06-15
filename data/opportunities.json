@@ -1,10 +1,154 @@
 {
   "meta": {
-    "last_updated": "2026-06-14T19:15:28.411Z",
-    "total": 467,
-    "new_today": 12
+    "last_updated": "2026-06-15T01:46:19.242Z",
+    "total": 473,
+    "new_today": 9
   },
   "opportunities": [
+    {
+      "id": "6x9k6i",
+      "title": "Applications are open for the 2026 Art Omi: Architecture residency ...",
+      "url": "https://www.facebook.com/artomi.org/videos/applications-are-open-for-the-2026-art-omi-architecture-residency-program-art-om/1487356665834005/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "t7hacq",
+      "title": "2026 QTBIPOC Design Fellowship Program",
+      "url": "https://qtbipoc.design/design-fellowship-program",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "yfnxkg",
+      "title": "PUBLICATION | The call for research papers for the ... - Instagram",
+      "url": "https://www.instagram.com/p/DTvfWQ4jOEh/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "s3r11m",
+      "title": "Browse 2795 calls for papers for special issues - ScienceDirect.com",
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "31 October 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "rtwy36",
+      "title": "Open call for exhibition proposals - Announcements - e-flux",
+      "url": "https://www.e-flux.com/announcements/6787533/open-call-for-exhibition-proposals",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "November 13, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pzy8qn",
+      "title": "SAH is now accepting abstracts for its 80th Annual International ...",
+      "url": "https://www.instagram.com/p/DWWpQp7FK9C/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "az0nf6",
+      "title": "The Best Photo Contests in 2026",
+      "url": "https://photocontestguru.com/all-contests/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Competition",
+      "deadline": "31 July 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "xe8yj3",
+      "title": "Open Call 2026 | Art Omi Residencies",
+      "url": "https://artomi.org/event/open-call-2026-art-omi-residencies/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "Art Omi invites creatives to apply for its residency program, offering a fully funded residency with only travel expenses to be covered by the resident.",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "Fully funded residency",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1nvjyzm",
+      "title": "OPEN CALL 2026 | ART OMI: ARTISTS // Applications for the 2026 ...",
+      "url": "https://www.facebook.com/artomi.org/posts/-open-call-2026-art-omi-artists-applications-for-the-2026-edition-of-art-omi-art/1177558501069778/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "Arts Southeast is seeking artists to join their ON::View residency program, with upcoming selection deadlines throughout 2026.",
+      "category": "Residency",
+      "deadline": "31 Jul 2026",
+      "fee": "Unknown",
+      "prize": "Residency",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "s0219g",
       "title": "Competitions and Grants - AIA New York",
@@ -18,7 +162,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +178,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +194,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +210,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +226,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +242,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +258,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "Scholarship",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -178,7 +322,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -194,7 +338,7 @@
       "deadline": "20 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -3382,22 +3526,6 @@
       "ai_verified": false
     },
     {
-      "id": "gyfsnl",
-      "title": "Mass Timber Innovation and Design Center of Canada - Call for Entries",
-      "url": "http://bustler.net/competitions/10383/mass-timber-innovation-and-design-center-of-canada-call-for-entries",
-      "source": "Archinect Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Other",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
       "id": "1pg7i2f",
       "title": "Architecture",
       "url": "https://www.e-flux.com/architecture/",
@@ -5398,22 +5526,6 @@
       "ai_verified": false
     },
     {
-      "id": "ubq34g",
-      "title": "Residency",
-      "url": "https://tspacerhinebeck.org/residency/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Residency",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
       "id": "ws74rm",
       "title": "Call for Papers | AGATHÓN | International Journal of Architecture ...",
       "url": "https://www.agathon.it/agathon/callforpapers",
@@ -7065,22 +7177,6 @@
       "id": "1e10j0o",
       "title": "Urban Planning Events Board | Planetizen",
       "url": "https://www.planetizen.com/events",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1ch5atm",
-      "title": "Journal of Health and Human Services Administration: Call for papers",
-      "url": "https://journals.sagepub.com/page/jhx/call-for-papers",
       "source": "Web Search",
       "source_type": "web_search",
       "found_date": "2026-06-13",
