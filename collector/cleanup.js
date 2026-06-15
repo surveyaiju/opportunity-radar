@@ -6,19 +6,20 @@
 
 import {
   extractDeadline, extractFee, extractPrize,
-  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear,
+  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle,
 } from './extract.js';
 
 const EXPIRY_GRACE_DAYS = 1;
 
 export function cleanupExisting(existing) {
-  let removedNews = 0, removedHomepage = 0, removedExpired = 0, removedStale = 0, filledFields = 0;
+  let removedNews = 0, removedHomepage = 0, removedExpired = 0, removedStale = 0, removedGeneric = 0, filledFields = 0;
 
   const cleaned = existing.filter(item => {
     const text = `${item.title} ${item.description || ''}`;
 
     if (looksLikeNews(text)) { removedNews++; return false; }
     if (isHomepageUrl(item.url)) { removedHomepage++; return false; }
+    if (isGenericListingTitle(item.title)) { removedGeneric++; return false; }
 
     // Try to fill in missing deadline/fee/prize from title + description
     let changed = false;
@@ -45,11 +46,12 @@ export function cleanupExisting(existing) {
     return true;
   });
 
-  const totalRemoved = removedNews + removedHomepage + removedExpired + removedStale;
+  const totalRemoved = removedNews + removedHomepage + removedExpired + removedStale + removedGeneric;
   if (totalRemoved > 0 || filledFields > 0) {
     console.log('\n🧹 Cleanup of existing database');
     if (removedNews)     console.log(`  ${removedNews} removed — news/winner/results articles`);
     if (removedHomepage) console.log(`  ${removedHomepage} removed — homepage/listing links`);
+    if (removedGeneric)  console.log(`  ${removedGeneric} removed — generic category-page titles`);
     if (removedExpired)  console.log(`  ${removedExpired} removed — deadline already passed`);
     if (removedStale)    console.log(`  ${removedStale} removed — title references only past years`);
     if (filledFields)    console.log(`  ${filledFields} items had deadline/fee/prize filled in`);

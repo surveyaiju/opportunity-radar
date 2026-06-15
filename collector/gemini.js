@@ -15,12 +15,12 @@
 
 import {
   extractDeadline, extractFee, extractPrize,
-  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear,
+  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle,
 } from './extract.js';
 
-// Tried in order. gemini-1.5-flash was retired (404). If the first model
-// in this list is ever retired too, the next one is used automatically.
-const MODEL_CANDIDATES = ['gemini-2.0-flash', 'gemini-flash-latest', 'gemini-2.5-flash'];
+// Tried in order. gemini-2.0-flash consistently 429s on the free tier even
+// with tiny batches — gemini-flash-latest works reliably, so it goes first.
+const MODEL_CANDIDATES = ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0-flash'];
 const geminiUrl = model => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const BATCH_SIZE  = 20;
 const BATCH_DELAY = 10000;
@@ -37,11 +37,12 @@ const BLOCK = /\b(archery|bow and arrow|sports? competition|football|basketball|
 
 function preFilter(item) {
   const text = `${item.title} ${item.text}`;
-  if (BLOCK.test(text))             return false;
-  if (looksLikeNews(text))          return false; // winners, results, shortlists, completed projects
-  if (isHomepageUrl(item.url))      return false; // links to a site's main listing page, not a specific opportunity
+  if (BLOCK.test(text))                 return false;
+  if (looksLikeNews(text))              return false; // winners, results, shortlists, completed projects
+  if (isHomepageUrl(item.url))          return false; // links to a site's main listing page, not a specific opportunity
+  if (isGenericListingTitle(item.title)) return false; // title is just "Competitions and Grants" etc — a category page
   if (isLikelyOutdatedYear(item.title)) return false; // title's newest year is before this year, no other deadline found
-  if (!REQUIRE.test(text))          return false;
+  if (!REQUIRE.test(text))              return false;
   return true;
 }
 
@@ -147,10 +148,9 @@ async function geminiCall(prompt, apiKey) {
         }
 
         if (r.status === 429) {
-          console.log(`  ⏳ "${model}" rate limited (429). Waiting 45s… (attempt ${attempt + 1}/${MAX_RETRIES})`);
-          await sleep(45000);
+          console.log(`  ⏳ "${model}" rate limited (429). Trying next model…`);
           lastError = new Error(`${model}: 429 rate limited`);
-          continue;
+          break; // don't waste time retrying — try the next model immediately
         }
 
         if (!r.ok) {

@@ -84,7 +84,7 @@ export function extractFee(text) {
 // ── Prize ───────────────────────────────────────────────────────────────
 export function extractPrize(text) {
   if (!text) return '';
-  const m = text.match(/(?:prize (?:money|pool|fund)?|cash prize|award(?:ed)?|grant(?:ed)? (?:of|amount)?|funding (?:of|amount)?|stipend|honorarium)\s*(?:of|is|:)?\s*([€$£]\s?\d[\d,.]*\s?(?:k|K|thousand|million)?|\d[\d,.]*\s?(?:EUR|USD|GBP)\s?(?:k|K)?)/i);
+  const m = text.match(/(?:prize(?:\s+(?:money|pool|fund))?|cash prize|award(?:ed)?(?:\s+(?:of|amount))?|grant(?:ed)?(?:\s+(?:of|amount))?|funding(?:\s+(?:of|amount))?|stipend|honorarium)\s*(?:of|is|:)?\s*([€$£]\s?\d[\d,.]*\s?(?:k|K|thousand|million)?|\d[\d,.]*\s?(?:EUR|USD|GBP)\s?(?:k|K)?)/i);
   if (m) return m[1].replace(/\s+/g, '').replace(/[.,]+$/, '');
   return '';
 }
@@ -140,4 +140,17 @@ export function isLikelyOutdatedYear(title) {
   if (!years.length) return false;
   const currentYear = new Date().getFullYear();
   return Math.max(...years) < currentYear;
+}
+
+// ── Generic listing/category page title ────────────────────────────────
+// Catches titles like "Competitions and Grants", "Awards & Competitions",
+// "AIA New York: Competitions + Grants" — these are section/category pages
+// on a site (linking to MANY opportunities), not one specific opportunity.
+const CAT_WORD = '(?:competitions?|grants?|awards?|fellowships?|residenc(?:y|ies)|open\\s+calls?|calls?\\s+for\\s+(?:entries|submissions|proposals|papers|abstracts)|opportunities|prizes?|exhibitions?)';
+const CATEGORY_PHRASE = `${CAT_WORD}(?:\\s*(?:and|&|,|\\+)\\s*${CAT_WORD})*`;
+const LISTING_TITLE_RE = new RegExp(`(?:^|[\\-|:•·»]\\s*)${CATEGORY_PHRASE}\\s*$`, 'i');
+
+export function isGenericListingTitle(title) {
+  if (!title) return false;
+  return LISTING_TITLE_RE.test(title.trim());
 }
