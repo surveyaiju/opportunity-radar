@@ -8,16 +8,19 @@ let allOpps = [];
 let meta    = {};
 let activeFilter = 'all';
 let deleted = new Set(JSON.parse(localStorage.getItem(DEL_KEY) || '[]'));
+let selected = new Set();
+let showHidden = false;
+let sortDir = null; // null = default order, 'asc' = soonest first, 'desc' = latest first
 
 // ── Category class name (CSS-safe) ────────────────────────
 function catClass(c) {
   return 'cat-' + (c || 'Other').replace(/[^a-zA-Z]/g, '');
 }
 
-// ── Deadline formatter ────────────────────────────────────
-function fmtDeadline(dl) {
-  if (!dl) return '<span class="dl-done">—</span>';
-  if (/rolling|ongoing|open/i.test(dl)) return '<span class="dl-done">Rolling</span>';
+// ── Deadline date parsing (shared by formatter + sorter) ──
+function parseDeadlineTs(dl) {
+  if (!dl) return null;
+  if (/rolling|ongoing|open/i.test(dl)) return null;
   let date = new Date(dl);
   if (isNaN(date)) {
     const m1 = dl.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/);
@@ -25,8 +28,16 @@ function fmtDeadline(dl) {
     const m2 = dl.match(/(\w+)\s+(\d{1,2}),?\s+(\d{4})/);
     if (m2 && isNaN(date)) date = new Date(`${m2[1]} ${m2[2]} ${m2[3]}`);
   }
-  if (isNaN(date)) return `<span class="dl-ok">${esc(dl)}</span>`;
-  const d = Math.ceil((date - new Date()) / 86400000);
+  return isNaN(date) ? null : date.getTime();
+}
+
+// ── Deadline formatter ────────────────────────────────────
+function fmtDeadline(dl) {
+  if (!dl) return '<span class="dl-done">—</span>';
+  if (/rolling|ongoing|open/i.test(dl)) return '<span class="dl-done">Rolling</span>';
+  const ts = parseDeadlineTs(dl);
+  if (ts === null) return `<span class="dl-ok">${esc(dl)}</span>`;
+  const d = Math.ceil((ts - Date.now()) / 86400000);
   if (d < 0)  return `<span class="dl-done" title="${esc(dl)}">Expired</span>`;
   if (d === 0) return `<span class="dl-urg"  title="${esc(dl)}">Today!</span>`;
   if (d <= 7)  return `<span class="dl-urg"  title="${esc(dl)}">${d}d ⚠</span>`;
@@ -50,24 +61,66 @@ function esc(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+// ── Toast (temporary status message) ──────────────────────
+let toastTimer = null;
+function showToast(msg, isError = false) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.className = isError ? 'on err' : 'on';
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = ''; }, 4000);
+}
+
 // ── Load data ────────────────────────────────────────────
-async function loadData() {
+async function loadData(isManual = false) {
+  const btn = document.getElementById('btn-reload');
+  const label = btn?.querySelector('.btn-label');
+
+  if (isManual) {
+    btn.disabled = true;
+    if (label) label.textContent = 'Checking…';
+    btn.classList.add('spinning');
+  }
+
+  const prevUpdated = meta.last_updated;
+  const prevTotal   = allOpps.length;
+
   try {
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!r.ok) throw new Error(r.status);
+    const r = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     const db = await r.json();
     allOpps = Array.isArray(db) ? db : (db.opportunities || []);
     meta    = Array.isArray(db) ? {} : (db.meta || {});
     updateStatus();
     render();
+
+    if (isManual) {
+      if (meta.last_updated && meta.last_updated !== prevUpdated) {
+        const diff = allOpps.length - prevTotal;
+        showToast(`Updated — ${meta.new_today || diff || 0} new item${(meta.new_today || diff) === 1 ? '' : 's'}`);
+      } else {
+        showToast('Up to date — no changes since last check');
+      }
+    }
   } catch (e) {
-    document.getElementById('tbody').innerHTML = `
-      <tr><td colspan="10"><div id="empty">
-        <strong>Could not load opportunities.json</strong>
-        This dashboard must be opened via GitHub Pages, not from your local file system.<br>
-        Your GitHub Pages URL: <code>https://YOUR_USERNAME.github.io/opportunity-radar/</code><br><br>
-        If you just set things up, run the GitHub Action once manually to populate the database.
-      </div></td></tr>`;
+    if (isManual) {
+      showToast('Reload failed — check your connection', true);
+    } else {
+      document.getElementById('tbody').innerHTML = `
+        <tr><td colspan="11"><div id="empty">
+          <strong>Could not load opportunities.json</strong>
+          This dashboard must be opened via GitHub Pages, not from your local file system.<br>
+          Your GitHub Pages URL: <code>https://YOUR_USERNAME.github.io/opportunity-radar/</code><br><br>
+          If you just set things up, run the GitHub Action once manually to populate the database.
+        </div></td></tr>`;
+    }
+  } finally {
+    if (isManual) {
+      btn.disabled = false;
+      btn.classList.remove('spinning');
+      if (label) label.textContent = 'Reload';
+    }
   }
 }
 
@@ -83,20 +136,130 @@ function updateStatus() {
 // ── Filter ───────────────────────────────────────────────
 function setFilter(f, btn) {
   activeFilter = f;
+  selected.clear();
   document.querySelectorAll('.pill').forEach(p => p.classList.remove('on'));
   if (btn) btn.classList.add('on');
   render();
 }
 
+// ── Search clear ───────────────────────────────────────────
+function clearSearch() {
+  const si = document.getElementById('si');
+  si.value = '';
+  si.focus();
+  render();
+}
+
+// ── Sort ─────────────────────────────────────────────────
+function toggleSort() {
+  // cycle: null -> asc (soonest first) -> desc (latest first) -> null
+  sortDir = sortDir === null ? 'asc' : sortDir === 'asc' ? 'desc' : null;
+  const arrow = document.getElementById('sort-arrow');
+  arrow.textContent = sortDir === 'asc' ? ' ▲' : sortDir === 'desc' ? ' ▼' : '';
+  render();
+}
+
+function sortByDeadline(items) {
+  if (!sortDir) return items;
+  return [...items].sort((a, b) => {
+    const va = parseDeadlineTs(a.deadline);
+    const vb = parseDeadlineTs(b.deadline);
+    // Items with no parseable deadline always sink to the bottom
+    if (va === null && vb === null) return 0;
+    if (va === null) return 1;
+    if (vb === null) return -1;
+    return sortDir === 'asc' ? va - vb : vb - va;
+  });
+}
+
+// ── Hidden items toggle ────────────────────────────────────
+function toggleShowHidden() {
+  showHidden = !showHidden;
+  selected.clear();
+  render();
+}
+
+function restoreOne(id) {
+  deleted.delete(id);
+  localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+  render();
+}
+
+function restoreAllHidden() {
+  if (!deleted.size) return;
+  if (!confirm(`Restore all ${deleted.size} hidden item(s)?`)) return;
+  deleted.clear();
+  localStorage.setItem(DEL_KEY, JSON.stringify([]));
+  showHidden = false;
+  render();
+}
+
+// ── Selection / bulk hide ──────────────────────────────────
+function toggleSelect(id, checked) {
+  if (checked) selected.add(id); else selected.delete(id);
+  updateBulkUI();
+}
+
+function toggleSelectAll(checked) {
+  const rows = document.querySelectorAll('#tbody tr[data-id]');
+  rows.forEach(r => {
+    const id = r.dataset.id;
+    if (checked) selected.add(id); else selected.delete(id);
+    const cb = r.querySelector('.row-check');
+    if (cb) cb.checked = checked;
+  });
+  updateBulkUI();
+}
+
+function updateBulkUI() {
+  const btn = document.getElementById('hide-selected');
+  if (selected.size > 0) {
+    btn.style.display = '';
+    btn.textContent = showHidden
+      ? `Restore selected (${selected.size})`
+      : `Hide selected (${selected.size})`;
+  } else {
+    btn.style.display = 'none';
+  }
+  const selectAll = document.getElementById('select-all');
+  const rows = document.querySelectorAll('#tbody tr[data-id]');
+  if (selectAll && rows.length) {
+    const allChecked = [...rows].every(r => selected.has(r.dataset.id));
+    selectAll.checked = allChecked;
+    selectAll.indeterminate = !allChecked && [...rows].some(r => selected.has(r.dataset.id));
+  }
+}
+
+function hideSelected() {
+  if (!selected.size) return;
+  if (showHidden) {
+    // In "showing hidden" mode, this button restores instead
+    selected.forEach(id => deleted.delete(id));
+  } else {
+    selected.forEach(id => deleted.add(id));
+  }
+  localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+  selected.clear();
+  render();
+}
+
+// ── Main render ──────────────────────────────────────────
 function render() {
   const tbody = document.getElementById('tbody');
   const q = (document.getElementById('si')?.value || '').toLowerCase().trim();
 
-  const visible = allOpps.filter(o => {
-    if (deleted.has(o.id)) return false;
-    if (activeFilter === 'new'  && !o.is_new) return false;
-    if (activeFilter === 'free' && !/^free$/i.test((o.fee || '').trim())) return false;
-    if (!['all','new','free'].includes(activeFilter) && o.category !== activeFilter) return false;
+  document.getElementById('si-clear').classList.toggle('show', q.length > 0);
+
+  let visible = allOpps.filter(o => {
+    const isHidden = deleted.has(o.id);
+    if (showHidden) {
+      if (!isHidden) return false; // only show hidden items in this mode
+    } else {
+      if (isHidden) return false; // normal mode: hidden items excluded
+      if (activeFilter === 'new'  && !o.is_new) return false;
+      if (activeFilter === 'free' && !/^free$/i.test((o.fee || '').trim())) return false;
+      if (!['all','new','free'].includes(activeFilter) && o.category !== activeFilter) return false;
+    }
     if (q) {
       const t = `${o.title} ${o.description} ${o.source}`.toLowerCase();
       if (!t.includes(q)) return false;
@@ -104,20 +267,41 @@ function render() {
     return true;
   });
 
-  document.getElementById('count').textContent = visible.length + ' items';
+  visible = sortByDeadline(visible);
+
+  // Count + hidden toggle
+  document.getElementById('count').textContent = visible.length + (showHidden ? ' hidden item' + (visible.length === 1 ? '' : 's') : ' items');
+
+  const hiddenBtn = document.getElementById('hidden-toggle');
+  const restoreAllBtn = document.getElementById('restore-all');
+  if (showHidden) {
+    hiddenBtn.style.display = '';
+    hiddenBtn.textContent = '← Back to list';
+    restoreAllBtn.style.display = deleted.size > 0 ? '' : 'none';
+  } else {
+    restoreAllBtn.style.display = 'none';
+    if (deleted.size > 0) {
+      hiddenBtn.style.display = '';
+      hiddenBtn.textContent = `${deleted.size} hidden — show`;
+    } else {
+      hiddenBtn.style.display = 'none';
+    }
+  }
 
   if (!visible.length) {
-    tbody.innerHTML = `<tr><td colspan="10"><div id="empty">
-      <strong>${allOpps.length === 0 ? 'No opportunities yet' : 'No matches'}</strong>
-      ${allOpps.length === 0
-        ? 'Run the GitHub Action once to populate the database, then refresh this page.'
-        : 'Try a different filter or clear the search box.'}
-    </div></td></tr>`;
+    const msg = showHidden
+      ? { strong: 'No hidden items', sub: 'Nothing to restore.' }
+      : allOpps.length === 0
+        ? { strong: 'No opportunities yet', sub: 'Run the GitHub Action once to populate the database, then refresh this page.' }
+        : { strong: 'No matches', sub: 'Try a different filter or clear the search box.' };
+    tbody.innerHTML = `<tr><td colspan="11"><div id="empty"><strong>${msg.strong}</strong>${msg.sub}</div></td></tr>`;
+    updateBulkUI();
     return;
   }
 
   tbody.innerHTML = visible.map(o => `
     <tr data-id="${esc(o.id)}">
+      <td class="ccheck"><input type="checkbox" class="row-check" ${selected.has(o.id) ? 'checked' : ''} onchange="toggleSelect('${esc(o.id)}', this.checked)"></td>
       <td class="cn">${o.is_new ? '<span class="b-new">New</span>' : ''}</td>
       <td class="cdate" style="color:var(--text3);font-size:11px">${esc(fmtDate(o.found_date))}</td>
       <td class="ctit">${o.url
@@ -132,10 +316,13 @@ function render() {
       <td class="cfee">${fmtFee(o.fee)}</td>
       <td class="cpriz"><input class="ii" value="${esc(o.prize || '')}" placeholder="—"
         onchange="patchPrize('${esc(o.id)}', this.value)"></td>
-      <td class="cdel"><button class="delbtn" onclick="hide('${esc(o.id)}')" title="Hide this item">✕</button></td>
+      <td class="cdel">${showHidden
+        ? `<button class="delbtn restorebtn" onclick="restoreOne('${esc(o.id)}')" title="Restore this item">↺</button>`
+        : `<button class="delbtn" onclick="hide('${esc(o.id)}')" title="Hide this item">✕</button>`}</td>
     </tr>`).join('');
 
   loadColWidths();
+  updateBulkUI();
 }
 
 function patchPrize(id, val) {
@@ -146,6 +333,7 @@ function patchPrize(id, val) {
 function hide(id) {
   deleted.add(id);
   localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+  selected.delete(id);
   render();
 }
 
@@ -156,7 +344,7 @@ function initColResize() {
     h.className = 'rz';
     th.appendChild(h);
     let drag = false, sx = 0, sw = 0;
-    h.addEventListener('mousedown', e => { drag = true; sx = e.clientX; sw = th.getBoundingClientRect().width; h.classList.add('act'); e.preventDefault(); });
+    h.addEventListener('mousedown', e => { drag = true; sx = e.clientX; sw = th.getBoundingClientRect().width; h.classList.add('act'); e.preventDefault(); e.stopPropagation(); });
     document.addEventListener('mousemove', e => { if (!drag) return; const w = Math.max(40, sw + (e.clientX - sx)); th.style.width = w + 'px'; th.style.minWidth = w + 'px'; });
     document.addEventListener('mouseup', () => { if (!drag) return; drag = false; h.classList.remove('act'); saveColWidths(); });
   });
@@ -191,8 +379,17 @@ function exportCSV() {
 // ── Init ──────────────────────────────────────────────────
 window.setFilter = setFilter;
 window.hide = hide;
+window.restoreOne = restoreOne;
+window.restoreAllHidden = restoreAllHidden;
 window.patchPrize = patchPrize;
 window.exportCSV = exportCSV;
+window.loadData = loadData;
+window.clearSearch = clearSearch;
+window.toggleSort = toggleSort;
+window.toggleShowHidden = toggleShowHidden;
+window.toggleSelect = toggleSelect;
+window.toggleSelectAll = toggleSelectAll;
+window.hideSelected = hideSelected;
 
 document.addEventListener('DOMContentLoaded', () => {
   initColResize();

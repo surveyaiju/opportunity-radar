@@ -12,9 +12,10 @@
 <div id="hdr">
   <span id="hdr-title">Opportunity Radar</span>
   <span id="hdr-status"></span>
-  <button class="ibtn" onclick="loadData()" title="Reload">
+  <span id="toast"></span>
+  <button class="ibtn" id="btn-reload" onclick="loadData(true)" title="Re-fetch the database (updated daily by GitHub Actions)">
     <svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
-    Reload
+    <span class="btn-label">Reload</span>
   </button>
   <button class="ibtn" onclick="exportCSV()" title="Export to CSV">
     <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -25,9 +26,15 @@
 <!-- CONTROLS -->
 <div id="controls">
   <div id="search-row">
-    <input id="si" type="search" placeholder="Search title, description, source…"
-      oninput="render()" autocomplete="off" spellcheck="false">
+    <div class="search-wrap">
+      <input id="si" type="search" placeholder="Search title, description, source…"
+        oninput="render()" autocomplete="off" spellcheck="false">
+      <button id="si-clear" class="si-clear" onclick="clearSearch()" title="Clear search" aria-label="Clear search">×</button>
+    </div>
     <span id="count">—</span>
+    <button id="hidden-toggle" class="hidden-toggle" onclick="toggleShowHidden()" style="display:none"></button>
+    <button id="restore-all" class="restore-all-btn" onclick="restoreAllHidden()" style="display:none">Restore all</button>
+    <button id="hide-selected" class="hide-selected" onclick="hideSelected()" style="display:none"></button>
   </div>
   <div id="pills">
     <button class="pill on" onclick="setFilter('all',this)">All</button>
@@ -49,19 +56,20 @@
 <div id="tw">
   <table id="tbl">
     <thead><tr>
+      <th class="ccheck"><input type="checkbox" id="select-all" onchange="toggleSelectAll(this.checked)" title="Select all visible"></th>
       <th class="cn">Status</th>
       <th class="cdate" data-col="date">Found</th>
       <th class="ctit"  data-col="title">Title</th>
       <th class="csrc"  data-col="src">Source</th>
       <th class="cdesc" data-col="desc">Description</th>
       <th class="ccat"  data-col="cat">Category</th>
-      <th class="cdead" data-col="dead">Deadline</th>
+      <th class="cdead sortable" data-col="dead" onclick="toggleSort()" title="Click to sort by deadline">Deadline<span id="sort-arrow" class="sort-arrow"></span></th>
       <th class="cfee"  data-col="fee">Fee</th>
       <th class="cpriz" data-col="prize">Prize / Value</th>
       <th class="cdel">✕</th>
     </tr></thead>
     <tbody id="tbody">
-      <tr><td colspan="10"><div id="empty">Loading…</div></td></tr>
+      <tr><td colspan="11"><div id="empty">Loading…</div></td></tr>
     </tbody>
   </table>
 </div>
