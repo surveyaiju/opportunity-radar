@@ -11,6 +11,8 @@ import { collectSearch } from './collector/search.js';
 import { classifyWithGemini } from './collector/gemini.js';
 import { dedupeSelf, dedupeAgainstExisting, makeId } from './collector/dedupe.js';
 import { cleanupExisting } from './collector/cleanup.js';
+import { enrichMissingDeadlines } from './collector/enrich.js';
+import { isExpired } from './collector/extract.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(__dir, 'data/opportunities.json');
@@ -83,9 +85,22 @@ async function main() {
   // ── CLASSIFY WITH GEMINI ─────────────────────────────────
   const classified = await classifyWithGemini(genuinelyNew, GEMINI_KEY);
 
+  // ── ENRICH ───────────────────────────────────────────────
+  // Items still missing a deadline: fetch the page itself and re-extract
+  // from full content (catches truncated snippets, Instagram/social
+  // captions in og:description, etc.)
+  await enrichMissingDeadlines(classified);
+
+  // Re-check expiry — a deadline found during enrichment might already be past
+  const afterEnrich = classified.filter(i => !isExpired(i.deadline, 1));
+  const expiredAfterEnrich = classified.length - afterEnrich.length;
+  if (expiredAfterEnrich > 0) {
+    console.log(`  🗑  ${expiredAfterEnrich} more removed after enrichment — deadline already passed`);
+  }
+
   // ── FINALISE RECORDS ─────────────────────────────────────
   const today = new Date().toISOString().split('T')[0];
-  const newOpportunities = classified.map(item => ({
+  const newOpportunities = afterEnrich.map(item => ({
     id:          item.id || makeId(item),
     title:       item.title,
     url:         item.url,
