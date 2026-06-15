@@ -1,10 +1,106 @@
 {
   "meta": {
-    "last_updated": "2026-06-15T15:16:43.612Z",
-    "total": 497,
-    "new_today": 24
+    "last_updated": "2026-06-15T20:36:52.085Z",
+    "total": 503,
+    "new_today": 6
   },
   "opportunities": [
+    {
+      "id": "125loxr",
+      "title": "atrium-centered timber house unfolds under a sweeping roof in denmark&#8217;s glacial landscape",
+      "url": "https://www.designboom.com/architecture/atrium-centered-timber-house-sweeping-roof-denmark-glacial-landscape-hoyer-arkitektur-maria-therese-grant/",
+      "source": "Designboom — Architecture",
+      "source_type": "rss",
+      "found_date": "2026-06-15",
+      "pub_date": "Mon, 15 Jun 2026 18:45:45 +0000",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1s7rgs7",
+      "title": "Quarry Biophilic Pavilion Design | Architecture Competition",
+      "url": "https://archidiaries.com/competitions/quarry-biophilic-pavilion-design-architecture-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "£500",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1jf6ywq",
+      "title": "ICSA 2026 - Journal First",
+      "url": "https://conf.researchr.org/track/icsa-2026/icsa-2026-journal-first",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "26 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1uzhgot",
+      "title": "The TECHNOLOGY | ARCHITECTURE + DESIGN Journal (TAD) is ...",
+      "url": "https://www.instagram.com/reel/DK-IbRgOD86/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "August 31, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1vg9h4s",
+      "title": "Associations & Conferences – Landscape Architecture Platform",
+      "url": "https://landezine.com/topics/methods-mediations/associations-conferences/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "19i6t8h",
+      "title": "We've announced our Honorary Fellows for 2026 Awarded every ...",
+      "url": "https://www.instagram.com/reel/DVx27VyiBke/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-15",
+      "pub_date": "2026-06-15",
+      "description": "Architects and designers are invited to submit their work to the 2026 Architecture Awards.",
+      "category": "Award",
+      "deadline": "31 Jul 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "1qiphiu",
       "title": "Material Intelligence: How Steel Resists Weather, Corrosion, and Time",
@@ -18,7 +114,7 @@
       "deadline": "June 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +130,7 @@
       "deadline": "June 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +146,7 @@
       "deadline": "7 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +162,7 @@
       "deadline": "13 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +178,7 @@
       "deadline": "16 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +194,7 @@
       "deadline": "15 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +210,7 @@
       "deadline": "15 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +226,7 @@
       "deadline": "7 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +242,7 @@
       "deadline": "15 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +258,7 @@
       "deadline": "15 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +274,7 @@
       "deadline": "14 August 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +290,7 @@
       "deadline": "15 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +306,7 @@
       "deadline": "Jul 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +322,7 @@
       "deadline": "June 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +338,7 @@
       "deadline": "30 October 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +354,7 @@
       "deadline": "25 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +386,7 @@
       "deadline": "June 19, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +402,7 @@
       "deadline": "July 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +434,7 @@
       "deadline": "21 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +466,7 @@
       "deadline": "Jun 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +482,7 @@
       "deadline": "2 Aug 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
