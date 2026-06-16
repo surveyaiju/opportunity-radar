@@ -1,10 +1,458 @@
 {
   "meta": {
-    "last_updated": "2026-06-16T03:10:44.910Z",
-    "total": 557,
-    "new_today": 54
+    "last_updated": "2026-06-16T15:19:40.778Z",
+    "total": 585,
+    "new_today": 28
   },
   "opportunities": [
+    {
+      "id": "wbm0r2",
+      "title": "Architecture Awards Must Evolve: A Debate on Their Role and Responsibility at the UIA World Congress 2026",
+      "url": "https://www.archdaily.com/1042455/architecture-awards-must-evolve-a-debate-on-their-role-and-responsibility-at-the-uia-world-congress-2026",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 05:30:00 +0000",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "June 16, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "91k7kj",
+      "title": "jesús rafael soto suspends 4,000 yellow strands in kensington gardens for serpentine",
+      "url": "https://www.designboom.com/architecture/jesus-rafael-soto-suspends-4000-yellow-strands-kensington-gardens-serpentine-pavilion/",
+      "source": "Designboom — Architecture",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 14:45:47 +0000",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "October 25, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1hx37ce",
+      "title": "timber observation tower reinterprets kola bay&#8217;s industrial shoreline in russia",
+      "url": "https://www.designboom.com/architecture/timber-observation-tower-kola-bay-industrial-shoreline-russia-design-wood-home/",
+      "source": "Designboom — Architecture",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 09:22:46 +0000",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "se80nu",
+      "title": "THE CIVIC KIOSK Competition",
+      "url": "https://competitions.archi/competition/the-civic-kiosk-competition/",
+      "source": "Competitions.archi",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 12:22:45 +0000",
+      "description": "",
+      "category": "Competition",
+      "deadline": "December 4, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "zxi32o",
+      "title": "Memorial to the Sixth Extinction &#8211; Design Competition",
+      "url": "https://competitions.archi/competition/memorial-to-the-sixth-extinction-design-competition-run-by-university-of-western-australia-the-australian-urban-design-research-centre-and-tcl/",
+      "source": "Competitions.archi",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 10:28:24 +0000",
+      "description": "",
+      "category": "Competition",
+      "deadline": "June 16, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "anp3mg",
+      "title": "Compact Live-Work House",
+      "url": "https://competitions.archi/competition/compact-live-work-house-portland-usa/",
+      "source": "Competitions.archi",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 10:30:23 +0000",
+      "description": "",
+      "category": "Competition",
+      "deadline": "June 16, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1q14yv1",
+      "title": "Buttress gets green light for housing on site of demolished Stirling Prize winner",
+      "url": "https://www.architectsjournal.co.uk/news/buttress-gets-green-light-for-housing-on-site-of-demolished-stirling-prize-winner",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 09:59:38 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "sqs3ct",
+      "title": "London Mayor launches development arm with £100m boost for east London regen",
+      "url": "https://www.architectsjournal.co.uk/news/london-mayor-launches-development-arm-with-100m-boost-for-silvertown-regen",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 09:43:34 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "7zn819",
+      "title": "Watch: AJ Small Projects 2026 at O’Donnell + Tuomey’s Liverpool School of Architecture",
+      "url": "https://www.architectsjournal.co.uk/news/watch-aj-small-projects-2026-at-odonnell-tuomeys-liverpool-school-of-architecture",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 08:45:43 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "9c0l46",
+      "title": "AHMM and Gort Scott submit plans for major development in Camden",
+      "url": "https://www.architectsjournal.co.uk/news/ahmm-and-gort-scott-submit-plans-for-major-development-in-camden",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 08:16:09 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1e2dctz",
+      "title": "Carter Gregson Gray picked for Seifert office redesign",
+      "url": "https://www.architectsjournal.co.uk/news/carter-gregson-gray-picked-for-seifert-office-redesign",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 07:51:46 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "16rp80f",
+      "title": "Case study: Arden Station, Metro Tunnel, by RSHP, Hassell and WW+P Architects",
+      "url": "https://www.architectsjournal.co.uk/specification/case-study-arden-station-metro-tunnel-by-rshp-hassell-and-wwp-architects",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-16",
+      "pub_date": "Tue, 16 Jun 2026 06:55:58 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "16 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "h5llck",
+      "title": "The Journal of Architecture – Thematic calls - Taylor & Francis",
+      "url": "https://think.taylorandfrancis.com/special_issues/rjar-thematic-calls/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "31 December 2028",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wo04mx",
+      "title": "The Plan Award 2026",
+      "url": "https://www.theplan.it/eng/award",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1divjtf",
+      "title": "Exhibition: Bridging Past and Present: Architecture Through Art",
+      "url": "https://www.artjobs.com/open-calls/call-artists/66837/exhibition-bridging-past-and-present-architecture-through-art",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "dhx9cl",
+      "title": "Association for Art History Annual Conference 2026 (Exeter, 7-9 Apr ...",
+      "url": "https://arthist.net/archive/52624/lang=en_US",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "Jul 1, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1wwiku0",
+      "title": "Photography Award - Archifoto, European Awards of Architectural ...",
+      "url": "https://loeildelaphotographie.com/en/event/archifoto-european-awards-of-architectural-photography-call-for-application/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "p1w68r",
+      "title": "[PDF] REQUEST FOR PROPOSALS (RFP) Architectural Design Services ...",
+      "url": "https://www.kennedychc.org/wp-content/uploads/2026/04/600-RFP-Final.pdf",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "11sc7k5",
+      "title": "Landscape Architecture Bids & RFPs - BidPrime",
+      "url": "https://www.bidprime.com/bid/category/landscape-architecture",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "do9ncp",
+      "title": "[PDF] Therapeutic Recreation Facilities # 2026-027 - Rowan County",
+      "url": "https://www.rowancountync.gov/DocumentCenter/View/55347",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "100lxps",
+      "title": "Robert Bruce Memorial Parking Garage Public Art Project",
+      "url": "https://www.cityofkingston.ca/arts-culture-and-events/opportunities-for-artists/robert-bruce-memorial-parking-garage-public-art-project/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "osvvi9",
+      "title": "Open Call - London Design Festival 2026 - Blackdot Gallery",
+      "url": "https://www.blackdotgallery.com/open-call-ldf26",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "19 September 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "6pjxko",
+      "title": "Submissions for the 2026 Housing Design Awards are ... - Instagram",
+      "url": "https://www.instagram.com/p/DYPeihnER3q/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "Submissions are open for the 2026 Housing Design Awards, which recognize excellence in housing design.",
+      "category": "Award",
+      "deadline": "24 Jul 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1dmqd7h",
+      "title": "Architects in Schools: Open Call for Schools 2026/27 Teachers and ...",
+      "url": "https://www.instagram.com/reel/DZF5QHbMCPq/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "An open call for projects to participate in the Liverpool Architecture Festival 2026.",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "qmnu3r",
+      "title": "Architecture Hunter Awards 2026: Open for entries! Submissions are ...",
+      "url": "https://www.instagram.com/p/DWHDlBIESJI/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "Submissions are open for the Architecture Hunter Awards 2026, celebrating outstanding architecture and design.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1b3oc6h",
+      "title": "OPEN CALL FOR ARTISTS 100 Emerging Artists of 2026 Arts to ...",
+      "url": "https://www.instagram.com/reel/DTxeOX2iNqs/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "An open call for artists to be featured in the 100 Emerging Artists of 2026 publication and receive gallery promotion.",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "Permanent online publication and promotion",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "d6e3yx",
+      "title": "Request for Qualifications for 2026-2028 Prequalification list for ...",
+      "url": "https://greatriversgreenway.org/request-for-qualifications-for-2026-2028-prequalification-list-for-planning-landscape-architecture-architecture-engineering-and-surveying-services/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "A request for qualifications to establish a 2026-2028 prequalification list for planning, landscape architecture, architecture, engineering, and surveying services.",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "Prequalification for future services",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "8pj5uw",
+      "title": "CIVICITY 2026 Open Call: Redesigning Design Weeks",
+      "url": "https://nieuweinstituut.nl/en/articles/open-call-civicity-2026",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "An open call for proposals that critically reflect on and redesign Milan Design Week as a cultural and urban platform.",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "1s1plsz",
       "title": "2026 Rome Design Awards Season 2",
@@ -18,7 +466,7 @@
       "deadline": "december 10, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +482,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +498,7 @@
       "deadline": "7 November 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +514,7 @@
       "deadline": "16 JULY 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +530,7 @@
       "deadline": "June 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +546,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "$2,000",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +642,7 @@
       "deadline": "6/15/2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +706,7 @@
       "deadline": "25 october 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +866,7 @@
       "deadline": "Jul 7, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,7 +898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -466,7 +914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -482,7 +930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -498,7 +946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -514,7 +962,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -530,7 +978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -546,7 +994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -562,7 +1010,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -578,7 +1026,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -594,7 +1042,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -610,7 +1058,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -626,7 +1074,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -642,7 +1090,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -658,7 +1106,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -674,7 +1122,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -690,7 +1138,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -706,7 +1154,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -722,7 +1170,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -738,7 +1186,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -754,7 +1202,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -770,7 +1218,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -786,7 +1234,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -802,7 +1250,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -818,7 +1266,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -834,7 +1282,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -850,7 +1298,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -866,7 +1314,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
