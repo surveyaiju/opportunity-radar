@@ -24,7 +24,7 @@ const MODEL_CANDIDATES = ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0
 const geminiUrl = model => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const BATCH_SIZE  = 20;
 const BATCH_DELAY = 10000;
-const MAX_PER_RUN = 80;
+const MAX_PER_RUN = 200;
 const MAX_RETRIES = 2;
 const EXPIRY_GRACE_DAYS = 1; // keep items whose deadline was "yesterday" — likely timezone noise
 
@@ -33,7 +33,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 // ── Pre-filter ──────────────────────────────────────────────────────────
 const REQUIRE = /\b(architect(?:ure|ural|s)?|urban design|urban planning|landscape architect|interior design|built environment|design competition|open call|call for (?:entries|submissions|papers|proposals|abstracts|projects)|design grant|architecture grant|design fellow(?:ship)?|design residen(?:cy|t)|design award|architecture award|public art|art commission|biennale|pavilion|design prize|architecture prize|housing design|sustainable design|heritage architecture|adaptive reuse|spatial design)\b/i;
 
-const BLOCK = /\b(archery|bow and arrow|sports? competition|football|basketball|soccer|baseball|cricket|golf tournament|swimming competition|tennis tournament|esports|gaming|cooking competition|beauty contest|fashion show|automobile review|stock market|cryptocurrency|job listing|now hiring|we.?re hiring)\b/i;
+const BLOCK = /\b(archery|bow and arrow|sports? competition|football|basketball|soccer|baseball|cricket|golf tournament|swimming competition|tennis tournament|esports|gaming|cooking competition|beauty contest|fashion show|automobile review|stock market|cryptocurrency|job listing|now hiring|we.?re hiring|javascript|typescript|python (?:competition|challenge)|coding (?:competition|challenge|contest)|programming (?:competition|challenge|contest)|hackathon|software development (?:competition|challenge)|web development (?:competition|challenge)|app development (?:competition|challenge)|developer challenge|algorithm competition|data science competition|game jam|machine learning competition)\b/i;
 
 function preFilter(item) {
   const text = `${item.title} ${item.text}`;
