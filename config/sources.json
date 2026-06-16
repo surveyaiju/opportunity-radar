@@ -16,7 +16,7 @@
     { "id": "dezeen",    "name": "Dezeen — Competitions",         "url": "https://www.dezeen.com/tag/competitions/feed/",                              "active": true  },
     { "id": "dboom",     "name": "Designboom — Architecture",     "url": "https://www.designboom.com/architecture/feed/",                              "active": true  },
     { "id": "comparch",  "name": "Competitions.archi",            "url": "https://competitions.archi/feed/",                                           "active": true  },
-    { "id": "archinect", "name": "Archinect — Feed",              "url": "https://archinect.com/feed/1/news",                                            "active": true  },
+    { "id": "archinect", "name": "Archinect — Feed",              "url": "https://archinect.com/feed/1.0/",                                            "active": true  },
     { "id": "archcomp",  "name": "Architecture Competitions",     "url": "https://architecturecompetitions.com/feed/",                                 "active": true  },
     { "id": "colossal",  "name": "This is Colossal — Opps",       "url": "https://www.thisiscolossal.com/category/opportunities/feed/",                "active": true  },
     { "id": "eahn",      "name": "EAHN — Academic Calls",         "url": "https://eahn.org/feed",                                                      "active": true  },
@@ -60,7 +60,10 @@
     { "id": "sc_noia",      "name": "NOIA Call for Submissions",       "url": "https://noia.works/pages/call-for-submissions",                                  "active": true  },
     { "id": "sc_ad_search", "name": "ArchDaily Search — Competitions",  "url": "https://www.archdaily.com/search/competitions",                                  "active": true  },
     { "id": "sc_dboom",     "name": "Designboom — All Competitions",    "url": "https://www.designboom.com/competitions/all/",                                   "active": true  },
-    { "id": "sc_eflux_ag",  "name": "e-flux — Agenda",                 "url": "https://www.e-flux.com/announcements/agenda",                                    "active": true  }
+    { "id": "sc_eflux_ag",  "name": "e-flux — Agenda",                 "url": "https://www.e-flux.com/announcements/agenda",                                    "active": true  },
+    { "id": "sc_dubaidw",   "name": "Dubai Design Week — Open Call 2026", "url": "https://www.dubaidesignweek.ae/open-call-2026/urban-commissions/",          "active": true  },
+    { "id": "sc_lfa",       "name": "London Festival of Architecture", "url": "https://londonfestivalofarchitecture.org/get-involved/",                       "active": true  },
+    { "id": "sc_seoul_bm",  "name": "Seoul Biennale Open Calls",       "url": "https://www.seoulbiennale.org/en/notice",                                       "active": true  }
   ],
 
   "search_queries": {
@@ -132,6 +135,21 @@
     "writing_criticism": [
       "architecture writing prize free 2026 open",
       "architecture criticism essay prize free 2026"
+    ],
+
+    "rfp_rfq_ideas": [
+      "architecture RFQ open call 2026 free",
+      "architecture RFP \"request for proposals\" 2026 design",
+      "\"request for qualifications\" architecture design 2026",
+      "ideas competition architecture urban design 2026 free open",
+      "\"design week\" open call 2026 architecture",
+      "urban commission open call 2026 free design",
+      "\"request for design\" 2026 architecture open call",
+      "international ideas competition 2026 architecture free",
+      "architecture \"call for designers\" 2026 open",
+      "public realm design competition 2026 free open call",
+      "architecture \"expression of interest\" 2026 design",
+      "masterplan ideas competition 2026 architecture free"
     ]
   },
 
