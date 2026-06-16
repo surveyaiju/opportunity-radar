@@ -1,10 +1,266 @@
 {
   "meta": {
-    "last_updated": "2026-06-16T15:19:40.778Z",
-    "total": 585,
-    "new_today": 28
+    "last_updated": "2026-06-16T20:03:06.759Z",
+    "total": 601,
+    "new_today": 16
   },
   "opportunities": [
+    {
+      "id": "ta78vy",
+      "title": "the competition rules",
+      "url": "https://lodz.sarp.pl/ogloszone/konkurs-sarp-1097_19",
+      "source": "Architektura i Biznes (PL/EN)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "znyads",
+      "title": "Call for entries now open – Streetlife Design Competition",
+      "url": "https://streetlifedesigncompetition.com/call-for-entries-now-open-streetlife-design-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1jhha39",
+      "title": "Meet the 2026 Civic Season Design Fellows - Made By Us - Medium",
+      "url": "https://historymadebyus.medium.com/meet-the-2026-civic-season-design-fellows-457e552d0ac5",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "19i3oke",
+      "title": "Call for Papers - FUP Journals",
+      "url": "https://journals.fupress.net/call-for-papers/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "30 Sep 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1r2ywnv",
+      "title": "Current Open Art Calls For Entry | ArtCall.org",
+      "url": "https://artcall.org/calls",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "23 August 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "t6wnmh",
+      "title": "Call for Entries - Architectural Record",
+      "url": "https://www.architecturalrecord.com/call4entries",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "iwh9d5",
+      "title": "CALL FOR ARTISTS: BARCELONA CONTEMPORARY 2026",
+      "url": "https://www.itsliquid.com/call-barcelona-contemporary-8.html",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "kkc6qk",
+      "title": "Entries open for the Architecture Drawing Prize 2026 - Make Architects",
+      "url": "https://www.makearchitects.com/media/news-events/entries-open-for-the-architecture-drawing-prize-2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "11 September 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "lc9iq",
+      "title": "Currently available calls | Department of Cultural Affairs",
+      "url": "https://culture.lacity.gov/calls",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "Jun 29, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1efitxq",
+      "title": "RFP & Public Art Entries & Artist Opportunities - ArtCallEntry.com",
+      "url": "https://artcallentry.com/calls/type/rfp-public-art",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ct8zcq",
+      "title": "Competitions on architecture & design Students - Ideace",
+      "url": "https://ethosempowers.com/ideace",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pd1csb",
+      "title": "2026 Architecture design competitions - InfoDesigners",
+      "url": "https://www.infodesigners.eu/architecture-design-competitions/1",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "18ldx3z",
+      "title": "Online Opportunities Listings - Regional Arts and Culture Council",
+      "url": "https://racc.org/resources/listings/opportunity/online-opportunities/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Competition",
+      "deadline": "September 01, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "6bfpi",
+      "title": "Competitions siteparc - International Union of Architects",
+      "url": "https://www.uia-architectes.org/en/competitions-and-prizes/competitions-siteparc/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1goe43m",
+      "title": "call di fotografia",
+      "url": "https://www.professionearchitetto.it/key/call-di-fotografia/",
+      "source": "Professionearchitetto (IT)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "Le Stanze della Fotografia and the Association for the Heritage of the Prosecco Hills launch an open call for photography and video submissions exploring the role of water.",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "gmyyq5",
+      "title": "call for video",
+      "url": "https://www.professionearchitetto.it/key/call-for-video/",
+      "source": "Professionearchitetto (IT)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-16",
+      "pub_date": "2026-06-16",
+      "description": "Le Stanze della Fotografia and the Association for the Heritage of the Prosecco Hills launch an open call for video and photography submissions exploring the role of water.",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "wbm0r2",
       "title": "Architecture Awards Must Evolve: A Debate on Their Role and Responsibility at the UIA World Congress 2026",
@@ -18,7 +274,7 @@
       "deadline": "June 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +290,7 @@
       "deadline": "October 25, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +322,7 @@
       "deadline": "December 4, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +338,7 @@
       "deadline": "June 16, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +354,7 @@
       "deadline": "June 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +370,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +386,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +402,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +418,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +434,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +450,7 @@
       "deadline": "16 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +466,7 @@
       "deadline": "31 December 2028",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +514,7 @@
       "deadline": "Jul 1, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +610,7 @@
       "deadline": "19 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +626,7 @@
       "deadline": "24 Jul 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -386,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -402,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -418,7 +674,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "Permanent online publication and promotion",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -434,7 +690,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "Prequalification for future services",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -450,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
