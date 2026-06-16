@@ -13,6 +13,7 @@ import { dedupeSelf, dedupeAgainstExisting, makeId } from './collector/dedupe.js
 import { cleanupExisting } from './collector/cleanup.js';
 import { enrichMissingDeadlines } from './collector/enrich.js';
 import { isExpired } from './collector/extract.js';
+import { loadDismissedIds } from './collector/dismissed.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(__dir, 'data/opportunities.json');
@@ -54,11 +55,16 @@ async function main() {
   const { opportunities: existingRaw } = loadDatabase();
   console.log(`\nDatabase: ${existingRaw.length} existing opportunities`);
 
+  // Permanently-dismissed items (via dashboard "Delete" with GitHub token)
+  const dismissedIds = loadDismissedIds();
+  if (dismissedIds.size > 0) console.log(`Dismissed list: ${dismissedIds.size} item(s) will be excluded`);
+
   // Mark all existing as not-new before this run
   existingRaw.forEach(o => { o.is_new = false; });
 
   // Re-apply latest filters to existing items (self-correcting database)
-  const existing = cleanupExisting(existingRaw);
+  // and drop anything the user has permanently dismissed
+  const existing = cleanupExisting(existingRaw).filter(o => !dismissedIds.has(o.id));
 
   // ── COLLECT ──────────────────────────────────────────────
   const rssItems    = await collectRss();
@@ -71,8 +77,8 @@ async function main() {
   console.log(`  ${allRaw.length} total raw items collected`);
   const selfDeduped = dedupeSelf(allRaw);
   console.log(`  ${selfDeduped.length} after removing cross-source duplicates`);
-  const genuinelyNew = dedupeAgainstExisting(selfDeduped, existing);
-  console.log(`  ${genuinelyNew.length} genuinely new (not in existing database)`);
+  const genuinelyNew = dedupeAgainstExisting(selfDeduped, existing).filter(i => !dismissedIds.has(i.id));
+  console.log(`  ${genuinelyNew.length} genuinely new (not in existing database, not dismissed)`);
 
   if (!genuinelyNew.length) {
     console.log('\n✓ Nothing new today — database unchanged');

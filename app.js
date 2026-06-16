@@ -1,16 +1,81 @@
 // app.js — Opportunity Radar Dashboard
 
 const DATA_URL = './data/opportunities.json';
+const DISMISSED_URL = './data/dismissed.json';
 const COLS_KEY  = 'opr_cols';
 const DEL_KEY   = 'opr_deleted';
+const PAT_KEY   = 'opr_gh_pat';
 
 let allOpps = [];
 let meta    = {};
 let activeFilter = 'all';
 let deleted = new Set(JSON.parse(localStorage.getItem(DEL_KEY) || '[]'));
+let dismissedIds = new Set(); // permanently-dismissed items, shared via GitHub
 let selected = new Set();
 let showHidden = false;
 let sortDir = null; // null = default order, 'asc' = soonest first, 'desc' = latest first
+
+// ── GitHub API (optional — for permanent delete) ──────────
+// Detects {owner, repo} from a github.io Pages URL like
+// https://USERNAME.github.io/REPO/  ->  owner=USERNAME, repo=REPO
+function getRepoInfo() {
+  const host = location.hostname;
+  const owner = host.split('.')[0];
+  const parts = location.pathname.split('/').filter(Boolean);
+  const repo = parts.length ? parts[0] : host;
+  return { owner, repo };
+}
+
+function b64EncodeUtf8(str) { return btoa(unescape(encodeURIComponent(str))); }
+function b64DecodeUtf8(b64) { return decodeURIComponent(escape(atob(b64.replace(/\n/g, '')))); }
+
+async function ghGetFile(path) {
+  const { owner, repo } = getRepoInfo();
+  const token = localStorage.getItem(PAT_KEY);
+  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+    headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' },
+  });
+  if (!r.ok) {
+    const err = await r.json().catch(() => ({}));
+    throw new Error(err.message || `GitHub API ${r.status}`);
+  }
+  const data = await r.json();
+  return { content: JSON.parse(b64DecodeUtf8(data.content)), sha: data.sha };
+}
+
+async function ghPutFile(path, contentObj, sha, message) {
+  const { owner, repo } = getRepoInfo();
+  const token = localStorage.getItem(PAT_KEY);
+  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, content: b64EncodeUtf8(JSON.stringify(contentObj, null, 2)), sha }),
+  });
+  if (!r.ok) {
+    const err = await r.json().catch(() => ({}));
+    throw new Error(err.message || `GitHub API ${r.status}`);
+  }
+  return r.json();
+}
+
+// Fetch dismissed.json, apply mutate() to the Set of ids, write it back
+async function updateDismissed(mutate, message) {
+  const { content, sha } = await ghGetFile('data/dismissed.json');
+  const ids = new Set(content.ids || []);
+  mutate(ids);
+  await ghPutFile('data/dismissed.json', { ids: [...ids] }, sha, message);
+  return ids;
+}
+
+async function loadDismissed() {
+  try {
+    const r = await fetch(DISMISSED_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) {
+      const d = await r.json();
+      dismissedIds = new Set(d.ids || []);
+    }
+  } catch { /* dismissed.json may not exist yet — that's fine */ }
+}
 
 // ── Category class name (CSS-safe) ────────────────────────
 function catClass(c) {
@@ -92,6 +157,7 @@ async function loadData(isManual = false) {
     const db = await r.json();
     allOpps = Array.isArray(db) ? db : (db.opportunities || []);
     meta    = Array.isArray(db) ? {} : (db.meta || {});
+    await loadDismissed();
     updateStatus();
     render();
 
@@ -179,15 +245,52 @@ function toggleShowHidden() {
   render();
 }
 
-function restoreOne(id) {
+async function restoreOne(id) {
+  if (dismissedIds.has(id)) {
+    const token = localStorage.getItem(PAT_KEY);
+    if (!token) {
+      showToast('This item was permanently deleted — set up a token in Settings to restore it', true);
+      return;
+    }
+    try {
+      await updateDismissed(set => set.delete(id), `Restore item via dashboard`);
+      dismissedIds.delete(id);
+      showToast('Restored');
+    } catch (e) {
+      showToast('Restore failed: ' + e.message, true);
+      return;
+    }
+  }
   deleted.delete(id);
   localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
   render();
 }
 
-function restoreAllHidden() {
-  if (!deleted.size) return;
-  if (!confirm(`Restore all ${deleted.size} hidden item(s)?`)) return;
+async function restoreAllHidden() {
+  const hiddenItems = allOpps.filter(o => deleted.has(o.id) || dismissedIds.has(o.id));
+  if (!hiddenItems.length) return;
+  if (!confirm(`Restore all ${hiddenItems.length} hidden item(s)?`)) return;
+
+  const toRestoreFromDismissed = hiddenItems.filter(o => dismissedIds.has(o.id));
+  const token = localStorage.getItem(PAT_KEY);
+
+  if (toRestoreFromDismissed.length) {
+    if (!token) {
+      showToast(`${toRestoreFromDismissed.length} item(s) were permanently deleted — set up a token in Settings to restore them`, true);
+    } else {
+      try {
+        await updateDismissed(
+          set => toRestoreFromDismissed.forEach(o => set.delete(o.id)),
+          `Restore ${toRestoreFromDismissed.length} item(s) via dashboard`
+        );
+        toRestoreFromDismissed.forEach(o => dismissedIds.delete(o.id));
+      } catch (e) {
+        showToast('Restore failed: ' + e.message, true);
+        return;
+      }
+    }
+  }
+
   deleted.clear();
   localStorage.setItem(DEL_KEY, JSON.stringify([]));
   showHidden = false;
@@ -215,9 +318,14 @@ function updateBulkUI() {
   const btn = document.getElementById('hide-selected');
   if (selected.size > 0) {
     btn.style.display = '';
-    btn.textContent = showHidden
-      ? `Restore selected (${selected.size})`
-      : `Hide selected (${selected.size})`;
+    const hasToken = !!localStorage.getItem(PAT_KEY);
+    if (showHidden) {
+      btn.textContent = `Restore selected (${selected.size})`;
+    } else {
+      btn.textContent = hasToken
+        ? `Delete selected (${selected.size})`
+        : `Hide selected (${selected.size})`;
+    }
   } else {
     btn.style.display = 'none';
   }
@@ -230,17 +338,53 @@ function updateBulkUI() {
   }
 }
 
-function hideSelected() {
+async function deleteSelected() {
   if (!selected.size) return;
-  if (showHidden) {
-    // In "showing hidden" mode, this button restores instead
-    selected.forEach(id => deleted.delete(id));
-  } else {
-    selected.forEach(id => deleted.add(id));
+  const ids = [...selected];
+  const token = localStorage.getItem(PAT_KEY);
+  const btn = document.getElementById('hide-selected');
+  btn.disabled = true;
+
+  try {
+    if (showHidden) {
+      // ── Restore mode ──
+      const toRestoreFromDismissed = ids.filter(id => dismissedIds.has(id));
+      if (toRestoreFromDismissed.length) {
+        if (!token) {
+          showToast('Set up a token in Settings to restore permanently-deleted items', true);
+          return;
+        }
+        await updateDismissed(
+          set => toRestoreFromDismissed.forEach(id => set.delete(id)),
+          `Restore ${toRestoreFromDismissed.length} item(s) via dashboard`
+        );
+        toRestoreFromDismissed.forEach(id => dismissedIds.delete(id));
+      }
+      ids.forEach(id => deleted.delete(id));
+      localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+      showToast(`Restored ${ids.length} item${ids.length === 1 ? '' : 's'}`);
+    } else {
+      // ── Delete mode ──
+      if (token) {
+        await updateDismissed(
+          set => ids.forEach(id => set.add(id)),
+          `Dismiss ${ids.length} item(s) via dashboard`
+        );
+        ids.forEach(id => dismissedIds.add(id));
+        showToast(`Permanently deleted ${ids.length} item${ids.length === 1 ? '' : 's'}`);
+      } else {
+        ids.forEach(id => deleted.add(id));
+        localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+        showToast(`Hidden in this browser — set up a token in Settings to delete permanently`);
+      }
+    }
+    selected.clear();
+    render();
+  } catch (e) {
+    showToast('GitHub update failed: ' + e.message, true);
+  } finally {
+    btn.disabled = false;
   }
-  localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
-  selected.clear();
-  render();
 }
 
 // ── Main render ──────────────────────────────────────────
@@ -251,7 +395,7 @@ function render() {
   document.getElementById('si-clear').classList.toggle('show', q.length > 0);
 
   let visible = allOpps.filter(o => {
-    const isHidden = deleted.has(o.id);
+    const isHidden = deleted.has(o.id) || dismissedIds.has(o.id);
     if (showHidden) {
       if (!isHidden) return false; // only show hidden items in this mode
     } else {
@@ -274,15 +418,16 @@ function render() {
 
   const hiddenBtn = document.getElementById('hidden-toggle');
   const restoreAllBtn = document.getElementById('restore-all');
+  const hiddenCount = allOpps.filter(o => deleted.has(o.id) || dismissedIds.has(o.id)).length;
   if (showHidden) {
     hiddenBtn.style.display = '';
     hiddenBtn.textContent = '← Back to list';
-    restoreAllBtn.style.display = deleted.size > 0 ? '' : 'none';
+    restoreAllBtn.style.display = hiddenCount > 0 ? '' : 'none';
   } else {
     restoreAllBtn.style.display = 'none';
-    if (deleted.size > 0) {
+    if (hiddenCount > 0) {
       hiddenBtn.style.display = '';
-      hiddenBtn.textContent = `${deleted.size} hidden — show`;
+      hiddenBtn.textContent = `${hiddenCount} hidden — show`;
     } else {
       hiddenBtn.style.display = 'none';
     }
@@ -330,9 +475,21 @@ function patchPrize(id, val) {
   if (opp) opp.prize = val;
 }
 
-function hide(id) {
-  deleted.add(id);
-  localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+async function hide(id) {
+  const token = localStorage.getItem(PAT_KEY);
+  if (token) {
+    try {
+      await updateDismissed(set => set.add(id), `Dismiss item via dashboard`);
+      dismissedIds.add(id);
+      showToast('Permanently deleted');
+    } catch (e) {
+      showToast('Delete failed: ' + e.message, true);
+      return;
+    }
+  } else {
+    deleted.add(id);
+    localStorage.setItem(DEL_KEY, JSON.stringify([...deleted]));
+  }
   selected.delete(id);
   render();
 }
@@ -362,6 +519,62 @@ function loadColWidths() {
   });
 }
 
+// ── Settings panel (GitHub token for permanent delete) ────
+function toggleSettings() {
+  const panel = document.getElementById('settings-panel');
+  panel.classList.toggle('on');
+  if (panel.classList.contains('on')) {
+    const token = localStorage.getItem(PAT_KEY);
+    document.getElementById('pat-input').value = token ? '••••••••••••••••••••' : '';
+    updatePatStatus();
+  }
+}
+
+function updatePatStatus(msg, isError = false) {
+  const el = document.getElementById('pat-status');
+  const token = localStorage.getItem(PAT_KEY);
+  if (msg) {
+    el.textContent = msg;
+    el.style.color = isError ? 'var(--red)' : 'var(--green)';
+    return;
+  }
+  if (token) {
+    el.textContent = '✓ Token saved — Delete is permanent and syncs across devices.';
+    el.style.color = 'var(--green)';
+  } else {
+    el.textContent = 'No token set — Delete only hides items in this browser.';
+    el.style.color = 'var(--text3)';
+  }
+}
+
+async function savePAT() {
+  const input = document.getElementById('pat-input');
+  const val = input.value.trim();
+  if (!val || val.startsWith('•')) return; // unchanged placeholder, nothing to do
+
+  updatePatStatus('Checking token…');
+  localStorage.setItem(PAT_KEY, val);
+
+  try {
+    await ghGetFile('data/dismissed.json');
+    updatePatStatus();
+    input.value = '••••••••••••••••••••';
+    updateBulkUI();
+    showToast('Token saved — Delete is now permanent');
+  } catch (e) {
+    localStorage.removeItem(PAT_KEY);
+    updatePatStatus(`Token check failed: ${e.message}`, true);
+  }
+}
+
+function clearPAT() {
+  localStorage.removeItem(PAT_KEY);
+  document.getElementById('pat-input').value = '';
+  updatePatStatus();
+  updateBulkUI();
+  showToast('Token removed — Delete now hides locally only');
+}
+
 // ── Export ────────────────────────────────────────────────
 function exportCSV() {
   const hh = ['Date Found','Title','Source','Description','Category','Deadline','Fee','Prize','URL'];
@@ -389,7 +602,10 @@ window.toggleSort = toggleSort;
 window.toggleShowHidden = toggleShowHidden;
 window.toggleSelect = toggleSelect;
 window.toggleSelectAll = toggleSelectAll;
-window.hideSelected = hideSelected;
+window.deleteSelected = deleteSelected;
+window.toggleSettings = toggleSettings;
+window.savePAT = savePAT;
+window.clearPAT = clearPAT;
 
 document.addEventListener('DOMContentLoaded', () => {
   initColResize();

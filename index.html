@@ -21,6 +21,39 @@
     <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
     CSV
   </button>
+  <button class="ibtn" id="btn-settings" onclick="toggleSettings()" title="Settings — set up permanent delete">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+  </button>
+</div>
+
+<!-- SETTINGS PANEL -->
+<div id="settings-panel">
+  <div class="settings-inner">
+    <div class="settings-head">
+      <strong>Permanent delete (optional)</strong>
+      <button class="ibtn" onclick="toggleSettings()" aria-label="Close">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <p class="settings-note">
+      By default, <strong>Delete</strong> only hides items in this browser — they stay in the
+      database and may reappear. To permanently remove items for good (and for every device),
+      add a GitHub token below. This is optional.
+    </p>
+    <ol class="settings-steps">
+      <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a></li>
+      <li>Give it any name, e.g. "Opportunity Radar"</li>
+      <li>Under <strong>Repository access</strong>, choose <strong>Only select repositories</strong> and pick this repo</li>
+      <li>Under <strong>Permissions → Repository permissions</strong>, set <strong>Contents</strong> to <strong>Read and write</strong></li>
+      <li>Click <strong>Generate token</strong>, copy it, and paste it below</li>
+    </ol>
+    <input type="password" id="pat-input" placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+    <div class="settings-actions">
+      <button class="sbtn sbtn-p" onclick="savePAT()">Save token</button>
+      <button class="sbtn sbtn-d" onclick="clearPAT()">Remove token</button>
+    </div>
+    <p id="pat-status" class="settings-note"></p>
+  </div>
 </div>
 
 <!-- CONTROLS -->
@@ -34,7 +67,7 @@
     <span id="count">—</span>
     <button id="hidden-toggle" class="hidden-toggle" onclick="toggleShowHidden()" style="display:none"></button>
     <button id="restore-all" class="restore-all-btn" onclick="restoreAllHidden()" style="display:none">Restore all</button>
-    <button id="hide-selected" class="hide-selected" onclick="hideSelected()" style="display:none"></button>
+    <button id="hide-selected" class="hide-selected" onclick="deleteSelected()" style="display:none"></button>
   </div>
   <div id="pills">
     <button class="pill on" onclick="setFilter('all',this)">All</button>
@@ -49,6 +82,7 @@
     <button class="pill"    onclick="setFilter('Exhibition/Biennale',this)">Exhibition</button>
     <button class="pill"    onclick="setFilter('Public Art/RFQ',this)">Public Art</button>
     <button class="pill"    onclick="setFilter('Conference',this)">Conference</button>
+    <button class="pill"    onclick="setFilter('Other',this)">Other</button>
   </div>
 </div>
 

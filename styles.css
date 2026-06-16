@@ -176,3 +176,33 @@ tr:hover td { background: #f8faff; }
 /* Empty state */
 #empty { padding: 3rem; text-align: center; color: var(--text3); font-size: 13px; line-height: 1.9; }
 #empty strong { color: var(--text2); display: block; margin-bottom: 6px; font-size: 15px; }
+
+/* ── SETTINGS PANEL ── */
+#settings-panel {
+  display: none; position: fixed; right: 12px; top: calc(var(--hdr) + 8px);
+  width: 380px; max-width: calc(100vw - 24px); max-height: calc(100vh - var(--hdr) - 24px);
+  overflow-y: auto; background: var(--bg); border: 1px solid var(--border);
+  border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.12); z-index: 300;
+}
+#settings-panel.on { display: block; }
+.settings-inner { padding: 16px; }
+.settings-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.settings-head strong { font-size: 14px; }
+.settings-note { font-size: 12px; color: var(--text2); line-height: 1.6; margin: 8px 0; }
+.settings-steps { font-size: 12px; color: var(--text2); line-height: 1.8; margin: 8px 0 12px 18px; }
+.settings-steps li { margin-bottom: 2px; }
+.settings-steps a { color: var(--blue); }
+#pat-input {
+  width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px;
+  font-size: 12px; font-family: monospace; background: var(--bg2); color: var(--text); outline: none;
+}
+#pat-input:focus { border-color: var(--border2); }
+.settings-actions { display: flex; gap: 8px; margin-top: 10px; }
+.sbtn {
+  font-size: 12px; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text2); cursor: pointer; font-family: inherit;
+}
+.sbtn-p { background: var(--text); color: #fff; border-color: var(--text); }
+.sbtn-p:hover { opacity: .85; }
+.sbtn-d { color: var(--red); border-color: #fecaca; }
+.sbtn-d:hover { background: #fee2e2; }
