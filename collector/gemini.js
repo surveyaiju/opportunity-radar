@@ -18,10 +18,18 @@ import {
   isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle,
 } from './extract.js';
 
-// Tried in order. gemini-2.0-flash consistently 429s on the free tier even
-// with tiny batches — gemini-flash-latest works reliably, so it goes first.
-const MODEL_CANDIDATES = ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0-flash'];
-const geminiUrl = model => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
+// Tried in order. gemini-2.0-flash consistently 429s (15 RPM limit).
+// gemini-2.0-flash-lite has 30 RPM free tier — try it first.
+// On 404 (model retired/not found) we move to the next candidate.
+// On 429 (rate limited) we also move to the next candidate immediately.
+const MODEL_CANDIDATES = [
+  'gemini-2.0-flash-lite',   // 30 RPM free tier — best starting point
+  'gemini-2.0-flash',        // 15 RPM free tier
+  'gemini-flash-latest',     // alias — fallback
+  'gemini-2.5-flash',        // fallback
+];
+const geminiUrl = model =>
+  `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const BATCH_SIZE  = 20;
 const BATCH_DELAY = 10000;
 const MAX_PER_RUN = 200;
@@ -84,7 +92,39 @@ function prioritise(items) {
   return [...items].sort((a, b) => score(b) - score(a));
 }
 
-// ── Gemini prompt ─────────────────────────────────────────────────────────
+// ── JSON extraction — handles all the ways Gemini wraps its output ────────
+// In order of preference:
+//   1. Response is already valid JSON
+//   2. JSON inside markdown fences (```json ... ```)
+//   3. JSON array starting with [ and ending with ]
+//   4. Slice from first [ to last ]
+function extractJsonArray(raw) {
+  if (!raw || !raw.trim()) return null;
+
+  // 1. Direct parse
+  try { const p = JSON.parse(raw.trim()); if (Array.isArray(p)) return p; } catch {}
+
+  // 2. Markdown fences: ```json\n[...]\n```
+  const fenceMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (fenceMatch) {
+    try { const p = JSON.parse(fenceMatch[1].trim()); if (Array.isArray(p)) return p; } catch {}
+  }
+
+  // 3. First complete JSON array with at least one object inside
+  const arrMatch = raw.match(/\[\s*\{[\s\S]*?\}\s*\]/);
+  if (arrMatch) {
+    try { const p = JSON.parse(arrMatch[0]); if (Array.isArray(p)) return p; } catch {}
+  }
+
+  // 4. Slice from first [ to last ]
+  const start = raw.indexOf('[');
+  const end   = raw.lastIndexOf(']');
+  if (start !== -1 && end > start) {
+    try { const p = JSON.parse(raw.slice(start, end + 1)); if (Array.isArray(p)) return p; } catch {}
+  }
+
+  return null;
+}
 function buildPrompt(items) {
   const today = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
@@ -136,23 +176,27 @@ async function geminiCall(prompt, apiKey) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             contents: [{ parts: [{ text: prompt }] }],
-            generationConfig: { temperature: 0.05, maxOutputTokens: 4096, responseMimeType: 'application/json' },
+            generationConfig: {
+              temperature: 0.05,
+              maxOutputTokens: 8192,
+              // Note: responseMimeType deliberately omitted — not all model
+              // aliases honour it, causing garbled output. We parse JSON
+              // robustly from free-text via extractJsonArray() instead.
+            },
           }),
-          signal: AbortSignal.timeout(45000),
+          signal: AbortSignal.timeout(60000),
         });
 
         if (r.status === 404) {
-          console.log(`  ⚠ Model "${model}" not available (404). Trying next model…`);
+          console.log(`  ⚠ Model "${model}" not available (404). Trying next…`);
           lastError = new Error(`${model}: 404 not found`);
-          break; // stop retrying this model, move to next in MODEL_CANDIDATES
+          break;
         }
-
         if (r.status === 429) {
           console.log(`  ⏳ "${model}" rate limited (429). Trying next model…`);
           lastError = new Error(`${model}: 429 rate limited`);
-          break; // don't waste time retrying — try the next model immediately
+          break;
         }
-
         if (!r.ok) {
           const err = await r.text().catch(() => String(r.status));
           throw new Error(`${model} ${r.status}: ${err.slice(0, 120)}`);
@@ -160,11 +204,16 @@ async function geminiCall(prompt, apiKey) {
 
         const data = await r.json();
         const raw  = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-        try { return JSON.parse(raw); } catch {
-          const m = raw.match(/\[[\s\S]*\]/);
-          if (m) return JSON.parse(m[0]);
+
+        if (!raw) throw new Error('Empty response from model');
+
+        const parsed = extractJsonArray(raw);
+        if (!parsed) {
+          // Log first 300 chars so we can debug what the model actually returned
+          console.log(`  ⚠ Could not parse JSON from "${model}" response. First 300 chars:\n    ${raw.slice(0, 300).replace(/\n/g, '\\n')}`);
           throw new Error('Response was not valid JSON');
         }
+        return parsed;
 
       } catch (e) {
         lastError = e;
