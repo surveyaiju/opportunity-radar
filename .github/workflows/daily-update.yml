@@ -1,9 +1,13 @@
 name: Daily Opportunity Update
 
 on:
+  # Runs automatically once a day if GitHub's scheduler cooperates (it's
+  # best-effort and sometimes skips or runs late — that's a GitHub platform
+  # quirk, not a bug here). If a day gets missed, just use the manual
+  # "Run workflow" button below any time — no extra setup required.
   schedule:
-    - cron: '0 8 * * *'   # Every day at 8:00 AM UTC
-  workflow_dispatch:        # Manual "Run workflow" button in GitHub
+    - cron: '0 10 * * *'   # ~10:00 UTC = ~2-3am Pacific
+  workflow_dispatch:        # Manual "Run workflow" button — always works, any time
 
 jobs:
   collect:
@@ -15,21 +19,49 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v5
 
+      - name: Check time window (only applies to the automatic schedule trigger)
+        id: window
+        run: |
+          # Manual runs (workflow_dispatch) always proceed, any time of day —
+          # this check only restricts the AUTOMATIC schedule trigger to the
+          # overnight Pacific window, so an off-hours auto-fire doesn't burn
+          # the day's Gemini/Serper quota at a random time.
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "in_window=true" >> "$GITHUB_OUTPUT"
+            echo "Manually triggered — running regardless of time."
+            exit 0
+          fi
+          HOUR=$(date -u +%H)
+          # Covers midnight–6am Pacific across both PST and PDT:
+          #   PST (UTC-8): 00:00–06:00 PST = 08:00–14:00 UTC
+          #   PDT (UTC-7): 00:00–06:00 PDT = 07:00–13:00 UTC
+          if [ "$HOUR" -ge 7 ] && [ "$HOUR" -lt 14 ]; then
+            echo "in_window=true" >> "$GITHUB_OUTPUT"
+            echo "Scheduled run at UTC hour $HOUR — within window, proceeding."
+          else
+            echo "in_window=false" >> "$GITHUB_OUTPUT"
+            echo "Scheduled run at UTC hour $HOUR — outside window. Skipping; use the manual button instead."
+          fi
+
       - name: Set up Node.js
+        if: steps.window.outputs.in_window == 'true'
         uses: actions/setup-node@v5
         with:
           node-version: '20'
 
       - name: Install dependencies
+        if: steps.window.outputs.in_window == 'true'
         run: npm install
 
       - name: Run collector
+        if: steps.window.outputs.in_window == 'true'
         run: node run.js
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           SERPER_KEY: ${{ secrets.SERPER_KEY }}
 
       - name: Commit updated database
+        if: steps.window.outputs.in_window == 'true'
         run: |
           git config user.name  "Opportunity Radar Bot"
           git config user.email "bot@opportunity-radar.local"
