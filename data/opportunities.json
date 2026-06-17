@@ -1,10 +1,90 @@
 {
   "meta": {
-    "last_updated": "2026-06-17T15:14:13.294Z",
-    "total": 615,
-    "new_today": 24
+    "last_updated": "2026-06-17T18:04:33.854Z",
+    "total": 620,
+    "new_today": 5
   },
   "opportunities": [
+    {
+      "id": "17sn1en",
+      "title": "Searching 'adaptive reuse' in Architecture Competitions - ArchDaily",
+      "url": "https://www.archdaily.com/search/competitions/text/adaptive%20reuse",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-17",
+      "pub_date": "2026-06-17",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "12c3bk0",
+      "title": "MAK Artists- and Architects-in-Residence Program",
+      "url": "https://www.makcenter.org/program-overview",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-17",
+      "pub_date": "2026-06-17",
+      "description": "The MAK Artists and Architects-in-Residence Program offers six-month residencies to international artists and architects.",
+      "category": "Residency",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Six-month residency",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "6ui7qf",
+      "title": "Art Open Calls And International Opportunities | Facebook",
+      "url": "https://www.facebook.com/groups/2626780000805416/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-17",
+      "pub_date": "2026-06-17",
+      "description": "BJÖRKÖ KONSTNOD has an open call for artists, writers, and curators for Summer & Autumn 2026.",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1umyfiw",
+      "title": "[PDF] REQUEST FOR PROPOSAL Architectural Services for design and ...",
+      "url": "https://www.saratogasprings-ut.gov/DocumentCenter/View/17537/2026-02-23-Request-for-Proposal---Architectural-Services-for-Fire-Station",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-17",
+      "pub_date": "2026-06-17",
+      "description": "A Request for Proposals is open for architectural services for design and [unspecified].",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Contract for architectural services",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "rwv8np",
+      "title": "[PDF] Request for Qualifications | Purchase College",
+      "url": "https://www.purchase.edu/live/files/5731-rfq-su-012726-1-request-for-qualificationspdf",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-17",
+      "pub_date": "2026-06-17",
+      "description": "Purchase College is soliciting proposals to provide architectural and MEP design services.",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Contract for design services",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "vfrfwg",
       "title": "ZHA's Songshan Lake Exhibition and Performance Center Opens in Dongguanm, China",
@@ -18,7 +98,7 @@
       "deadline": "June 17, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +114,7 @@
       "deadline": "June 17, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +130,7 @@
       "deadline": "June 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +146,7 @@
       "deadline": "17 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +162,7 @@
       "deadline": "17 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +178,7 @@
       "deadline": "17 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +194,7 @@
       "deadline": "Sep 20, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +210,7 @@
       "deadline": "Nov 1, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +226,7 @@
       "deadline": "Aug 10, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +242,7 @@
       "deadline": "June 17, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +258,7 @@
       "deadline": "September 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +306,7 @@
       "deadline": "13 March, 2027",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +354,7 @@
       "deadline": "June 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -306,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -322,7 +402,7 @@
       "deadline": "17 Jun 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -338,7 +418,7 @@
       "deadline": "17 Jun 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -354,7 +434,7 @@
       "deadline": "17 Jun 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -370,7 +450,7 @@
       "deadline": "1 November 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -386,7 +466,7 @@
       "deadline": "June 17, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
