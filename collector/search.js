@@ -40,6 +40,43 @@ async function serperSearch(query, apiKey) {
   }
 }
 
+// Google News results via Serper's /news endpoint — a different index than
+// /search, biased toward recently-published pages. This is what catches
+// freshly-announced competitions within days of launch, the same way
+// manually searching Google News and sorting by date would.
+async function serperNewsSearch(query, apiKey) {
+  try {
+    const r = await fetch('https://google.serper.dev/news', {
+      method: 'POST',
+      headers: {
+        'X-API-KEY': apiKey,
+        'Content-Type': 'application/json',
+      },
+      // tbs: qdr:w = restrict to results from the past week, mirroring
+      // "sort by date" — keeps this pass focused on brand-new announcements
+      body: JSON.stringify({ q: query, num: 10, gl: 'us', hl: 'en', tbs: 'qdr:w' }),
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!r.ok) {
+      console.log(`    ✗ News API error ${r.status} for: "${query.slice(0, 40)}"`);
+      return [];
+    }
+    const data = await r.json();
+    const today = new Date().toISOString().split('T')[0];
+    return (data.news || []).map(item => ({
+      title: (item.title || '').slice(0, 200),
+      url: item.link || '',
+      text: (item.snippet || '').slice(0, 400),
+      date: item.date || today,
+      source: `News: ${item.source || 'Google News'}`,
+      source_type: 'web_search',
+    })).filter(i => i.title && i.url);
+  } catch (e) {
+    console.log(`    ✗ News search failed: ${e.message}`);
+    return [];
+  }
+}
+
 export async function collectSearch(serperKey) {
   if (!serperKey) {
     console.log('\n🔍 Search — skipped (no SERPER_KEY set)');
@@ -70,5 +107,24 @@ export async function collectSearch(serperKey) {
   }
 
   console.log(`  Total from search: ${results.length} raw items`);
+
+  // ── News pass — catches brand-new announcements (e.g. competitions
+  // launched days ago) that general web search hasn't indexed/ranked yet.
+  const newsQueries = sources.search_queries.news_freshness || [];
+  if (newsQueries.length) {
+    console.log(`\n📰 News search — running ${newsQueries.length} queries (past week) via Serper.dev`);
+    for (const query of newsQueries) {
+      const items = await serperNewsSearch(query, serperKey);
+      if (items.length) {
+        console.log(`  ✓ "${query.slice(0, 55)}…" — ${items.length} results`);
+        results.push(...items);
+      } else {
+        console.log(`  ○ "${query.slice(0, 55)}…" — no results`);
+      }
+      await new Promise(r => setTimeout(r, 300));
+    }
+    console.log(`  Total after news pass: ${results.length} raw items`);
+  }
+
   return results;
 }
