@@ -3,8 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Opportunity Radar</title>
-<link rel="stylesheet" href="styles.css">
+<!--
+  IMPORTANT: app.js and styles.css are loaded with a ?v=YYYY-MM-DDx query
+  param below. Safari (and some other browsers) cache these files
+  aggressively and won't pick up changes on a normal reload. Whenever
+  either file is edited, bump the version string in BOTH places below
+  (e.g. 2026-06-20a -> 2026-06-20b) so browsers treat them as new files.
+-->
+<link rel="stylesheet" href="styles.css?v=2026-06-20a">
 </head>
 <body style="display:flex;flex-direction:column;height:100vh">
 
@@ -108,6 +118,6 @@
   </table>
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=2026-06-20a"></script>
 </body>
 </html>
