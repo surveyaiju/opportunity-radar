@@ -63,7 +63,8 @@
     { "id": "sc_eflux_ag",  "name": "e-flux — Agenda",                 "url": "https://www.e-flux.com/announcements/agenda",                                    "active": true  },
     { "id": "sc_dubaidw",   "name": "Dubai Design Week — Open Call 2026", "url": "https://www.dubaidesignweek.ae/open-call-2026/urban-commissions/",          "active": true  },
     { "id": "sc_lfa",       "name": "London Festival of Architecture", "url": "https://londonfestivalofarchitecture.org/get-involved/",                       "active": true  },
-    { "id": "sc_seoul_bm",  "name": "Seoul Biennale Open Calls",       "url": "https://www.seoulbiennale.org/en/notice",                                       "active": true  }
+    { "id": "sc_seoul_bm",  "name": "Seoul Biennale Open Calls",       "url": "https://www.seoulbiennale.org/en/notice",                                       "active": true  },
+    { "id": "sc_uct_mandela","name": "UCT Nelson Mandela Memorial Competition", "url": "https://uctnelsonmandelacompetition.org",                              "active": true  }
   ],
 
   "search_queries": {
@@ -150,6 +151,17 @@
       "public realm design competition 2026 free open call",
       "architecture \"expression of interest\" 2026 design",
       "masterplan ideas competition 2026 architecture free"
+    ],
+
+    "news_freshness": [
+      "architecture competition launched",
+      "new architecture design competition announced",
+      "university launches architectural design competition",
+      "architecture competition open for entries",
+      "new open call architects",
+      "architecture memorial design competition",
+      "architecture school launches competition",
+      "design competition architects invited to submit"
     ]
   },
 
