@@ -101,6 +101,13 @@ td {
   border-right: 1px solid var(--border); vertical-align: top; font-size: 12px;
 }
 tr:hover td { background: #f8faff; }
+tbody tr[data-id] { cursor: pointer; }
+tbody tr[data-id].row-selected td { background: #eff6ff; }
+tbody tr[data-id].row-selected:hover td { background: #e0edff; }
+/* Elements inside the row that should NOT trigger the row's own pointer feel */
+.cpriz, .ccheck, .cdel { cursor: default; }
+.ii, .row-check, .delbtn, .restorebtn, .ct { cursor: pointer; }
+.ii { cursor: text; }
 
 /* Column widths */
 .ccheck{ width: 32px;  min-width: 32px; text-align: center; }

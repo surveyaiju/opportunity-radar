@@ -300,6 +300,12 @@ async function restoreAllHidden() {
 // ── Selection / bulk hide ──────────────────────────────────
 function toggleSelect(id, checked) {
   if (checked) selected.add(id); else selected.delete(id);
+  const row = document.querySelector(`tr[data-id="${CSS.escape(id)}"]`);
+  if (row) {
+    row.classList.toggle('row-selected', checked);
+    const cb = row.querySelector('.row-check');
+    if (cb) cb.checked = checked;
+  }
   updateBulkUI();
 }
 
@@ -308,6 +314,7 @@ function toggleSelectAll(checked) {
   rows.forEach(r => {
     const id = r.dataset.id;
     if (checked) selected.add(id); else selected.delete(id);
+    r.classList.toggle('row-selected', checked);
     const cb = r.querySelector('.row-check');
     if (cb) cb.checked = checked;
   });
@@ -445,12 +452,12 @@ function render() {
   }
 
   tbody.innerHTML = visible.map(o => `
-    <tr data-id="${esc(o.id)}">
-      <td class="ccheck"><input type="checkbox" class="row-check" ${selected.has(o.id) ? 'checked' : ''} onchange="toggleSelect('${esc(o.id)}', this.checked)"></td>
+    <tr data-id="${esc(o.id)}" class="${selected.has(o.id) ? 'row-selected' : ''}">
+      <td class="ccheck"><input type="checkbox" class="row-check" ${selected.has(o.id) ? 'checked' : ''} onclick="event.stopPropagation()" onchange="toggleSelect('${esc(o.id)}', this.checked)"></td>
       <td class="cn">${o.is_new ? '<span class="b-new">New</span>' : ''}</td>
       <td class="cdate" style="color:var(--text3);font-size:11px">${esc(fmtDate(o.found_date))}</td>
       <td class="ctit">${o.url
-        ? `<a href="${esc(o.url)}" target="_blank" rel="noopener" class="ct">${esc(o.title)}</a>`
+        ? `<a href="${esc(o.url)}" target="_blank" rel="noopener" class="ct" onclick="event.stopPropagation()">${esc(o.title)}</a>`
         : `<span class="ct">${esc(o.title)}</span>`}</td>
       <td class="csrc"><span class="csrct">${esc(o.source)}</span></td>
       <td class="cdesc"><div class="desct" title="${esc(o.description || '')}">${esc(o.description || o.title)}</div></td>
@@ -460,11 +467,19 @@ function render() {
       <td class="cdead">${fmtDeadline(o.deadline)}</td>
       <td class="cfee">${fmtFee(o.fee)}</td>
       <td class="cpriz"><input class="ii" value="${esc(o.prize || '')}" placeholder="—"
-        onchange="patchPrize('${esc(o.id)}', this.value)"></td>
+        onclick="event.stopPropagation()" onchange="patchPrize('${esc(o.id)}', this.value)"></td>
       <td class="cdel">${showHidden
-        ? `<button class="delbtn restorebtn" onclick="restoreOne('${esc(o.id)}')" title="Restore this item">↺</button>`
-        : `<button class="delbtn" onclick="hide('${esc(o.id)}')" title="Hide this item">✕</button>`}</td>
+        ? `<button class="delbtn restorebtn" onclick="event.stopPropagation(); restoreOne('${esc(o.id)}')" title="Restore this item">↺</button>`
+        : `<button class="delbtn" onclick="event.stopPropagation(); hide('${esc(o.id)}')" title="Hide this item">✕</button>`}</td>
     </tr>`).join('');
+
+  // Row click (anywhere except interactive elements above) toggles selection
+  tbody.querySelectorAll('tr[data-id]').forEach(row => {
+    row.addEventListener('click', () => {
+      const id = row.dataset.id;
+      toggleSelect(id, !selected.has(id));
+    });
+  });
 
   loadColWidths();
   updateBulkUI();
