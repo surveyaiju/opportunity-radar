@@ -1,10 +1,298 @@
 {
   "meta": {
-    "last_updated": "2026-06-19T15:18:17.894Z",
-    "total": 644,
-    "new_today": 26
+    "last_updated": "2026-06-20T16:49:33.200Z",
+    "total": 656,
+    "new_today": 18
   },
   "opportunities": [
+    {
+      "id": "109rhd7",
+      "title": "AJ100 Employer of the Year 2026 revealed",
+      "url": "https://www.architectsjournal.co.uk/news/aj100-employer-of-the-year-2026-revealed",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-20",
+      "pub_date": "Fri, 19 Jun 2026 14:23:24 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "19 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ly7y27",
+      "title": "AJ100 Communication Initiative of the Year 2026 revealed",
+      "url": "https://www.architectsjournal.co.uk/news/aj100-communication-initiative-of-the-year-2026-revealed",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-20",
+      "pub_date": "Fri, 19 Jun 2026 14:14:10 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "19 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "uudb4c",
+      "title": "AJ100 Client of the Year 2026 named",
+      "url": "https://www.architectsjournal.co.uk/news/aj100-client-of-the-year-2026-named",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-20",
+      "pub_date": "Fri, 19 Jun 2026 14:12:09 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "19 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "dnr7mu",
+      "title": "AJ100 Mentor of the Year 2026 named",
+      "url": "https://www.architectsjournal.co.uk/news/aj100-mentor-of-the-year-2025-named-2",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-20",
+      "pub_date": "Fri, 19 Jun 2026 14:10:23 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "19 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "g1nei",
+      "title": "Fellowship Report by Sarah Owen",
+      "url": "https://sesah.org/2023/01/13/fellowship-report-by-sarah-owen/",
+      "source": "SESAH — Arris Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-20",
+      "pub_date": "Fri, 13 Jan 2023 17:43:42 +0000",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ny0afk",
+      "title": "Kinderspace: Architecture for Children's Development competition / Edition #4\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tRegister: Thu, Aug 27, 2026\n\t\t\t\t\t\t\tSubmit: Mon, Nov 30, 2026",
+      "url": "http://bustler.net/competitions/10503/kinderspace-architecture-for-children-s-development-competition-edition-4",
+      "source": "Archinect Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Competition",
+      "deadline": "Aug 27, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1mag20o",
+      "title": "New architecture and design competitions: IDEAS Awards, UIA-HYP CUP International Student Competition, Vancouver Tall Challenge, and Memorial to the Sixth Extinction",
+      "url": "http://bustler.net/news/tags/competition/326/11021/new-architecture-and-design-competitions-ideas-awards-uia-hyp-cup-international-student-competition-vancouver-tall-challenge-and-memorial-to-the-sixth-extinction/competition-news",
+      "source": "Archinect Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Competition",
+      "deadline": "August 31, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "3hd3fe",
+      "title": "Student Home Design Competition | CT Home & Remodeling Show",
+      "url": "https://www.cthomeshow.com/student-home-design-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ftktzt",
+      "title": "Funded Open Call 2026: The Experimental Fellowship ... - Facebook",
+      "url": "https://www.facebook.com/ArtistOpenCalls/posts/funded-open-call-2026-the-experimental-fellowship-run-by-experimentalfoundation-/1537876601675852/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pptu9d",
+      "title": "Art Open Calls: International Art Residencies 2026 - Artenda.net",
+      "url": "https://artenda.net/art-open-call-opportunity/residency",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "June 20, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "eb2lp9",
+      "title": "“Fostering Sustainable Urban Living through Environmental ...",
+      "url": "https://www.instagram.com/p/DXxrm1BE5YV/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "August 5, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1u788gu",
+      "title": "Call to Artists: Request for Qualifications DC Creates Public Art for ...",
+      "url": "https://www.eastcityart.com/calls-for-entry/call-to-artists-request-for-qualifications-dc-creates-public-art-for-golden-triangle-bid/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "q69phf",
+      "title": "Public Art Opportunities | Americans for the Arts",
+      "url": "https://www.americansforthearts.org/by-program/networks-and-councils/public-art-network/opportunities",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "June 30, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1b1cmtg",
+      "title": "submit your best work to A' design award and competition ...",
+      "url": "https://www.designboom.com/design/submission-a-design-award-and-competition/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1gbldn8",
+      "title": "Open Call: 13 White Houses - Bustler",
+      "url": "https://bustler.net/competitions/10547/open-call-13-white-houses",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "An open call for practitioners working across architecture, landscape, art, design, and related spatial fields to submit proposals.",
+      "category": "Competition",
+      "deadline": "Aug 2, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "5d90l8",
+      "title": "How to Apply Online - The International Architecture Awards",
+      "url": "http://www.internationalarchitectureawards.com/howtoapply",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "An open call for submissions to the International Architecture Awards.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "um92",
+      "title": "Open CALL - Facebook",
+      "url": "https://www.facebook.com/groups/1860692807383647/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "An open call for artists worldwide of all visual art styles and mediums to submit their work.",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "t1p7go",
+      "title": "Call for Entries: UIA-HYP CUP 2026 International Student Compe...",
+      "url": "https://www.archdaily.com/1042566/call-for-entries-uia-hyp-cup-2026-international-student-competition-in-architectural-design",
+      "source": "ArchDaily Search — Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-20",
+      "pub_date": "2026-06-20",
+      "description": "An international student design competition inviting entries for the UIA-HYP Cup 2026.",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "qdygv3",
       "title": "The Tallinn Architecture Biennale 2026 Unveils Full Program, Venues, and Participants for 'How Much?'",
@@ -18,7 +306,7 @@
       "deadline": "November 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +322,7 @@
       "deadline": "jun 19, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +370,7 @@
       "deadline": "July 5, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +386,7 @@
       "deadline": "September 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +402,7 @@
       "deadline": "July 22, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +418,7 @@
       "deadline": "August 25, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +434,7 @@
       "deadline": "August 25, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +466,7 @@
       "deadline": "30 November 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +482,7 @@
       "deadline": "28 November 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +514,7 @@
       "deadline": "25 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -322,7 +610,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "Fellowship",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -338,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -354,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -370,7 +658,7 @@
       "deadline": "30 Jun 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -386,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "Commission",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -402,7 +690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -418,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -438,38 +726,6 @@
       "ai_verified": false
     },
     {
-      "id": "1x0kzkk",
-      "title": "Architectural Recognition and New Projects Around the World: This Week's Review",
-      "url": "https://www.archdaily.com/1042563/architectural-recognition-and-new-projects-around-the-world-this-weeks-review",
-      "source": "ArchDaily — Open Calls",
-      "source_type": "rss",
-      "found_date": "2026-06-18",
-      "pub_date": "Thu, 18 Jun 2026 06:30:00 +0000",
-      "description": "",
-      "category": "Award",
-      "deadline": "June 18, 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "z2e6dh",
-      "title": "First English councils given AI prototype tools to speed up planning",
-      "url": "https://www.architectsjournal.co.uk/news/first-english-councils-given-ai-prototype-tools-to-speed-up-planning",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-18",
-      "pub_date": "Thu, 18 Jun 2026 09:12:31 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "18 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
       "id": "1l40v4z",
       "title": "Architect-led bid shortlisted for Ladywell Playtower restoration",
       "url": "https://www.architectsjournal.co.uk/competitions/architect-led-bid-shortlisted-for-ladywell-playtower-restoration",
@@ -480,38 +736,6 @@
       "description": "",
       "category": "Journal/CFP",
       "deadline": "",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1xl8ncs",
-      "title": "Norwich’s 1950s Neo-Georgian former Debenhams spared demolition",
-      "url": "https://www.architectsjournal.co.uk/news/norwichs-1950s-neo-georgian-former-debenhams-spared-demolition",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-18",
-      "pub_date": "Thu, 18 Jun 2026 07:32:52 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "18 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "v96mn",
-      "title": "Studio Weave creates Maida Vale public toilets using reclaimed stone",
-      "url": "https://www.architectsjournal.co.uk/buildings/studio-weave-creates-maida-vale-public-toilets-using-reclaimed-stone",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-18",
-      "pub_date": "Thu, 18 Jun 2026 07:07:59 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "18 June 2026",
       "fee": "Unknown",
       "prize": "",
       "is_new": false,
@@ -705,22 +929,6 @@
       "category": "Conference",
       "deadline": "",
       "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": true
-    },
-    {
-      "id": "t1p7go",
-      "title": "Call for Entries: UIA-HYP CUP 2026 International Student Compe...",
-      "url": "https://www.archdaily.com/1042566/call-for-entries-uia-hyp-cup-2026-international-student-competition-in-architectural-design",
-      "source": "ArchDaily Search — Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-18",
-      "pub_date": "2026-06-18",
-      "description": "A call for entries is open for the UIA-HYP CUP 2026 International Student Competition.",
-      "category": "Competition",
-      "deadline": "June 18, 2026",
-      "fee": "Free",
       "prize": "",
       "is_new": false,
       "ai_verified": true
@@ -6160,22 +6368,6 @@
       "description": "",
       "category": "Exhibition/Biennale",
       "deadline": "Sep 16, 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1ny0afk",
-      "title": "Kinderspace: Architecture for Children's Development competition / Edition #4\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tRegister: Thu, Jun 18, 2026\n\t\t\t\t\t\t\tSubmit: Mon, Nov 30, 2026",
-      "url": "http://bustler.net/competitions/10503/kinderspace-architecture-for-children-s-development-competition-edition-4",
-      "source": "Archinect Competitions",
-      "source_type": "site_scrape",
-      "found_date": "2026-06-13",
-      "pub_date": "2026-06-13",
-      "description": "",
-      "category": "Competition",
-      "deadline": "Jun 18, 2026",
       "fee": "Unknown",
       "prize": "",
       "is_new": false,
