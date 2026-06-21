@@ -6,17 +6,18 @@
 
 import {
   extractDeadline, extractFee, extractPrize,
-  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle,
+  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle, isBlockedDomain,
 } from './extract.js';
 
 const EXPIRY_GRACE_DAYS = 1;
 
 export function cleanupExisting(existing) {
-  let removedNews = 0, removedHomepage = 0, removedExpired = 0, removedStale = 0, removedGeneric = 0, filledFields = 0;
+  let removedNews = 0, removedHomepage = 0, removedExpired = 0, removedStale = 0, removedGeneric = 0, removedBlocked = 0, filledFields = 0;
 
   const cleaned = existing.filter(item => {
     const text = `${item.title} ${item.description || ''}`;
 
+    if (isBlockedDomain(item.url)) { removedBlocked++; return false; }
     if (looksLikeNews(text)) { removedNews++; return false; }
     if (isHomepageUrl(item.url)) { removedHomepage++; return false; }
     if (isGenericListingTitle(item.title)) { removedGeneric++; return false; }
@@ -46,9 +47,10 @@ export function cleanupExisting(existing) {
     return true;
   });
 
-  const totalRemoved = removedNews + removedHomepage + removedExpired + removedStale + removedGeneric;
+  const totalRemoved = removedNews + removedHomepage + removedExpired + removedStale + removedGeneric + removedBlocked;
   if (totalRemoved > 0 || filledFields > 0) {
     console.log('\n🧹 Cleanup of existing database');
+    if (removedBlocked)  console.log(`  ${removedBlocked} removed — Pinterest/stock photo/video/forum/wiki links (not real opportunity pages)`);
     if (removedNews)     console.log(`  ${removedNews} removed — news/winner/results articles`);
     if (removedHomepage) console.log(`  ${removedHomepage} removed — homepage/listing links`);
     if (removedGeneric)  console.log(`  ${removedGeneric} removed — generic category-page titles`);

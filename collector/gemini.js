@@ -15,7 +15,7 @@
 
 import {
   extractDeadline, extractFee, extractPrize,
-  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle,
+  isExpired, isHomepageUrl, looksLikeNews, isLikelyOutdatedYear, isGenericListingTitle, isBlockedDomain,
 } from './extract.js';
 
 // Tried in order. gemini-2.0-flash consistently 429s (15 RPM limit).
@@ -46,6 +46,7 @@ const BLOCK = /\b(archery|bow and arrow|sports? competition|football|basketball|
 function preFilter(item) {
   const text = `${item.title} ${item.text}`;
   if (BLOCK.test(text))                 return false;
+  if (isBlockedDomain(item.url))        return false; // Pinterest, stock photo sites, YouTube, Reddit, Wikipedia, etc — never an opportunity page
   if (looksLikeNews(text))              return false; // winners, results, shortlists, completed projects
   if (isHomepageUrl(item.url))          return false; // links to a site's main listing page, not a specific opportunity
   if (isGenericListingTitle(item.title)) return false; // title is just "Competitions and Grants" etc — a category page

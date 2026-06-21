@@ -154,3 +154,42 @@ export function isGenericListingTitle(title) {
   if (!title) return false;
   return LISTING_TITLE_RE.test(title.trim());
 }
+
+// ── Non-authoritative domain blocklist ─────────────────────────────────
+// Image boards, stock photo libraries, video sites, shopping marketplaces,
+// and forums/wikis show up in general web searches for almost any topic,
+// but are never themselves a place to submit to or apply through — they're
+// someone's saved board, a stock photo, a video, or a discussion thread
+// ABOUT the topic, not the opportunity itself. Block at the domain level so
+// these never reach AI classification or the dashboard at all.
+//
+// Deliberately NOT blocked: instagram.com, facebook.com, x.com/twitter.com —
+// organisations legitimately post real open calls and deadlines on social
+// media (the enrichment pass specifically reads these for deadline info),
+// so blocking them would remove genuine opportunities, not just noise.
+const BLOCKED_DOMAINS = [
+  /(^|\.)pinterest\.[a-z.]+$/i,
+  /(^|\.)shutterstock\.com$/i,
+  /(^|\.)gettyimages\.[a-z.]+$/i,
+  /(^|\.)istockphoto\.com$/i,
+  /(^|\.)alamy\.com$/i,
+  /(^|\.)youtube\.com$/i,
+  /(^|\.)youtu\.be$/i,
+  /(^|\.)tiktok\.com$/i,
+  /(^|\.)reddit\.com$/i,
+  /(^|\.)quora\.com$/i,
+  /(^|\.)wikipedia\.org$/i,
+  /(^|\.)wikimedia\.org$/i,
+  /(^|\.)amazon\.[a-z.]+$/i,
+  /(^|\.)ebay\.[a-z.]+$/i,
+  /(^|\.)etsy\.com$/i,
+];
+
+export function isBlockedDomain(url) {
+  try {
+    const host = new URL(url).hostname;
+    return BLOCKED_DOMAINS.some(re => re.test(host));
+  } catch {
+    return false;
+  }
+}
