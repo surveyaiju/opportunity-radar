@@ -1,10 +1,202 @@
 {
   "meta": {
-    "last_updated": "2026-06-22T15:10:54.670Z",
-    "total": 746,
-    "new_today": 32
+    "last_updated": "2026-06-22T20:28:59.259Z",
+    "total": 758,
+    "new_today": 12
   },
   "opportunities": [
+    {
+      "id": "12o6c9v",
+      "title": "intelligenza artificiale",
+      "url": "https://www.professionearchitetto.it/key/intelligenza-artificiale/",
+      "source": "Professionearchitetto (IT)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "d09viy",
+      "title": "Free desing competitions - InfoDesigners",
+      "url": "https://www.infodesigners.eu/free-design-competitions/1",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1tj0ejm",
+      "title": "Submit manuscripts by Monday, August 3, 2026!⁠ ⁠ JAE 81.1 “RW ...",
+      "url": "https://www.instagram.com/reel/DZs2ThHjtiz/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "August 3, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "q20niv",
+      "title": "AUBEA2026 - Call for Abstracts - AUBEA Incorporated",
+      "url": "https://www.aubea.org/abstracts",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "15evd7o",
+      "title": "Artist Calls for Entry",
+      "url": "https://www.artworkarchive.com/call-for-entry",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "June 22, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "r3ii1e",
+      "title": "Open Call: 2026-2027 ArCH Exhibitions Architecture Center ...",
+      "url": "https://www.instagram.com/p/C-lUJy2pFlT/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "September 26, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1atffbl",
+      "title": "rfq for architectural design Bids, RFP & Government Contracts",
+      "url": "https://www.instantmarkets.com/q/rfq_for_architectural_design?pg=1&os=Active",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Award",
+      "deadline": "Jun 30, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "mfli3o",
+      "title": "City of Dallas Issues Architecture, Engineering & Design (AED ...",
+      "url": "https://www.dallascitynews.net/city-of-dallas-issues-architecture-engineering-design-aed-request-for-qualifications-for-components-3-and-4-of-the-kay-bailey-hutchison-convention-center-dallas-expansion",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "4364cp",
+      "title": "Open Architecture Competitions - Non-a",
+      "url": "https://www.non-a.com/open-architecture-competitions/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "87itfy",
+      "title": "AIA California Launches Twelfth Architecture at Zero Competition",
+      "url": "https://bustler.net/news/9886/aia-california-launches-twelfth-architecture-at-zero-competition-global-contest-focuses-on-sustainable-design-for-east-los-angeles-school",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1nn3pne",
+      "title": "CALL FOR APPLICATION — EDGE Awards Architects and visionary ...",
+      "url": "https://www.instagram.com/reel/DVgNfhxCPu5/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "The SHARE Architecture Awards 2026 is open for free submissions from architects and visionary designers.",
+      "category": "Award",
+      "deadline": "31 Jul 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1ldy0w3",
+      "title": "Open Call for Artistic and Architectural Projects - fundsforNGOs",
+      "url": "https://www2.fundsforngos.org/latest-funds-for-ngos/open-call-for-artistic-and-architectural-projects/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-22",
+      "pub_date": "2026-06-22",
+      "description": "Copenhagen Contemporary has launched an open call for artists, architects, designers, curators, and landscape architects to propose projects.",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "16ub10c",
       "title": "Designaddvance 2026: Beyond the Mall: Rethinking Retail Landscapes as Urban Public Space",
@@ -18,7 +210,7 @@
       "deadline": "June 22, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +226,7 @@
       "deadline": "June 22, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +242,7 @@
       "deadline": "June 22, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +258,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +274,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +306,7 @@
       "deadline": "4 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +322,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +338,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +354,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +370,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +386,7 @@
       "deadline": "21 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +402,7 @@
       "deadline": "21 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +418,7 @@
       "deadline": "Jun 22, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +434,7 @@
       "deadline": "September 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +450,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +514,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -466,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -482,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -498,7 +690,7 @@
       "deadline": "3 Aug 2026",
       "fee": "Unknown",
       "prize": "Selection of up to 22 individuals and teams to participate in the platform's activities",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -514,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
