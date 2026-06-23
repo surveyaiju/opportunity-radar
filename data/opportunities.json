@@ -1,10 +1,106 @@
 {
   "meta": {
-    "last_updated": "2026-06-23T15:52:10.681Z",
-    "total": 777,
-    "new_today": 22
+    "last_updated": "2026-06-23T17:29:45.140Z",
+    "total": 783,
+    "new_today": 6
   },
   "opportunities": [
+    {
+      "id": "ged9zh",
+      "title": "Architecture Competitions - Facebook",
+      "url": "https://www.facebook.com/architectural.competitions/posts/design-the-next-suburban-home-for-the-usa-enter-the-the-next-house-usa-architect/1472899267727993/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "5p4bgg",
+      "title": "Architects Grants 2026/2027 - USGrants.org",
+      "url": "https://www.usgrants.org/business/architects",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "$47,985",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "xr2jdd",
+      "title": "RFP 2026-07 Architectural and Engineering Services - Bid Banana",
+      "url": "https://bidbanana.thebidlab.com/bid/LV8EzCbmVTzpQjbS3LC1",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "993yea",
+      "title": "Architects - PBC Chicago - Public Building Commission",
+      "url": "https://pbcchicago.com/doing-business/architects-of-record/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1tbg08k",
+      "title": "Annual Design Competition (AIA Florida Foundation for Architecture)",
+      "url": "https://www.aiafla.org/Foundation_Awards.cfm",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1r2oxsd",
+      "title": "Moorhead Airport - Florence Klingensmith Field",
+      "url": "https://www.moorheadmn.gov/news/posts/notice-for-request-for-qualifications-for-professional-airport-architectural-and-engineering-design-services-moorhead-airport-florence-klingensmith-field/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-23",
+      "pub_date": "2026-06-23",
+      "description": "The City of Moorhead, Minnesota, seeks a request for qualifications for professional on-call airport architectural and engineering services.",
+      "category": "Public Art/RFQ",
+      "deadline": "July 17, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "18t6nhx",
       "title": "Graham Foundation Announces 54 Grants for Individuals Exploring Architecture Through Research and Creative Practice",
@@ -18,7 +114,7 @@
       "deadline": "June 23, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +130,7 @@
       "deadline": "23 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +146,7 @@
       "deadline": "23 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +162,7 @@
       "deadline": "20 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +178,7 @@
       "deadline": "23 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +194,7 @@
       "deadline": "23 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +210,7 @@
       "deadline": "23 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +226,7 @@
       "deadline": "16 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +242,7 @@
       "deadline": "21 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +258,7 @@
       "deadline": "22 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +274,7 @@
       "deadline": "25 July 2026",
       "fee": "€20",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -322,7 +418,7 @@
       "deadline": "03 Jul 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -338,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -354,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
