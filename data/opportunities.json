@@ -1,10 +1,410 @@
 {
   "meta": {
-    "last_updated": "2026-06-24T13:30:20.625Z",
-    "total": 809,
-    "new_today": 37
+    "last_updated": "2026-06-24T17:29:55.348Z",
+    "total": 834,
+    "new_today": 25
   },
   "opportunities": [
+    {
+      "id": "14sgypc",
+      "title": "El Arca Residential Pavilion / Mallol",
+      "url": "https://www.archdaily.com/1042685/el-arca-residential-pavilion-mallol",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 07:00:00 +0000",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "June 24, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1u0xnr5",
+      "title": "Councils launch legal bid to block London Mayor’s ‘emergency’ affordable housing cuts",
+      "url": "https://www.architectsjournal.co.uk/news/councils-launch-legal-bid-to-block-london-mayors-emergency-affordable-housing-cuts",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 15:10:05 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1glsnmm",
+      "title": "New four-year London architecture framework to be launched this summer",
+      "url": "https://www.architectsjournal.co.uk/news/new-four-year-london-architecture-framework-to-be-launched-this-summer",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 08:38:59 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "f31h9i",
+      "title": "AOMD wins planning consent for Tunbridge Wells ‘sister’ house",
+      "url": "https://www.architectsjournal.co.uk/news/aomd-wins-planning-consent-for-tunbridge-wells-sister-house",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 07:23:15 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1eij4t5",
+      "title": "Moxon upgrades and extends Scottish Highlands mountain rescue centre",
+      "url": "https://www.architectsjournal.co.uk/buildings/moxon-upgrades-and-extends-scottish-highlands-mountain-rescue-centre",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 07:11:08 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "6g22z4",
+      "title": "Architects to chair new Oxford Street design review panel",
+      "url": "https://www.architectsjournal.co.uk/news/architects-to-chair-new-oxford-street-design-review-panel",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 06:12:40 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1wwyqlw",
+      "title": "‘Heatwave is wake-up call to act’: RIBA urges more action on climate change",
+      "url": "https://www.architectsjournal.co.uk/news/heatwave-is-wake-up-call-to-act-riba-urges-more-action-on-climate-change",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-24",
+      "pub_date": "Wed, 24 Jun 2026 05:44:40 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "24 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1eu6jyt",
+      "title": "the contest rules",
+      "url": "https://sarp.krakow.pl/wp-content/uploads/2026/06/Regulamin_Nagrody_im._Stanislawa_Witkiewicza_2026-2.docx",
+      "source": "Architektura i Biznes (PL/EN)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "198bsm3",
+      "title": "[email protected]",
+      "url": "https://www.architekturaibiznes.pl/cdn-cgi/l/email-protection#d4b6bda1a6bb94a7b5a6a4fabfa6b5bfbba3faa4b8",
+      "source": "Architektura i Biznes (PL/EN)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1s0oiga",
+      "title": "the competition website",
+      "url": "https://sarp.krakow.pl/2026/06/19/konkurs-o-nagrode-wojewodztwa-malopolskiego-im-stanislawa-witkiewicza-zgloszenia-do-15-lipca-2026/",
+      "source": "Architektura i Biznes (PL/EN)",
+      "source_type": "site_scrape",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "inmad5",
+      "title": "Call for Papers for a Special Issue of Landscape Research Journal",
+      "url": "https://landscaperesearch.org/call-for-papers-for-a-special-issue-of-landscape-research-journal/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "z7lblt",
+      "title": "Architectural Design Award - Architecture MasterPrize Awards",
+      "url": "https://architectureprize.com/prize/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Award",
+      "deadline": "June 30, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "18xd3aw",
+      "title": "International Conference on Urban Studies, Planning, and ... - Iser",
+      "url": "https://iser.org.in/conf/index.php?id=101043692",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1m522g",
+      "title": "News Category: Contests, Project Opportunities, & RFP - ASLA-NY",
+      "url": "https://www.aslany.org/category/opportunity/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "165oh71",
+      "title": "RFP + RFQ Opportunties | AIA Los Angeles",
+      "url": "https://www.aialosangeles.org/home/career-tools/rfp-rfq-opportunities/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "h4ko8p",
+      "title": "REQUEST FOR QUALIFICATIONS CRITERIA ARCHITECT ...",
+      "url": "https://aiaohio.org/jobs/request-for-qualifications-criteria-architect-services-public-works-and-volunteer-fire-station-project/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "dyhszv",
+      "title": "Architecture competitions for Cultural institutions",
+      "url": "https://architecturecompetitions.com/culture",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "qagrf6",
+      "title": "PORCH: An Architecture of Generosity – U.S. Pavilion Exhibits",
+      "url": "https://competitions.archi/competition/porch-an-architecture-of-generosity-u-s-pavilion-exhibits/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1itu63x",
+      "title": "K-12 student design competition celebration",
+      "url": "https://www.aia.org/resource-center/k-12-initiatives/k-12-student-competition",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pq6c5w",
+      "title": "Poolside Paradise, New England Style",
+      "url": "https://www.nshoremag.com/northshore-home/poolside-paradise-new-england-style/",
+      "source": "News: Northshore Magazine",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "5 hours ago",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1r4asdt",
+      "title": "A' Furniture Design Awards 2026 Early Call for Entries Announced",
+      "url": "https://www.einnews.com/amp/pr_news/921529256/a-furniture-design-awards-2026-early-call-for-entries-announced",
+      "source": "News: EIN News",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "1 day ago",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "9xazvz",
+      "title": "Architecture & Design Collection Awards 2026 Open Call",
+      "url": "https://artinfoland.com/opportunities/architecture-design-collection-awards-2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "This is an open call for the Architecture & Design Collection Awards 2026, inviting architects and designers to submit their work for recognition.",
+      "category": "Award",
+      "deadline": "19 August 2026",
+      "fee": "Unknown",
+      "prize": "Unknown",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1w8g0py",
+      "title": "Bringing architecture visions to life for the Drawing of the ... - Instagram",
+      "url": "https://www.instagram.com/reel/DYkygAXNwrX/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "Entries are open for the 2026 Architecture Today Test of Time Awards, which celebrate enduring architectural projects.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Unknown",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1u1s04a",
+      "title": "Open Call - FiKVA",
+      "url": "https://fikva.art/open-call/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "This is an open call for artists to submit original artwork completed between 2024 and 2026.",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Unknown",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1s18qnl",
+      "title": "2026 NY Architectural and Interior Design Awards",
+      "url": "https://www.instagram.com/p/DZw0j13gaBn/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-24",
+      "pub_date": "2026-06-24",
+      "description": "The 2026 NY Architectural and Interior Design Awards has an open Expression of Interest portal for students and emerging professionals.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Unknown",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "1b53k4z",
       "title": "The Dip Pavilion / andblack design studio",
@@ -18,7 +418,7 @@
       "deadline": "June 24, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +434,7 @@
       "deadline": "12 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +498,7 @@
       "deadline": "June 24, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +530,7 @@
       "deadline": "July 10, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +546,7 @@
       "deadline": "5 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +562,7 @@
       "deadline": "31 July 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +594,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +610,7 @@
       "deadline": "June 23, 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +690,7 @@
       "deadline": "30 October 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +786,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +834,7 @@
       "deadline": "19 November 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,7 +850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -466,7 +866,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -482,7 +882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -498,7 +898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -514,7 +914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -530,7 +930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -546,7 +946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -562,7 +962,7 @@
       "deadline": "July 31, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -578,7 +978,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -594,7 +994,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
