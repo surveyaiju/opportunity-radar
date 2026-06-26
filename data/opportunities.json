@@ -1,10 +1,122 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T14:19:44.889Z",
-    "total": 893,
-    "new_today": 21
+    "last_updated": "2026-06-26T17:12:42.849Z",
+    "total": 900,
+    "new_today": 7
   },
   "opportunities": [
+    {
+      "id": "fpt3xx",
+      "title": "Berkeley applies for judicial review of ‘flawed’ refusal of dRMM’s Peckham regen",
+      "url": "https://www.architectsjournal.co.uk/news/berkeley-applies-for-judicial-review-of-flawed-refusal-of-drmms-peckham-regen",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-06-26",
+      "pub_date": "Fri, 26 Jun 2026 15:07:43 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "26 June 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ygl6zz",
+      "title": "Canstruction New York 2026 design and build competition call for ...",
+      "url": "https://www.facebook.com/CanstructionNY/posts/the-call-for-entries-is-out-get-your-entries-in-asap-as-in-previous-years-space-/1359272322970140/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1934gmg",
+      "title": "Graham Foundation > Grant Programs > Overview",
+      "url": "http://www.grahamfoundation.org/grant_programs/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "mt73f6",
+      "title": "Apply Now: Design and Technology Fellowship Program",
+      "url": "https://www2.fundsforngos.org/innovation/apply-now-design-and-technology-fellowship-program/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1395dx1",
+      "title": "️ OPEN CALL | Architecture Ideas Competition 2026 This year's ...",
+      "url": "https://www.instagram.com/p/DZ5AwX7DRCx/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "",
+      "category": "Competition",
+      "deadline": "1 September 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1cejcdq",
+      "title": "Guide to the Best Artist Grants and Opportunities in 2026",
+      "url": "https://www.artworkarchive.com/call-for-entry/complete-guide-to-2026-artist-grants-opportunities",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "June 26, 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1tbfe2b",
+      "title": "OPEN CALL: INTERNATIONAL CONGRESS OF YOUNG ... - VANSA",
+      "url": "https://vansa.co.za/opportunities/open-call-international-congress-of-young-architects-and-designers/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-26",
+      "pub_date": "2026-06-26",
+      "description": "An open call for young architects and designers to participate in the International Congress of Young Architects and Designers in Moscow.",
+      "category": "Conference",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "1kr8kku",
       "title": "Representation as Argument: Lyndon Neri on What Juries Look for in Architecture Competitions",
@@ -18,7 +130,7 @@
       "deadline": "June 26, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +146,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +162,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +178,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "£5,000",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +194,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +210,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +226,7 @@
       "deadline": "26 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +242,7 @@
       "deadline": "Jul 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +258,7 @@
       "deadline": "24 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +306,7 @@
       "deadline": "June 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -322,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -338,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
