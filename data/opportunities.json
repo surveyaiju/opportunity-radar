@@ -1,10 +1,106 @@
 {
   "meta": {
-    "last_updated": "2026-06-29T18:00:45.375Z",
-    "total": 942,
-    "new_today": 34
+    "last_updated": "2026-06-29T18:22:57.988Z",
+    "total": 948,
+    "new_today": 6
   },
   "opportunities": [
+    {
+      "id": "850fjs",
+      "title": "Design for Change 2026: Free student design competition - Facebook",
+      "url": "https://www.facebook.com/canadianarchitect/posts/design-for-change-is-yacs-annual-free-design-architecture-competition-for-studen/1580403854088309/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "2026-06-29",
+      "description": "",
+      "category": "Competition",
+      "deadline": "November 8, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "eln0k4",
+      "title": "MODULAR EVENT SPACE - Archiol Competitions",
+      "url": "https://www.archiolcompetitions.com/competitions/modular_event_space",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "2026-06-29",
+      "description": "",
+      "category": "Competition",
+      "deadline": "10 September 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "qqjb4j",
+      "title": "Apply Now: African Design Centre Fellowship Program",
+      "url": "https://www2.fundsforngos.org/individuals/apply-now-african-design-centre-fellowship-program/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "2026-06-29",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1r6j4ks",
+      "title": "Call for Sessions is now open! The Association for Art History ...",
+      "url": "https://www.instagram.com/p/DY4iklFIWcz/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "2026-06-29",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "5 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "4pokzq",
+      "title": "Canada's vacant and crumbling official residence gets a lifeline",
+      "url": "https://www.bbc.com/news/articles/c1ey3xpdl2po",
+      "source": "News: BBC",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "3 days ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "btq0ml",
+      "title": "Open Call | Dubai Design Week",
+      "url": "https://www.dubaidesignweek.ae/open-call-2026/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-06-29",
+      "pub_date": "2026-06-29",
+      "description": "An open call for architects, designers, and creative practitioners worldwide to propose installations and interventions for Dubai Design Week.",
+      "category": "Exhibition/Biennale",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "Opportunity to participate in Dubai Design Week",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "6m2bab",
       "title": "Architectural Decisions, Planetary Implications: Interview with UIA 2026 Barcelona Curatorial Team",
@@ -18,7 +114,7 @@
       "deadline": "June 29, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +130,7 @@
       "deadline": "June 29, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +146,7 @@
       "deadline": "25 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +162,7 @@
       "deadline": "4 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +178,7 @@
       "deadline": "15 October 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +194,7 @@
       "deadline": "24 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +210,7 @@
       "deadline": "24 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +226,7 @@
       "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +242,7 @@
       "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +258,7 @@
       "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +274,7 @@
       "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +290,7 @@
       "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +306,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +322,7 @@
       "deadline": "August 14, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +466,7 @@
       "deadline": "20 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -450,7 +546,7 @@
       "deadline": "14 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -466,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -482,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -498,7 +594,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -514,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -530,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -546,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
