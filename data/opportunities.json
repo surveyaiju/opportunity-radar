@@ -1,10 +1,90 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T16:09:06.535Z",
-    "total": 997,
-    "new_today": 27
+    "last_updated": "2026-07-01T17:33:45.558Z",
+    "total": 1002,
+    "new_today": 5
   },
   "opportunities": [
+    {
+      "id": "18e8s1b",
+      "title": "Call for Applications: Architecture Grant Scheme (Netherland)",
+      "url": "https://www2.fundsforngos.org/research/call-for-applications-architecture-grant-scheme-netherland/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "rzbgdn",
+      "title": "IAAC - Advanced Architecture Barcelona - Facebook",
+      "url": "https://www.facebook.com/IAACbcn/posts/-last-days-to-apply-to-the-iaac-scholarship-competitionhave-an-idea-that-could-s/1409568357883231/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1qpfwad",
+      "title": "Surfacing - Harvard Graduate School of Design",
+      "url": "https://www.gsd.harvard.edu/event/cambridge-talks-2026-surfacing/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "January 5, 2027",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1on3qch",
+      "title": "Essay: Accessible Architecture Competition Winners",
+      "url": "https://architecturecompetitions.com/accessiblearchitecture/brief",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "193xlkg",
+      "title": "Givaway is closed! Thank you all for participating and ...",
+      "url": "https://www.instagram.com/reel/DQpHtp3jP2F/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "Architects and designers are invited to submit their projects to the SHARE Architecture Awards 2026.",
+      "category": "Award",
+      "deadline": "31 July 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "ackeo9",
       "title": "Eduardo Souto de Moura Receives UIA Gold Medal at Ceremony Held in Sagrada Família, Barcelona",
@@ -18,7 +98,7 @@
       "deadline": "June 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +114,7 @@
       "deadline": "July 01, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +130,7 @@
       "deadline": "1 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +146,7 @@
       "deadline": "1 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +162,7 @@
       "deadline": "1 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +178,7 @@
       "deadline": "December 3, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +194,7 @@
       "deadline": "Sept 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +210,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +226,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +242,7 @@
       "deadline": "30 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +258,7 @@
       "deadline": "9 December 2026",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +274,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +290,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +306,7 @@
       "deadline": "8 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +354,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +370,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +386,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +434,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +450,7 @@
       "deadline": "",
       "fee": "Free",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -386,7 +466,7 @@
       "deadline": "7/14/2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -402,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -418,7 +498,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -434,7 +514,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
