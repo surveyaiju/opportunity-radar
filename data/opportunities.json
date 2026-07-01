@@ -1,10 +1,442 @@
 {
   "meta": {
-    "last_updated": "2026-06-30T17:25:09.111Z",
-    "total": 979,
-    "new_today": 32
+    "last_updated": "2026-07-01T16:09:06.535Z",
+    "total": 997,
+    "new_today": 27
   },
   "opportunities": [
+    {
+      "id": "ackeo9",
+      "title": "Eduardo Souto de Moura Receives UIA Gold Medal at Ceremony Held in Sagrada Família, Barcelona",
+      "url": "https://www.archdaily.com/1042925/eduardo-souto-de-moura-receives-uia-gold-medal-at-ceremony-held-in-sagrada-familia-barcelona",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-07-01",
+      "pub_date": "Wed, 01 Jul 2026 06:30:00 +0000",
+      "description": "",
+      "category": "Award",
+      "deadline": "June 30, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "16syeyd",
+      "title": "What Can Architectural Practice Learn From Botany?",
+      "url": "https://www.archdaily.com/1042783/what-can-architectural-practice-learn-from-botany",
+      "source": "ArchDaily — Open Calls",
+      "source_type": "rss",
+      "found_date": "2026-07-01",
+      "pub_date": "Wed, 01 Jul 2026 04:00:00 +0000",
+      "description": "",
+      "category": "Competition",
+      "deadline": "July 01, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "envjsg",
+      "title": "RSHP&#8217;s demolition plans for Edwardian City block under fire",
+      "url": "https://www.architectsjournal.co.uk/news/rshp-under-fire-over-demolition-plans-for-edwardian-fenchurch-st-block",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-07-01",
+      "pub_date": "Wed, 01 Jul 2026 07:31:54 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "1 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "rbs0ww",
+      "title": "ZONE Architects completes low-energy ‘longhouse’ near St Andrews",
+      "url": "https://www.architectsjournal.co.uk/buildings/zone-architects-completes-low-energy-longhouse-near-st-andrews",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-07-01",
+      "pub_date": "Wed, 01 Jul 2026 07:13:04 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "1 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "teq02w",
+      "title": "Keppie’s Airdrie hospital plans shelved in ‘formal reset’ over £2.1bn costs",
+      "url": "https://www.architectsjournal.co.uk/news/keppies-airdrie-hospital-plans-shelved-in-formal-reset-over-2-1bn-costs",
+      "source": "Architects Journal",
+      "source_type": "rss",
+      "found_date": "2026-07-01",
+      "pub_date": "Wed, 01 Jul 2026 06:49:54 +0000",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "1 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "2j1tzo",
+      "title": "sixth Architect’s Chair competition",
+      "url": "https://architecturecompetitions.com/architectschairstockholm",
+      "source": "Bustler Latest",
+      "source_type": "site_scrape",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Competition",
+      "deadline": "December 3, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "34u4o5",
+      "title": "LAF Fellowship for Innovation and Leadership",
+      "url": "https://www.lafoundation.org/what-we-do/leadership/laf-fellowship",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "Sept 15, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "b1f8l3",
+      "title": "2026 Artlab Editorial Fellowship Open Call",
+      "url": "https://artlab.hyundai.com/editorial/2026-artlab-editorial-fellowship-open-call/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Fellowship",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1wiqsml",
+      "title": "Call for Papers IXD&A Journal - SID",
+      "url": "https://www.societaitalianadesign.it/en/events-communications/communications/call-for-papers-ixda-journal/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "el2n7g",
+      "title": "The Call for Abstracts for IFLA World Congress 2026 is now open ...",
+      "url": "https://www.instagram.com/p/DUw8rm2jwl4/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Journal/CFP",
+      "deadline": "30 September 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1pxvvbd",
+      "title": "Awards Archives - Competitions.archi",
+      "url": "https://competitions.archi/cat/awards/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Award",
+      "deadline": "9 December 2026",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1cu7m0a",
+      "title": "RIBA Awards",
+      "url": "https://www.riba.org/explore/awards/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "p7lw46",
+      "title": "City of Salinas - Facebook",
+      "url": "https://www.facebook.com/CityOfSalinas/posts/-call-for-artists-city-of-salinasthe-city-of-salinas-is-seeking-a-design-build-a/1518625403635923/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "pqtqxm",
+      "title": "The Next House: USA International Architecture Competition",
+      "url": "https://architecturecompetitions.com/thenexthouseusa/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Competition",
+      "deadline": "8 July 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "k9ug9k",
+      "title": "BuildingsNEXT - Department of Energy",
+      "url": "https://www.energy.gov/cmei/buildings/buildingsnext/buildingsnext",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "48ixvk",
+      "title": "Architecture competition aims to revitalize South Chicago | UIC today",
+      "url": "https://today.uic.edu/architecture-competition-aims-to-revitalize-south-chicago/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "10s2sii",
+      "title": "Tucson Receives AARP Grant for Middle Housing Design Competition",
+      "url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/PDSD-News/City-of-Tucson-Receives-AARP-Community-Challenge-Grant-to-Launch-Middle-Housing-Design-Competition",
+      "source": "News: City of Tucson (.gov)",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2 days ago",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1xh0w9e",
+      "title": "Disaster adaptation and prevention design competition launched",
+      "url": "https://en.sggp.org.vn/disaster-adaptation-and-prevention-design-competition-launched-post127568.html",
+      "source": "News: SGGP English Edition",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "6 hours ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1x295r4",
+      "title": "Canada launches design contest to rebuild PM's official residence after years of decay",
+      "url": "https://www.firstpost.com/world/canada-launches-design-contest-to-rebuild-pms-official-residence-after-years-of-decay-14026673.html",
+      "source": "News: Firstpost",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "4 days ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "53g4ki",
+      "title": "Open Call: Wiki Loves Earth Kuwait Photography Campaign 2026",
+      "url": "https://www2.fundsforngos.org/individuals/open-call-wiki-loves-earth-kuwait-photography-campaign-2026/",
+      "source": "News: fundsforNGOs - Grants and Resources for Sustainability",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "5 days ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "wf7zjf",
+      "title": "Open Call for Heritage Revival Fund: Project Development Grant (UK)",
+      "url": "https://www2.fundsforngos.org/arts-culture-2/open-call-for-heritage-revival-fund-project-development-grant-uk/amp/",
+      "source": "News: fundsforNGOs",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "1 day ago",
+      "description": "",
+      "category": "Grant",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "gajjmb",
+      "title": "AI Design Challenge Opens for Dubai Park With AED 200,000 Prize",
+      "url": "https://cairoscene.com/News/AI-Design-Challenge-Opens-for-Dubai-Park-With-AED-200-000-Prize",
+      "source": "News: CairoScene",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "1 day ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "kwyyii",
+      "title": "The free-to-enter Nano Home architecture ideas ...",
+      "url": "https://www.instagram.com/p/DFqPqRaocWE/?hl=en",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "Participants from all over the world are invited to design innovative, sustainable homes for the free-to-enter Nano Home architecture ideas competition.",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "13cezu1",
+      "title": "Request for Qualifications - Architectural Services - Bid Banana",
+      "url": "https://bidbanana.thebidlab.com/bid/TQrbYYeONYtEaQK42hX2",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "A Request for Qualifications for on-call architectural design services is open for agencies like Humboldt.",
+      "category": "Public Art/RFQ",
+      "deadline": "7/14/2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1gqj29",
+      "title": "Thanks, @futuredesignawards, for the invitation to the ... - Instagram",
+      "url": "https://www.instagram.com/reel/DZaCvD-y7rZ/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "2026-07-01",
+      "description": "An Expression of Interest portal is now open for the Future Design Awards, including categories like Architecture and AI & Computational Design.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1qe6c73",
+      "title": "Entries open: Gold Coast Urban Design Awards 2026",
+      "url": "https://architectureau.com/articles/entries-open-the-gold-coast-urban-design-awards/",
+      "source": "News: ArchitectureAu",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "11 hours ago",
+      "description": "Entries are open for the Gold Coast Urban Design Awards 2026, recognizing projects that exemplify design excellence, liveability, and sustainability.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "13yeqaa",
+      "title": "Open call: Cape Maclear International Film Festival 2026",
+      "url": "https://musicinafrica.net/magazine/open-call-cape-maclear-international-film-festival-2026/",
+      "source": "News: Music In Africa",
+      "source_type": "web_search",
+      "found_date": "2026-07-01",
+      "pub_date": "6 days ago",
+      "description": "The Cape Maclear International Film Festival 2026 has opened applications for creatives from around the world to participate.",
+      "category": "Other",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "yi98s3",
       "title": "“What is This? A Spa, a Gym, a Zoo for Tiny Animals?” Explores the Fundació Mies van der Rohe Archive in Barcelona",
@@ -18,7 +450,7 @@
       "deadline": "July 5, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +466,7 @@
       "deadline": "21 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +482,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +498,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +514,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +530,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +546,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +562,7 @@
       "deadline": "30 June 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +594,7 @@
       "deadline": "Oct 18, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +610,7 @@
       "deadline": "June 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +642,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +658,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +674,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +690,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +706,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +722,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +738,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +754,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +770,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +786,7 @@
       "deadline": "10 September 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +802,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +818,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +834,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +850,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -434,7 +866,7 @@
       "deadline": "30 Sep 2026",
       "fee": "$575",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -450,7 +882,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -466,7 +898,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -482,7 +914,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -498,7 +930,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -514,7 +946,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -614,38 +1046,6 @@
       "ai_verified": true
     },
     {
-      "id": "6m2bab",
-      "title": "Architectural Decisions, Planetary Implications: Interview with UIA 2026 Barcelona Curatorial Team",
-      "url": "https://www.archdaily.com/1042737/architectural-decisions-planetary-implications-interview-with-uia-2026-barcelona-curatorial-team",
-      "source": "ArchDaily — Open Calls",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 07:30:00 +0000",
-      "description": "",
-      "category": "Competition",
-      "deadline": "June 29, 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1ro8cao",
-      "title": "UIA World Congress of Architecture 2026 Opens in Barcelona Under the Theme \"Architectures for a Planet in Transition\"",
-      "url": "https://www.archdaily.com/1042829/uia-world-congress-of-architecture-2026-opens-in-barcelona-under-the-theme-architectures-for-a-planet-in-transition",
-      "source": "ArchDaily — Open Calls",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 05:30:00 +0000",
-      "description": "",
-      "category": "Exhibition/Biennale",
-      "deadline": "June 29, 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
       "id": "1tkph94",
       "title": "Courtyard House (Marrakech, Morocco) – Architecture Competition",
       "url": "https://competitions.archi/competition/courtyard-house-marrakech-morocco-architecture-competition/",
@@ -720,86 +1120,6 @@
       "description": "",
       "category": "Journal/CFP",
       "deadline": "24 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "b53o6g",
-      "title": "Make completes Leadenhall skyscraper in City of London",
-      "url": "https://www.architectsjournal.co.uk/buildings/make-completes-leadenhall-skyscraper-for-the-city-of-london",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 09:33:49 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "29 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "11sght9",
-      "title": "Restrained but climate conscious: University of Edinburgh student show 2026",
-      "url": "https://www.architectsjournal.co.uk/practice/culture/restrained-but-climate-conscious-university-of-edinburgh-student-show-2026",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 08:32:47 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "29 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "4xibe9",
-      "title": "Struggling practice sold to directors’ company in pre-pack deal",
-      "url": "https://www.architectsjournal.co.uk/news/struggling-practice-sold-to-directors-company-in-pre-pack-deal",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 08:14:50 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "29 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "y3mlxo",
-      "title": "Dowen Farmer wins appeal for grey-belt homes in Hertfordshire",
-      "url": "https://www.architectsjournal.co.uk/news/dowen-farmer-wins-appeal-victory-for-grey-belt-homes-in-hertfordshire",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 08:14:04 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "29 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "18af3wn",
-      "title": "Euston station plans will be ‘key to success’ of HS2 reset, says watchdog",
-      "url": "https://www.architectsjournal.co.uk/news/euston-station-plans-will-be-key-to-success-of-hs2-reset-says-watchdog",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-06-29",
-      "pub_date": "Mon, 29 Jun 2026 06:46:59 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "29 June 2026",
       "fee": "Unknown",
       "prize": "",
       "is_new": false,
@@ -2068,22 +2388,6 @@
       "prize": "",
       "is_new": false,
       "ai_verified": true
-    },
-    {
-      "id": "1jk4r6w",
-      "title": "Commons of Coexistence: Shared Space, Shaped for Resilience",
-      "url": "https://competitions.archi/competition/commons-of-coexistence-shared-space-shaped-for-resilience/",
-      "source": "Competitions.archi",
-      "source_type": "rss",
-      "found_date": "2026-06-25",
-      "pub_date": "Thu, 25 Jun 2026 12:23:30 +0000",
-      "description": "",
-      "category": "Competition",
-      "deadline": "29 June 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
     },
     {
       "id": "1gx1ofp",
@@ -6640,22 +6944,6 @@
       "description": "",
       "category": "Competition",
       "deadline": "11 September 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "lc9iq",
-      "title": "Currently available calls | Department of Cultural Affairs",
-      "url": "https://culture.lacity.gov/calls",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-06-16",
-      "pub_date": "2026-06-16",
-      "description": "",
-      "category": "Exhibition/Biennale",
-      "deadline": "Jun 29, 2026",
       "fee": "Unknown",
       "prize": "",
       "is_new": false,
