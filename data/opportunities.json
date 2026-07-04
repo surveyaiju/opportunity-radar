@@ -1,10 +1,186 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T16:09:12.316Z",
-    "total": 1062,
-    "new_today": 28
+    "last_updated": "2026-07-04T14:53:51.385Z",
+    "total": 1061,
+    "new_today": 11
   },
   "opportunities": [
+    {
+      "id": "hdpyy0",
+      "title": "un Design Award",
+      "url": "http://bustler.net/competitions/10588/un-design-award",
+      "source": "Archinect Competitions",
+      "source_type": "site_scrape",
+      "found_date": "2026-07-04",
+      "pub_date": "2026-07-04",
+      "description": "",
+      "category": "Award",
+      "deadline": "Jul 3, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1twfgn6",
+      "title": "[PDF] REQUEST FOR QUALIFICATIONS (RFQ) ARCHITECTURAL AND ...",
+      "url": "https://simpco.org/hubfs/SRTS%20RFQ%202026%20Low%20or%20No%20Emission%20Grant%20Project.pdf?hsLang=en",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "2026-07-04",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "kd5xpm",
+      "title": "Art on the Parkway - Association for Public Art",
+      "url": "https://www.associationforpublicart.org/program/open-call-art-on-the-parkway/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "2026-07-04",
+      "description": "",
+      "category": "Public Art/RFQ",
+      "deadline": "July 23, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "pqy7bb",
+      "title": "Government will review decree to launch architectural competition for Ivan Mazepa monument in Kyiv",
+      "url": "https://mezha.net/eng/bukvy/b7ffbcf5_government_will_review/",
+      "source": "News: Межа. Новини України.",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "18 hours ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "4 jul 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1g7n1gn",
+      "title": "Monsoon Modernism Architecture Competition Showcases Next Generation of Climate-Conscious Architects",
+      "url": "https://kiripost.com/stories/monsoon-modernism-architecture-competition-showcases-next-generation-of-climate-conscious-architects",
+      "source": "News: Kiripost",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "14 hours ago",
+      "description": "",
+      "category": "Competition",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "ky25fb",
+      "title": "Villa Fortuna by S.A.I.T. Studio Wins Bronze in A' Architecture Awards",
+      "url": "https://www.einpresswire.com/article/924130265/villa-fortuna-by-s-a-i-t-studio-wins-bronze-in-a-architecture-awards",
+      "source": "News: EIN Presswire",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "1 day ago",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "10v5oi7",
+      "title": "Design and Build! The 2026 Edwood Design Award Competition for Young Designers",
+      "url": "https://www.architekturaibiznes.pl/en/competition-actual/edwood-design-awards-2026,45851.html",
+      "source": "News: Architektura & Biznes",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "23 hours ago",
+      "description": "",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "1ve1xfp",
+      "title": "Commercial Architectural Exhibitions",
+      "url": "https://www.trendhunter.com/amp/trends/offscreen-paris",
+      "source": "News: Trend Hunter",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "8 hours ago",
+      "description": "",
+      "category": "Exhibition/Biennale",
+      "deadline": "Jul 4, 2026",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "16pnxul",
+      "title": "Open call: Second Health Research Conference 2026",
+      "url": "https://um.edu.ar/en/noticias/convocatoria-abierta-segundas-jornadas-de-investigacion-en-salud-2026/",
+      "source": "News: Universidad de Mendoza",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "9 hours ago",
+      "description": "",
+      "category": "Conference",
+      "deadline": "",
+      "fee": "Unknown",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": false
+    },
+    {
+      "id": "3y3anl",
+      "title": "SHARE Architecture Awards",
+      "url": "https://www.facebook.com/sharearchitectureawards/posts/share-2026-architecture-awards-is-now-accepting-free-submissions-from-architects/122292731438218385/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "2026-07-04",
+      "description": "An award program accepting submissions from architects, engineers, contractors, and developers to showcase their projects.",
+      "category": "Award",
+      "deadline": "",
+      "fee": "Free",
+      "prize": "",
+      "is_new": true,
+      "ai_verified": true
+    },
+    {
+      "id": "1rvqp3x",
+      "title": "Friday 31 July 2026 at 18:00 Architects in Schools is the IAF's ...",
+      "url": "https://www.instagram.com/reel/DaQAw4YMLMZ/",
+      "source": "Web Search",
+      "source_type": "web_search",
+      "found_date": "2026-07-04",
+      "pub_date": "2026-07-04",
+      "description": "An initiative by the Irish Architecture Foundation inviting schools to participate in a program that gives students the opportunity to discover architecture.",
+      "category": "Other",
+      "deadline": "31 July 2026",
+      "fee": "Unknown",
+      "prize": "Participation in the program",
+      "is_new": true,
+      "ai_verified": true
+    },
     {
       "id": "d9yt6k",
       "title": "Re:Living: How Can We Make Renovation Scale?",
@@ -18,7 +194,7 @@
       "deadline": "July 03, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -34,7 +210,7 @@
       "deadline": "November 14, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -50,7 +226,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -66,7 +242,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -82,7 +258,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -98,7 +274,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -114,7 +290,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -130,7 +306,7 @@
       "deadline": "3 July 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -146,7 +322,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -162,7 +338,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -178,7 +354,7 @@
       "deadline": "Sep 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -194,7 +370,7 @@
       "deadline": "Oct 30, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -210,7 +386,7 @@
       "deadline": "August 15, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -226,7 +402,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -242,7 +418,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -258,7 +434,7 @@
       "deadline": "October 16, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -274,7 +450,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -290,7 +466,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -306,7 +482,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -322,7 +498,7 @@
       "deadline": "Jul 08, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -338,7 +514,7 @@
       "deadline": "July 5, 2026",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -354,7 +530,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -370,7 +546,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -386,7 +562,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -402,7 +578,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": false
     },
     {
@@ -418,7 +594,7 @@
       "deadline": "10 Jul 2026",
       "fee": "Unknown",
       "prize": "A curated takeover of the Hox Shop at The Hoxton, Shoreditch",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -434,7 +610,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -450,7 +626,7 @@
       "deadline": "",
       "fee": "Unknown",
       "prize": "",
-      "is_new": true,
+      "is_new": false,
       "ai_verified": true
     },
     {
@@ -642,150 +818,6 @@
       "deadline": "October 5, 2026",
       "fee": "Unknown",
       "prize": "€100,000",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "c6c2jp",
-      "title": "Jay Morton wins RIBA presidential election",
-      "url": "https://www.architectsjournal.co.uk/news/jay-morton-wins-riba-presidential-election",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 11:42:01 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "63cm0t",
-      "title": "What to expect from the next RIBA president: The AJ’s interview with Jay Morton",
-      "url": "https://www.architectsjournal.co.uk/news/what-to-expect-from-the-next-riba-president-the-ajs-interview-with-jay-morton",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 11:40:57 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "fsvem9",
-      "title": "O&#8217;DonnellBrown to design meanwhile use for fire-ravaged Glasgow site",
-      "url": "https://www.architectsjournal.co.uk/news/odonnellbrown-to-design-meanwhile-use-for-fire-ravaged-glasgow-site",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 10:23:05 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "13htumu",
-      "title": "Ryder unveils designs for Jamaican national stadium revamp",
-      "url": "https://www.architectsjournal.co.uk/news/ryder-unveils-designs-for-jamaican-national-stadium-revamp",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 10:22:10 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "bpgdca",
-      "title": "City developments ‘at stake’ after minister orders Tower of London impact review",
-      "url": "https://www.architectsjournal.co.uk/news/city-developments-at-stake-after-minister-orders-tower-of-london-impact-review",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 09:57:09 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1h8fwnl",
-      "title": "The finished product wins out: Kingston University student show 2026",
-      "url": "https://www.architectsjournal.co.uk/practice/students/the-finished-product-wins-out-kingston-university-student-show-2026",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 09:50:17 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1jf8yoq",
-      "title": "Lubetkin’s Brutalist ambulance building joins SAVE’s all-time-high ‘at risk’ list",
-      "url": "https://www.architectsjournal.co.uk/news/lubetkins-brutalist-ambulance-building-joins-saves-all-time-high-at-risk-list",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 09:38:08 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1odel3",
-      "title": "GRID Architects completes housing tower for women",
-      "url": "https://www.architectsjournal.co.uk/buildings/grid-architects-completes-housing-tower-for-vulnerable-women",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 08:42:59 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1ml8a4l",
-      "title": "Hollaway Studio wins approval for 200 homes on Bromley Civic Centre site",
-      "url": "https://www.architectsjournal.co.uk/news/hollaway-studio-wins-approval-for-200-homes-on-bromley-civic-centre-site",
-      "source": "Architects Journal",
-      "source_type": "rss",
-      "found_date": "2026-07-02",
-      "pub_date": "Thu, 02 Jul 2026 07:56:13 +0000",
-      "description": "",
-      "category": "Journal/CFP",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
       "is_new": false,
       "ai_verified": false
     },
@@ -1206,38 +1238,6 @@
       "ai_verified": false
     },
     {
-      "id": "1lum7l3",
-      "title": "International Design Competition Launched For Sydney’s Newest Waterfront Suburb",
-      "url": "https://www.sydneytimes.net.au/real-estate/international-design-competition-launched-for-sydneys-newest-waterfront-suburb/",
-      "source": "News: Sydney Times",
-      "source_type": "web_search",
-      "found_date": "2026-07-02",
-      "pub_date": "9 hours ago",
-      "description": "",
-      "category": "Competition",
-      "deadline": "2 July 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
-      "id": "1t1pb64",
-      "title": "The 7th Goldreed Industrial Design Award global call for entries was officially launched",
-      "url": "https://markets.businessinsider.com/news/stocks/the-7th-goldreed-industrial-design-award-global-call-for-entries-was-officially-launched-1036294068",
-      "source": "News: markets.businessinsider.com",
-      "source_type": "web_search",
-      "found_date": "2026-07-02",
-      "pub_date": "3 hours ago",
-      "description": "",
-      "category": "Award",
-      "deadline": "July 02, 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": false
-    },
-    {
       "id": "1h3fdag",
       "title": "Is the student competition in crisis?",
       "url": "https://www.architekturaibiznes.pl/en/student-contest-during-the-crisis-the-Czarnecki-Contest-in-Pozna%C5%84,45794.html",
@@ -1252,22 +1252,6 @@
       "prize": "",
       "is_new": false,
       "ai_verified": false
-    },
-    {
-      "id": "kd16vk",
-      "title": "The 2026 Metamorphosis Awards entry deadline is just ...",
-      "url": "https://www.instagram.com/p/DaQL0DjGiGU/",
-      "source": "Web Search",
-      "source_type": "web_search",
-      "found_date": "2026-07-02",
-      "pub_date": "2026-07-02",
-      "description": "An award program inviting architects, designers, and creatives to submit and showcase their retrofit and design work.",
-      "category": "Award",
-      "deadline": "2 Jul 2026",
-      "fee": "Unknown",
-      "prize": "",
-      "is_new": false,
-      "ai_verified": true
     },
     {
       "id": "1oclec3",
