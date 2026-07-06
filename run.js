@@ -32,16 +32,24 @@ function loadDatabase() {
   }
 }
 
+const MAX_ITEMS = 600; // hard cap — keeps file small enough for GitHub Pages deployment
+
 function saveDatabase(opportunities) {
+  // Trim to cap — newest items (at the front) are kept, oldest dropped
+  const trimmed = opportunities.slice(0, MAX_ITEMS);
+  if (trimmed.length < opportunities.length) {
+    console.log(`  ✂️  Trimmed database from ${opportunities.length} to ${trimmed.length} items (cap: ${MAX_ITEMS})`);
+  }
   const db = {
     meta: {
       last_updated: new Date().toISOString(),
-      total: opportunities.length,
-      new_today: opportunities.filter(o => o.is_new).length,
+      total: trimmed.length,
+      new_today: trimmed.filter(o => o.is_new).length,
     },
-    opportunities,
+    opportunities: trimmed,
   };
-  writeFileSync(DATA_PATH, JSON.stringify(db, null, 2), 'utf8');
+  // Compact JSON (no indentation) keeps file size small for GitHub Pages
+  writeFileSync(DATA_PATH, JSON.stringify(db), 'utf8');
   return db.meta;
 }
 
